@@ -6,4 +6,4 @@ Trying to convert schema.org definitions into graphql objects.
 
 `import { brand, Thing } from 'graphql-schema-org'`
 
-Need to use GraphQLUnionType when many possible types.
+Need to use GraphQLUnionType when many possible types. How to programmatically create `resolveType`?
