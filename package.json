@@ -1,4 +1,19 @@
 {
+  "name": "graphql-schema-org",
+  "description": "GraphQL objects built from schema.org definitions.",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
+  "repository": "cape-io/graphql-schema-org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cape-io/graphql-schema-org/issues"
+  },
+  "scripts": {
+    "build": "mkdir -p lib && babel ./src -d lib",
+    "prepublish": "npm run build",
+    "test": "babel-tape-runner test/**/*spec.js"
+  },
   "dependencies": {
     "graphql": "^0.11.2",
     "graphql-date": "^1.0.3",
