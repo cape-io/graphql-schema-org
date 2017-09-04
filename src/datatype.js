@@ -1,0 +1,16 @@
+import { GraphQLBoolean, GraphQLFloat, GraphQLInt, GraphQLString } from 'graphql'
+import { GraphQLDate } from 'graphql-date'
+import { GraphQLUrl } from 'graphql-url'
+
+export default {
+  Boolean: GraphQLBoolean,
+  Date: GraphQLDate,
+  Float: GraphQLFloat,
+  Integer: GraphQLInt,
+  Text: GraphQLString,
+  URL: GraphQLUrl,
+  // DataType: ,
+  // DateTime:
+  // Number: GraphQLFloat,
+  // Time,
+}

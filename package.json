@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "graphql": "^0.11.2",
+    "graphql-date": "^1.0.3",
+    "graphql-url": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.6.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "fs-extra": "^4.0.1",
+    "lodash": "^4.17.4"
+  }
+}

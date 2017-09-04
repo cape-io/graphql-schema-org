@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "env": {
+    "browser": false
+  },
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "id-length": [2, {
+      "min": 3,
+      "max": 30,
+      "properties": "never",
+      "exceptions": ["t", "id", "db", "Me", "me"]
+    }],
+    "import/no-named-as-default": 0,
+    "no-console": 1,
+    "no-alert": 1,
+    "no-trailing-spaces": 2,
+    "semi": [ 2, "never" ]
+  }
+}
