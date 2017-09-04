@@ -7,10 +7,10 @@ export default {
   Date: GraphQLDate,
   Float: GraphQLFloat,
   Integer: GraphQLInt,
+  Number: GraphQLInt,
   Text: GraphQLString,
   URL: GraphQLUrl,
   // DataType: ,
-  // DateTime:
-  // Number: GraphQLFloat,
-  // Time,
+  DateTime: GraphQLDate,
+  Time: GraphQLDate,
 }
