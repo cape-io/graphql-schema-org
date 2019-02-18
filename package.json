@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
   "repository": "cape-io/graphql-schema-org",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/cape-io/graphql-schema-org/issues"
   },
