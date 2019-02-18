@@ -1,7 +1,7 @@
 {
   "name": "graphql-schema-org",
   "description": "GraphQL objects built from schema.org definitions.",
-  "version": "0.1-rc.1",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
   "repository": "cape-io/graphql-schema-org",
