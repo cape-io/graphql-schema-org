@@ -15,122 +15,122 @@ export const abridged = {
 export const accelerationTime = {
   type: QuantitativeValue,
   description: 'The time needed to accelerate the vehicle from a given start velocity to a given target velocity.  Typical unit code(s): SEC for seconds   Note: There are unfortunately no standard unit codes for seconds/0..100 km/h or seconds/0..60 mph. Simply use "SEC" for seconds and indicate the velocities in the name of the QuantitativeValue, or use valueReference with a QuantitativeValue of 0..60 mph or 0..100 km/h to specify the reference speeds.',
-  name: 'Acceleration Time',
+  name: 'AccelerationTime',
 }
 export const acceptedAnswer = {
   type: Answer,
   description: 'The answer that has been accepted as best, typically on a Question/Answer site. Sites vary in their selection mechanisms, e.g. drawing on community opinion and/or the view of the Question author.',
-  name: 'Accepted Answer',
+  name: 'AcceptedAnswer',
 }
 export const acceptedOffer = {
   type: Offer,
   description: 'The offer(s) -- e.g., product, quantity and price combinations -- included in the order.',
-  name: 'Accepted Offer',
+  name: 'AcceptedOffer',
 }
 export const acceptedPaymentMethod = {
   type: PaymentMethod,
   description: 'The payment method(s) accepted by seller for this offer.',
-  name: 'Accepted Payment Method',
+  name: 'AcceptedPaymentMethod',
 }
 export const acceptsReservations = {
   type: GraphQLBoolean,
   description: 'Indicates whether a FoodEstablishment accepts reservations. Values can be Boolean, an URL at which reservations can be made or (for backwards compatibility) the strings Yes or No.',
-  name: 'Accepts Reservations',
+  name: 'AcceptsReservations',
 }
 export const accessCode = {
   type: GraphQLString,
   description: 'Password, PIN, or access code needed for delivery (e.g. from a locker).',
-  name: 'Access Code',
+  name: 'AccessCode',
 }
 export const accessMode = {
   type: GraphQLString,
   description: 'The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Expected values include: auditory, tactile, textual, visual, colorDependent, chartOnVisual, chemOnVisual, diagramOnVisual, mathOnVisual, musicOnVisual, textOnVisual.',
-  name: 'Access Mode',
+  name: 'AccessMode',
 }
 export const accessModeSufficient = {
   type: GraphQLString,
   description: 'A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Expected values include:  auditory, tactile, textual, visual.',
-  name: 'Access Mode Sufficient',
+  name: 'AccessModeSufficient',
 }
 export const accessibilityAPI = {
   type: GraphQLString,
   description: 'Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).',
-  name: 'Accessibility API',
+  name: 'AccessibilityAPI',
 }
 export const accessibilityControl = {
   type: GraphQLString,
   description: 'Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).',
-  name: 'Accessibility Control',
+  name: 'AccessibilityControl',
 }
 export const accessibilityFeature = {
   type: GraphQLString,
   description: 'Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).',
-  name: 'Accessibility Feature',
+  name: 'AccessibilityFeature',
 }
 export const accessibilityHazard = {
   type: GraphQLString,
   description: 'A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 (WebSchemas wiki lists possible values).',
-  name: 'Accessibility Hazard',
+  name: 'AccessibilityHazard',
 }
 export const accessibilitySummary = {
   type: GraphQLString,
   description: 'A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as "short descriptions are present but long descriptions will be needed for non-visual users" or "short descriptions are present and no long descriptions are needed."',
-  name: 'Accessibility Summary',
+  name: 'AccessibilitySummary',
 }
 export const accountId = {
   type: GraphQLString,
   description: 'The identifier for the account the payment will be applied to.',
-  name: 'Account Id',
+  name: 'AccountId',
 }
 export const accountMinimumInflow = {
   type: MonetaryAmount,
   description: 'A minimum amount that has to be paid in every month.',
-  name: 'Account Minimum Inflow',
+  name: 'AccountMinimumInflow',
 }
 export const accountOverdraftLimit = {
   type: MonetaryAmount,
   description: 'An overdraft is an extension of credit from a lending institution when an account reaches zero. An overdraft allows the individual to continue withdrawing money even if the account has no funds in it. Basically the bank allows people to borrow a set amount of money.',
-  name: 'Account Overdraft Limit',
+  name: 'AccountOverdraftLimit',
 }
 export const accountablePerson = {
   type: Person,
   description: 'Specifies the Person that is legally accountable for the CreativeWork.',
-  name: 'Accountable Person',
+  name: 'AccountablePerson',
 }
 export const acquiredFrom = {
   type: Organization,
   description: 'The organization or person from which the product was acquired.',
-  name: 'Acquired From',
+  name: 'AcquiredFrom',
 }
 export const acrissCode = {
   type: GraphQLString,
   description: 'The ACRISS Car Classification Code is a code used by many car rental companies, for classifying vehicles. ACRISS stands for Association of Car Rental Industry Systems and Standards.',
-  name: 'Acriss Code',
+  name: 'AcrissCode',
 }
 export const actionApplication = {
   type: SoftwareApplication,
   description: 'An application that can complete the request. Supersedes application.',
-  name: 'Action Application',
+  name: 'ActionApplication',
 }
 export const actionOption = {
   type: GraphQLString,
   description: 'A sub property of object. The options subject to this action. Supersedes option.',
-  name: 'Action Option',
+  name: 'ActionOption',
 }
 export const actionPlatform = {
   type: GraphQLString,
   description: 'The high level platform(s) where the Action can be performed for the given URL. To specify a specific application or operating system instance, use actionApplication.',
-  name: 'Action Platform',
+  name: 'ActionPlatform',
 }
 export const actionStatus = {
   type: ActionStatusType,
   description: 'Indicates the current disposition of the Action.',
-  name: 'Action Status',
+  name: 'ActionStatus',
 }
 export const actionableFeedbackPolicy = {
   type: CreativeWork,
   description: 'For a NewsMediaOrganization or other news-related Organization, a statement about public engagement activities (for news media, the newsroom’s), including involving the public - digitally or otherwise -- in coverage decisions, reporting and activities after publication.',
-  name: 'Actionable Feedback Policy',
+  name: 'ActionableFeedbackPolicy',
 }
 export const actor = {
   type: Person,
@@ -140,27 +140,27 @@ export const actor = {
 export const addOn = {
   type: Offer,
   description: 'An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge).',
-  name: 'Add On',
+  name: 'AddOn',
 }
 export const additionalName = {
   type: GraphQLString,
   description: 'An additional name for a Person, can be used for a middle name.',
-  name: 'Additional Name',
+  name: 'AdditionalName',
 }
 export const additionalNumberOfGuests = {
   type: GraphQLFloat,
   description: 'If responding yes, the number of guests who will attend in addition to the invitee.',
-  name: 'Additional Number of Guests',
+  name: 'AdditionalNumberofGuests',
 }
 export const additionalProperty = {
   type: PropertyValue,
   description: 'A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.  Note: Publishers should be aware that applications designed to use specific schema.org properties (e.g. http://schema.org/width, http://schema.org/color, http://schema.org/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property/value mechanism.',
-  name: 'Additional Property',
+  name: 'AdditionalProperty',
 }
 export const additionalType = {
   type: GraphQLUrl,
   description: 'An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the \'typeof\' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.',
-  name: 'Additional Type',
+  name: 'AdditionalType',
 }
 export const address = {
   type: GraphQLString,
@@ -170,22 +170,22 @@ export const address = {
 export const addressCountry = {
   type: Country,
   description: 'The country. For example, USA. You can also provide the two-letter ISO 3166-1 alpha-2 country code.',
-  name: 'Address Country',
+  name: 'AddressCountry',
 }
 export const addressLocality = {
   type: GraphQLString,
   description: 'The locality. For example, Mountain View.',
-  name: 'Address Locality',
+  name: 'AddressLocality',
 }
 export const addressRegion = {
   type: GraphQLString,
   description: 'The region. For example, CA.',
-  name: 'Address Region',
+  name: 'AddressRegion',
 }
 export const advanceBookingRequirement = {
   type: QuantitativeValue,
   description: 'The amount of time that is required between accepting the offer and the actual usage of the resource or service.',
-  name: 'Advance Booking Requirement',
+  name: 'AdvanceBookingRequirement',
 }
 export const affiliation = {
   type: Organization,
@@ -195,7 +195,7 @@ export const affiliation = {
 export const afterMedia = {
   type: MediaObject,
   description: 'A media object representing the circumstances after performing this direction.',
-  name: 'After Media',
+  name: 'AfterMedia',
 }
 export const agent = {
   type: Organization,
@@ -205,7 +205,7 @@ export const agent = {
 export const aggregateRating = {
   type: AggregateRating,
   description: 'The overall rating, based on a collection of reviews or ratings, of the item.',
-  name: 'Aggregate Rating',
+  name: 'AggregateRating',
 }
 export const aircraft = {
   type: GraphQLString,
@@ -220,32 +220,32 @@ export const album = {
 export const albumProductionType = {
   type: MusicAlbumProductionType,
   description: 'Classification of the album by it\'s type of content: soundtrack, live album, studio album, etc.',
-  name: 'Album Production Type',
+  name: 'AlbumProductionType',
 }
 export const albumRelease = {
   type: MusicRelease,
   description: 'A release of this album. Inverse property: releaseOf.',
-  name: 'Album Release',
+  name: 'AlbumRelease',
 }
 export const albumReleaseType = {
   type: MusicAlbumReleaseType,
   description: 'The kind of release which this album is: single, EP or album.',
-  name: 'Album Release Type',
+  name: 'AlbumReleaseType',
 }
 export const alignmentType = {
   type: GraphQLString,
   description: 'A category of alignment between the learning resource and the framework node. Recommended values include: \'assesses\', \'teaches\', \'requires\', \'textComplexity\', \'readingLevel\', \'educationalSubject\', and \'educationalLevel\'.',
-  name: 'Alignment Type',
+  name: 'AlignmentType',
 }
 export const alternateName = {
   type: GraphQLString,
   description: 'An alias for the item.',
-  name: 'Alternate Name',
+  name: 'AlternateName',
 }
 export const alternativeHeadline = {
   type: GraphQLString,
   description: 'A secondary title of the CreativeWork.',
-  name: 'Alternative Headline',
+  name: 'AlternativeHeadline',
 }
 export const alumni = {
   type: Person,
@@ -255,12 +255,12 @@ export const alumni = {
 export const alumniOf = {
   type: EducationalOrganization,
   description: 'An organization that the person is an alumni of. Inverse property: alumni.',
-  name: 'Alumni of',
+  name: 'Alumniof',
 }
 export const amenityFeature = {
   type: LocationFeatureSpecification,
   description: 'An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs.',
-  name: 'Amenity Feature',
+  name: 'AmenityFeature',
 }
 export const amount = {
   type: GraphQLFloat,
@@ -270,92 +270,92 @@ export const amount = {
 export const amountOfThisGood = {
   type: GraphQLFloat,
   description: 'The quantity of the goods included in the offer.',
-  name: 'Amount of This Good',
+  name: 'AmountofThisGood',
 }
 export const annualPercentageRate = {
   type: GraphQLFloat,
   description: 'The annual rate that is charged for borrowing (or made by investing), expressed as a single percentage number that represents the actual yearly cost of funds over the term of a loan. This includes any fees or additional costs associated with the transaction.',
-  name: 'Annual Percentage Rate',
+  name: 'AnnualPercentageRate',
 }
 export const answerCount = {
   type: GraphQLInt,
   description: 'The number of answers this question has received.',
-  name: 'Answer Count',
+  name: 'AnswerCount',
 }
 export const applicationCategory = {
   type: GraphQLString,
   description: 'Type of software application, e.g. \'Game, Multimedia\'.',
-  name: 'Application Category',
+  name: 'ApplicationCategory',
 }
 export const applicationSubCategory = {
   type: GraphQLString,
   description: 'Subcategory of the application, e.g. \'Arcade Game\'.',
-  name: 'Application Sub Category',
+  name: 'ApplicationSubCategory',
 }
 export const applicationSuite = {
   type: GraphQLString,
   description: 'The name of the application suite to which the application belongs (e.g. Excel belongs to Office).',
-  name: 'Application Suite',
+  name: 'ApplicationSuite',
 }
 export const appliesToDeliveryMethod = {
   type: DeliveryMethod,
   description: 'The delivery method(s) to which the delivery charge or payment charge specification applies.',
-  name: 'Applies to Delivery Method',
+  name: 'AppliestoDeliveryMethod',
 }
 export const appliesToPaymentMethod = {
   type: PaymentMethod,
   description: 'The payment method(s) to which the payment charge specification applies.',
-  name: 'Applies to Payment Method',
+  name: 'AppliestoPaymentMethod',
 }
 export const areaServed = {
   type: GraphQLString,
   description: 'The geographic area where a service or offered item is provided. Supersedes serviceArea.',
-  name: 'Area Served',
+  name: 'AreaServed',
 }
 export const arrivalAirport = {
   type: Airport,
   description: 'The airport where the flight terminates.',
-  name: 'Arrival Airport',
+  name: 'ArrivalAirport',
 }
 export const arrivalBusStop = {
   type: BusStation,
   description: 'The stop or station from which the bus arrives.',
-  name: 'Arrival Bus Stop',
+  name: 'ArrivalBusStop',
 }
 export const arrivalGate = {
   type: GraphQLString,
   description: 'Identifier of the flight\'s arrival gate.',
-  name: 'Arrival Gate',
+  name: 'ArrivalGate',
 }
 export const arrivalPlatform = {
   type: GraphQLString,
   description: 'The platform where the train arrives.',
-  name: 'Arrival Platform',
+  name: 'ArrivalPlatform',
 }
 export const arrivalStation = {
   type: TrainStation,
   description: 'The station where the train trip ends.',
-  name: 'Arrival Station',
+  name: 'ArrivalStation',
 }
 export const arrivalTerminal = {
   type: GraphQLString,
   description: 'Identifier of the flight\'s arrival terminal.',
-  name: 'Arrival Terminal',
+  name: 'ArrivalTerminal',
 }
 export const arrivalTime = {
   type: GraphQLDate,
   description: 'The expected arrival time.',
-  name: 'Arrival Time',
+  name: 'ArrivalTime',
 }
 export const artEdition = {
   type: GraphQLInt,
   description: 'The number of copies when multiple copies of a piece of artwork are produced - e.g. for a limited edition of 20 prints, \'artEdition\' refers to the total number of copies (in this example "20").',
-  name: 'Art Edition',
+  name: 'ArtEdition',
 }
 export const artMedium = {
   type: GraphQLString,
   description: 'The material used. (e.g. Oil, Watercolour, Acrylic, Linoprint, Marble, Cyanotype, Digital, Lithograph, DryPoint, Intaglio, Pastel, Woodcut, Pencil, Mixed Media, etc.)',
-  name: 'Art Medium',
+  name: 'ArtMedium',
 }
 export const artform = {
   type: GraphQLString,
@@ -365,12 +365,12 @@ export const artform = {
 export const articleBody = {
   type: GraphQLString,
   description: 'The actual body of the article.',
-  name: 'Article Body',
+  name: 'ArticleBody',
 }
 export const articleSection = {
   type: GraphQLString,
   description: 'Articles may belong to one or more \'sections\' in a magazine or newspaper, such as Sports, Lifestyle, etc.',
-  name: 'Article Section',
+  name: 'ArticleSection',
 }
 export const artist = {
   type: Person,
@@ -380,22 +380,22 @@ export const artist = {
 export const artworkSurface = {
   type: GraphQLString,
   description: 'The supporting materials for the artwork, e.g. Canvas, Paper, Wood, Board, etc. Supersedes surface.',
-  name: 'Artwork Surface',
+  name: 'ArtworkSurface',
 }
 export const assemblyVersion = {
   type: GraphQLString,
   description: 'Associated product/technology version. e.g., .NET Framework 4.5.',
-  name: 'Assembly Version',
+  name: 'AssemblyVersion',
 }
 export const associatedArticle = {
   type: NewsArticle,
   description: 'A NewsArticle associated with the Media Object.',
-  name: 'Associated Article',
+  name: 'AssociatedArticle',
 }
 export const associatedMedia = {
   type: MediaObject,
   description: 'A media object that encodes this CreativeWork. This property is a synonym for encoding.',
-  name: 'Associated Media',
+  name: 'AssociatedMedia',
 }
 export const athlete = {
   type: Person,
@@ -415,7 +415,7 @@ export const audience = {
 export const audienceType = {
   type: GraphQLString,
   description: 'The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.).',
-  name: 'Audience Type',
+  name: 'AudienceType',
 }
 export const audio = {
   type: AudioObject,
@@ -435,52 +435,52 @@ export const availability = {
 export const availabilityEnds = {
   type: GraphQLDate,
   description: 'The end of the availability of the product or service included in the offer.',
-  name: 'Availability Ends',
+  name: 'AvailabilityEnds',
 }
 export const availabilityStarts = {
   type: GraphQLDate,
   description: 'The beginning of the availability of the product or service included in the offer.',
-  name: 'Availability Starts',
+  name: 'AvailabilityStarts',
 }
 export const availableAtOrFrom = {
   type: Place,
   description: 'The place(s) from which the offer can be obtained (e.g. store locations).',
-  name: 'Available At or From',
+  name: 'AvailableAtorFrom',
 }
 export const availableChannel = {
   type: ServiceChannel,
   description: 'A means of accessing the service (e.g. a phone bank, a web site, a location, etc.).',
-  name: 'Available Channel',
+  name: 'AvailableChannel',
 }
 export const availableDeliveryMethod = {
   type: DeliveryMethod,
   description: 'The delivery method(s) available for this offer.',
-  name: 'Available Delivery Method',
+  name: 'AvailableDeliveryMethod',
 }
 export const availableFrom = {
   type: GraphQLDate,
   description: 'When the item is available for pickup from the store, locker, etc.',
-  name: 'Available From',
+  name: 'AvailableFrom',
 }
 export const availableLanguage = {
   type: GraphQLString,
   description: 'A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard. See also inLanguage',
-  name: 'Available Language',
+  name: 'AvailableLanguage',
 }
 export const availableOnDevice = {
   type: GraphQLString,
   description: 'Device required to run the application. Used in cases where a specific make/model is required to run the application. Supersedes device.',
-  name: 'Available On Device',
+  name: 'AvailableOnDevice',
 }
 export const availableService = {
   type: MedicalTest,
   description: 'A medical service available from this provider.',
-  name: 'Available Service',
+  name: 'AvailableService',
 }
 export const availableThrough = {
   type: GraphQLDate,
   description: 'After this date, the item will no longer be available for pickup.',
-  name: 'Available Through',
+  name: 'AvailableThrough',
 }
 export const award = {
   type: GraphQLString,
@@ -490,22 +490,22 @@ export const award = {
 export const awayTeam = {
   type: Person,
   description: 'The away team in a sports event.',
-  name: 'Away Team',
+  name: 'AwayTeam',
 }
 export const bankAccountType = {
   type: GraphQLString,
   description: 'The type of a bank account.',
-  name: 'Bank Account Type',
+  name: 'BankAccountType',
 }
 export const baseSalary = {
   type: PriceSpecification,
   description: 'The base salary of the job or of an employee in an EmployeeRole.',
-  name: 'Base Salary',
+  name: 'BaseSalary',
 }
 export const bccRecipient = {
   type: ContactPoint,
   description: 'A sub property of recipient. The recipient blind copied on a message.',
-  name: 'Bcc Recipient',
+  name: 'BccRecipient',
 }
 export const bed = {
   type: GraphQLString,
@@ -515,37 +515,37 @@ export const bed = {
 export const beforeMedia = {
   type: MediaObject,
   description: 'A media object representing the circumstances before performing this direction.',
-  name: 'Before Media',
+  name: 'BeforeMedia',
 }
 export const bestRating = {
   type: GraphQLFloat,
   description: 'The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed.',
-  name: 'Best Rating',
+  name: 'BestRating',
 }
 export const billingAddress = {
   type: PostalAddress,
   description: 'The billing address for the order.',
-  name: 'Billing Address',
+  name: 'BillingAddress',
 }
 export const billingIncrement = {
   type: GraphQLFloat,
   description: 'This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.',
-  name: 'Billing Increment',
+  name: 'BillingIncrement',
 }
 export const billingPeriod = {
   type: Duration,
   description: 'The time interval used to compute the invoice.',
-  name: 'Billing Period',
+  name: 'BillingPeriod',
 }
 export const birthDate = {
   type: GraphQLDate,
   description: 'Date of birth.',
-  name: 'Birth Date',
+  name: 'BirthDate',
 }
 export const birthPlace = {
   type: Place,
   description: 'The place where the person was born.',
-  name: 'Birth Place',
+  name: 'BirthPlace',
 }
 export const bitrate = {
   type: GraphQLString,
@@ -555,37 +555,37 @@ export const bitrate = {
 export const blogPost = {
   type: BlogPosting,
   description: 'A posting that is part of this blog. Supersedes blogPosts.',
-  name: 'Blog Post',
+  name: 'BlogPost',
 }
 export const boardingGroup = {
   type: GraphQLString,
   description: 'The airline-specific indicator of boarding order / preference.',
-  name: 'Boarding Group',
+  name: 'BoardingGroup',
 }
 export const boardingPolicy = {
   type: BoardingPolicyType,
   description: 'The type of boarding policy used by the airline (e.g. zone-based or group-based).',
-  name: 'Boarding Policy',
+  name: 'BoardingPolicy',
 }
 export const bodyType = {
   type: QualitativeValue,
   description: 'Indicates the design and body style of the vehicle (e.g. station wagon, hatchback, etc.).',
-  name: 'Body Type',
+  name: 'BodyType',
 }
 export const bookEdition = {
   type: GraphQLString,
   description: 'The edition of the book.',
-  name: 'Book Edition',
+  name: 'BookEdition',
 }
 export const bookFormat = {
   type: BookFormatType,
   description: 'The format of the book.',
-  name: 'Book Format',
+  name: 'BookFormat',
 }
 export const bookingTime = {
   type: GraphQLDate,
   description: 'The date and time the reservation was booked.',
-  name: 'Booking Time',
+  name: 'BookingTime',
 }
 export const borrower = {
   type: Person,
@@ -600,7 +600,7 @@ export const box = {
 export const branchCode = {
   type: GraphQLString,
   description: 'A short textual code (also called "store code") that uniquely identifies a place of business. The code is typically assigned by the parentOrganization and used in structured URLs.  For example, in the URL http://www.starbucks.co.uk/store-locator/etc/detail/3047 the code "3047" is a branchCode for a particular branch.',
-  name: 'Branch Code',
+  name: 'BranchCode',
 }
 export const brand = {
   type: Organization,
@@ -615,37 +615,37 @@ export const breadcrumb = {
 export const broadcastAffiliateOf = {
   type: Organization,
   description: 'The media network(s) whose content is broadcast on this station.',
-  name: 'Broadcast Affiliate of',
+  name: 'BroadcastAffiliateof',
 }
 export const broadcastChannelId = {
   type: GraphQLString,
   description: 'The unique address by which the BroadcastService can be identified in a provider lineup. In US, this is typically a number.',
-  name: 'Broadcast Channel Id',
+  name: 'BroadcastChannelId',
 }
 export const broadcastDisplayName = {
   type: GraphQLString,
   description: 'The name displayed in the channel guide. For many US affiliates, it is the network name.',
-  name: 'Broadcast Display Name',
+  name: 'BroadcastDisplayName',
 }
 export const broadcastFrequency = {
   type: GraphQLString,
   description: 'The frequency used for over-the-air broadcasts. Numeric values or simple ranges e.g. 87-99. In addition a shortcut idiom is supported for frequences of AM and FM radio channels, e.g. "87 FM".',
-  name: 'Broadcast Frequency',
+  name: 'BroadcastFrequency',
 }
 export const broadcastOfEvent = {
   type: Event,
   description: 'The event being broadcast such as a sporting event or awards ceremony.',
-  name: 'Broadcast of Event',
+  name: 'BroadcastofEvent',
 }
 export const broadcastServiceTier = {
   type: GraphQLString,
   description: 'The type of service required to have access to the channel (e.g. Standard or Premium).',
-  name: 'Broadcast Service Tier',
+  name: 'BroadcastServiceTier',
 }
 export const broadcastTimezone = {
   type: GraphQLString,
   description: 'The timezone in ISO 8601 format for which the service bases its broadcasts',
-  name: 'Broadcast Timezone',
+  name: 'BroadcastTimezone',
 }
 export const broadcaster = {
   type: Organization,
@@ -660,22 +660,22 @@ export const broker = {
 export const browserRequirements = {
   type: GraphQLString,
   description: 'Specifies browser requirements in human-readable text. For example, \'requires HTML5 support\'.',
-  name: 'Browser Requirements',
+  name: 'BrowserRequirements',
 }
 export const busName = {
   type: GraphQLString,
   description: 'The name of the bus (e.g. Bolt Express).',
-  name: 'Bus Name',
+  name: 'BusName',
 }
 export const busNumber = {
   type: GraphQLString,
   description: 'The unique identifier for the bus.',
-  name: 'Bus Number',
+  name: 'BusNumber',
 }
 export const businessFunction = {
   type: BusinessFunction,
   description: 'The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell.',
-  name: 'Business Function',
+  name: 'BusinessFunction',
 }
 export const buyer = {
   type: Person,
@@ -685,7 +685,7 @@ export const buyer = {
 export const byArtist = {
   type: MusicGroup,
   description: 'The artist that performed this album or recording.',
-  name: 'By Artist',
+  name: 'ByArtist',
 }
 export const calories = {
   type: Energy,
@@ -705,22 +705,22 @@ export const caption = {
 export const carbohydrateContent = {
   type: Mass,
   description: 'The number of grams of carbohydrates.',
-  name: 'Carbohydrate Content',
+  name: 'CarbohydrateContent',
 }
 export const cargoVolume = {
   type: QuantitativeValue,
   description: 'The available volume for cargo or luggage. For automobiles, this is usually the trunk volume.  Typical unit code(s): LTR for liters, FTQ for cubic foot/feet  Note: You can use minValue and maxValue to indicate ranges.',
-  name: 'Cargo Volume',
+  name: 'CargoVolume',
 }
 export const cashBack = {
   type: GraphQLBoolean,
   description: 'A cardholder benefit that pays the cardholder a small percentage of their net expenditures.',
-  name: 'Cash Back',
+  name: 'CashBack',
 }
 export const catalogNumber = {
   type: GraphQLString,
   description: 'The catalog number for the release.',
-  name: 'Catalog Number',
+  name: 'CatalogNumber',
 }
 export const category = {
   type: GraphQLString,
@@ -730,7 +730,7 @@ export const category = {
 export const ccRecipient = {
   type: ContactPoint,
   description: 'A sub property of recipient. The recipient copied on a message.',
-  name: 'Cc Recipient',
+  name: 'CcRecipient',
 }
 export const character = {
   type: Person,
@@ -740,37 +740,37 @@ export const character = {
 export const characterAttribute = {
   type: Thing,
   description: 'A piece of data that represents a particular aspect of a fictional character (skill, power, character points, advantage, disadvantage).',
-  name: 'Character Attribute',
+  name: 'CharacterAttribute',
 }
 export const characterName = {
   type: GraphQLString,
   description: 'The name of a character played in some acting or performing role, i.e. in a PerformanceRole.',
-  name: 'Character Name',
+  name: 'CharacterName',
 }
 export const cheatCode = {
   type: CreativeWork,
   description: 'Cheat codes to the game.',
-  name: 'Cheat Code',
+  name: 'CheatCode',
 }
 export const checkinTime = {
   type: GraphQLDate,
   description: 'The earliest someone may check into a lodging establishment.',
-  name: 'Checkin Time',
+  name: 'CheckinTime',
 }
 export const checkoutTime = {
   type: GraphQLDate,
   description: 'The latest someone may check out of a lodging establishment.',
-  name: 'Checkout Time',
+  name: 'CheckoutTime',
 }
 export const childMaxAge = {
   type: GraphQLFloat,
   description: 'Maximal age of the child.',
-  name: 'Child Max Age',
+  name: 'ChildMaxAge',
 }
 export const childMinAge = {
   type: GraphQLFloat,
   description: 'Minimal age of the child.',
-  name: 'Child Min Age',
+  name: 'ChildMinAge',
 }
 export const children = {
   type: Person,
@@ -780,7 +780,7 @@ export const children = {
 export const cholesterolContent = {
   type: Mass,
   description: 'The number of milligrams of cholesterol.',
-  name: 'Cholesterol Content',
+  name: 'CholesterolContent',
 }
 export const circle = {
   type: GraphQLString,
@@ -795,12 +795,12 @@ export const citation = {
 export const claimReviewed = {
   type: GraphQLString,
   description: 'A short summary of the specific claims reviewed in a ClaimReview.',
-  name: 'Claim Reviewed',
+  name: 'ClaimReviewed',
 }
 export const clipNumber = {
   type: GraphQLInt,
   description: 'Position of the clip within an ordered group of clips.',
-  name: 'Clip Number',
+  name: 'ClipNumber',
 }
 export const closes = {
   type: GraphQLDate,
@@ -815,12 +815,12 @@ export const coach = {
 export const codeRepository = {
   type: GraphQLUrl,
   description: 'Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex).',
-  name: 'Code Repository',
+  name: 'CodeRepository',
 }
 export const codeSampleType = {
   type: GraphQLString,
   description: 'What type of code sample: full (compile ready) solution, code snippet, inline code, scripts, template. Supersedes sampleType.',
-  name: 'Code Sample Type',
+  name: 'CodeSampleType',
 }
 export const colleague = {
   type: Person,
@@ -845,7 +845,7 @@ export const comment = {
 export const commentCount = {
   type: GraphQLInt,
   description: 'The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.',
-  name: 'Comment Count',
+  name: 'CommentCount',
 }
 export const competitor = {
   type: Person,
@@ -860,72 +860,72 @@ export const composer = {
 export const confirmationNumber = {
   type: GraphQLString,
   description: 'A number that confirms the given order or payment has been received.',
-  name: 'Confirmation Number',
+  name: 'ConfirmationNumber',
 }
 export const contactOption = {
   type: ContactPointOption,
   description: 'An option available on this contact point (e.g. a toll-free number or support for hearing-impaired callers).',
-  name: 'Contact Option',
+  name: 'ContactOption',
 }
 export const contactPoint = {
   type: ContactPoint,
   description: 'A contact point for a person or organization. Supersedes contactPoints.',
-  name: 'Contact Point',
+  name: 'ContactPoint',
 }
 export const contactType = {
   type: GraphQLString,
   description: 'A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point.',
-  name: 'Contact Type',
+  name: 'ContactType',
 }
 export const contactlessPayment = {
   type: GraphQLBoolean,
   description: 'A secure method for consumers to purchase products or services via debit, credit or smartcards by using RFID or NFC technology.',
-  name: 'Contactless Payment',
+  name: 'ContactlessPayment',
 }
 export const containedInPlace = {
   type: Place,
   description: 'The basic containment relation between a place and one that contains it. Supersedes containedIn. Inverse property: containsPlace.',
-  name: 'Contained in Place',
+  name: 'ContainedinPlace',
 }
 export const containsPlace = {
   type: Place,
   description: 'The basic containment relation between a place and another that it contains. Inverse property: containedInPlace.',
-  name: 'Contains Place',
+  name: 'ContainsPlace',
 }
 export const containsSeason = {
   type: CreativeWorkSeason,
   description: 'A season that is part of the media series. Supersedes season.',
-  name: 'Contains Season',
+  name: 'ContainsSeason',
 }
 export const contentLocation = {
   type: Place,
   description: 'The location depicted or described in the content. For example, the location in a photograph or painting.',
-  name: 'Content Location',
+  name: 'ContentLocation',
 }
 export const contentRating = {
   type: GraphQLString,
   description: 'Official rating of a piece of content—for example,\'MPAA PG-13\'.',
-  name: 'Content Rating',
+  name: 'ContentRating',
 }
 export const contentReferenceTime = {
   type: GraphQLDate,
   description: 'The specific time described by a creative work, for works (e.g. articles, video objects etc.) that emphasise a particular moment within an Event.',
-  name: 'Content Reference Time',
+  name: 'ContentReferenceTime',
 }
 export const contentSize = {
   type: GraphQLString,
   description: 'File size in (mega/kilo) bytes.',
-  name: 'Content Size',
+  name: 'ContentSize',
 }
 export const contentType = {
   type: GraphQLString,
   description: 'The supported content type(s) for an EntryPoint response.',
-  name: 'Content Type',
+  name: 'ContentType',
 }
 export const contentUrl = {
   type: GraphQLUrl,
   description: 'Actual bytes of the media object, for example the image file or video file.',
-  name: 'Content Url',
+  name: 'ContentUrl',
 }
 export const contributor = {
   type: Organization,
@@ -935,67 +935,67 @@ export const contributor = {
 export const cookTime = {
   type: Duration,
   description: 'The time it takes to actually cook the dish, in ISO 8601 duration format.',
-  name: 'Cook Time',
+  name: 'CookTime',
 }
 export const cookingMethod = {
   type: GraphQLString,
   description: 'The method of cooking, such as Frying, Steaming, ...',
-  name: 'Cooking Method',
+  name: 'CookingMethod',
 }
 export const copyrightHolder = {
   type: Organization,
   description: 'The party holding the legal copyright to the CreativeWork.',
-  name: 'Copyright Holder',
+  name: 'CopyrightHolder',
 }
 export const copyrightYear = {
   type: GraphQLFloat,
   description: 'The year during which the claimed copyright for the CreativeWork was first asserted.',
-  name: 'Copyright Year',
+  name: 'CopyrightYear',
 }
 export const correctionsPolicy = {
   type: CreativeWork,
   description: 'For an Organization (e.g. NewsMediaOrganization), a statement describing (in news media, the newsroom’s) disclosure and correction policy for errors.',
-  name: 'Corrections Policy',
+  name: 'CorrectionsPolicy',
 }
 export const countriesNotSupported = {
   type: GraphQLString,
   description: 'Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.',
-  name: 'Countries Not Supported',
+  name: 'CountriesNotSupported',
 }
 export const countriesSupported = {
   type: GraphQLString,
   description: 'Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.',
-  name: 'Countries Supported',
+  name: 'CountriesSupported',
 }
 export const countryOfOrigin = {
   type: Country,
   description: 'The country of the principal offices of the production company or individual responsible for the movie or program.',
-  name: 'Country of Origin',
+  name: 'CountryofOrigin',
 }
 export const courseCode = {
   type: GraphQLString,
   description: 'The identifier for the Course used by the course provider (e.g. CS101 or 6.001).',
-  name: 'Course Code',
+  name: 'CourseCode',
 }
 export const courseMode = {
   type: GraphQLString,
   description: 'The medium or means of delivery of the course instance or the mode of study, either as a text label (e.g. "online", "onsite" or "blended"; "synchronous" or "asynchronous"; "full-time" or "part-time") or as a URL reference to a term from a controlled vocabulary (e.g. https://ceds.ed.gov/element/001311#Asynchronous ).',
-  name: 'Course Mode',
+  name: 'CourseMode',
 }
 export const coursePrerequisites = {
   type: AlignmentObject,
   description: 'Requirements for taking the Course. May be completion of another Course or a textual description like "permission of instructor". Requirements may be a pre-requisite competency, referenced using AlignmentObject.',
-  name: 'Course Prerequisites',
+  name: 'CoursePrerequisites',
 }
 export const coverageEndTime = {
   type: GraphQLDate,
   description: 'The time when the live blog will stop covering the Event. Note that coverage may continue after the Event concludes.',
-  name: 'Coverage End Time',
+  name: 'CoverageEndTime',
 }
 export const coverageStartTime = {
   type: GraphQLDate,
   description: 'The time when the live blog will begin covering the Event. Note that coverage may begin before the Event\'s start time. The LiveBlogPosting may also be created before coverage begins.',
-  name: 'Coverage Start Time',
+  name: 'CoverageStartTime',
 }
 export const creator = {
   type: Organization,
@@ -1005,12 +1005,12 @@ export const creator = {
 export const creditedTo = {
   type: Organization,
   description: 'The group the release is credited to if different than the byArtist. For example, Red and Blue is credited to "Stefani Germanotta Band", but by Lady Gaga.',
-  name: 'Credited to',
+  name: 'Creditedto',
 }
 export const currenciesAccepted = {
   type: GraphQLString,
   description: 'The currency accepted (in ISO 4217 currency format).',
-  name: 'Currencies Accepted',
+  name: 'CurrenciesAccepted',
 }
 export const currency = {
   type: GraphQLString,
@@ -1025,7 +1025,7 @@ export const customer = {
 export const dataFeedElement = {
   type: DataFeedItem,
   description: 'An item within in a data feed. Data feeds may have many elements.',
-  name: 'Data Feed Element',
+  name: 'DataFeedElement',
 }
 export const dataset = {
   type: Dataset,
@@ -1035,52 +1035,52 @@ export const dataset = {
 export const dateCreated = {
   type: GraphQLDate,
   description: 'The date on which the CreativeWork was created or the item was added to a DataFeed.',
-  name: 'Date Created',
+  name: 'DateCreated',
 }
 export const dateDeleted = {
   type: GraphQLDate,
   description: 'The datetime the item was removed from the DataFeed.',
-  name: 'Date Deleted',
+  name: 'DateDeleted',
 }
 export const dateIssued = {
   type: GraphQLDate,
   description: 'The date the ticket was issued.',
-  name: 'Date Issued',
+  name: 'DateIssued',
 }
 export const dateModified = {
   type: GraphQLDate,
   description: 'The date on which the CreativeWork was most recently modified or when the item\'s entry was modified within a DataFeed.',
-  name: 'Date Modified',
+  name: 'DateModified',
 }
 export const datePosted = {
   type: GraphQLDate,
   description: 'Publication date for the job posting.',
-  name: 'Date Posted',
+  name: 'DatePosted',
 }
 export const datePublished = {
   type: GraphQLDate,
   description: 'Date of first broadcast/publication.',
-  name: 'Date Published',
+  name: 'DatePublished',
 }
 export const dateRead = {
   type: GraphQLDate,
   description: 'The date/time at which the message has been read by the recipient if a single recipient exists.',
-  name: 'Date Read',
+  name: 'DateRead',
 }
 export const dateReceived = {
   type: GraphQLDate,
   description: 'The date/time the message was received if a single recipient exists.',
-  name: 'Date Received',
+  name: 'DateReceived',
 }
 export const dateSent = {
   type: GraphQLDate,
   description: 'The date/time at which the message was sent.',
-  name: 'Date Sent',
+  name: 'DateSent',
 }
 export const dateVehicleFirstRegistered = {
   type: GraphQLDate,
   description: 'The date of the first registration of the vehicle with the respective public authorities.',
-  name: 'Date Vehicle First Registered',
+  name: 'DateVehicleFirstRegistered',
 }
 export const dateline = {
   type: GraphQLString,
@@ -1090,42 +1090,42 @@ export const dateline = {
 export const dayOfWeek = {
   type: DayOfWeek,
   description: 'The day of the week for which these opening hours are valid.',
-  name: 'Day of Week',
+  name: 'DayofWeek',
 }
 export const deathDate = {
   type: GraphQLDate,
   description: 'Date of death.',
-  name: 'Death Date',
+  name: 'DeathDate',
 }
 export const deathPlace = {
   type: Place,
   description: 'The place where the person died.',
-  name: 'Death Place',
+  name: 'DeathPlace',
 }
 export const defaultValue = {
   type: GraphQLString,
   description: 'The default value of the input.  For properties that expect a literal, the default is a literal value, for properties that expect an object, it\'s an ID reference to one of the current values.',
-  name: 'Default Value',
+  name: 'DefaultValue',
 }
 export const deliveryAddress = {
   type: PostalAddress,
   description: 'Destination address.',
-  name: 'Delivery Address',
+  name: 'DeliveryAddress',
 }
 export const deliveryLeadTime = {
   type: QuantitativeValue,
   description: 'The typical delay between the receipt of the order and the goods either leaving the warehouse or being prepared for pickup, in case the delivery method is on site pickup.',
-  name: 'Delivery Lead Time',
+  name: 'DeliveryLeadTime',
 }
 export const deliveryMethod = {
   type: DeliveryMethod,
   description: 'A sub property of instrument. The method of delivery.',
-  name: 'Delivery Method',
+  name: 'DeliveryMethod',
 }
 export const deliveryStatus = {
   type: DeliveryEvent,
   description: 'New entry added as the package passes through each leg of its journey (from shipment to final delivery).',
-  name: 'Delivery Status',
+  name: 'DeliveryStatus',
 }
 export const department = {
   type: Organization,
@@ -1135,37 +1135,37 @@ export const department = {
 export const departureAirport = {
   type: Airport,
   description: 'The airport where the flight originates.',
-  name: 'Departure Airport',
+  name: 'DepartureAirport',
 }
 export const departureBusStop = {
   type: BusStation,
   description: 'The stop or station from which the bus departs.',
-  name: 'Departure Bus Stop',
+  name: 'DepartureBusStop',
 }
 export const departureGate = {
   type: GraphQLString,
   description: 'Identifier of the flight\'s departure gate.',
-  name: 'Departure Gate',
+  name: 'DepartureGate',
 }
 export const departurePlatform = {
   type: GraphQLString,
   description: 'The platform from which the train departs.',
-  name: 'Departure Platform',
+  name: 'DeparturePlatform',
 }
 export const departureStation = {
   type: TrainStation,
   description: 'The station from which the train departs.',
-  name: 'Departure Station',
+  name: 'DepartureStation',
 }
 export const departureTerminal = {
   type: GraphQLString,
   description: 'Identifier of the flight\'s departure terminal.',
-  name: 'Departure Terminal',
+  name: 'DepartureTerminal',
 }
 export const departureTime = {
   type: GraphQLDate,
   description: 'The expected departure time.',
-  name: 'Departure Time',
+  name: 'DepartureTime',
 }
 export const dependencies = {
   type: GraphQLString,
@@ -1195,7 +1195,7 @@ export const director = {
 export const disambiguatingDescription = {
   type: GraphQLString,
   description: 'A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.',
-  name: 'Disambiguating Description',
+  name: 'DisambiguatingDescription',
 }
 export const discount = {
   type: GraphQLFloat,
@@ -1205,22 +1205,22 @@ export const discount = {
 export const discountCode = {
   type: GraphQLString,
   description: 'Code used to redeem a discount.',
-  name: 'Discount Code',
+  name: 'DiscountCode',
 }
 export const discountCurrency = {
   type: GraphQLString,
   description: 'The currency (in 3-letter ISO 4217 format) of the discount.',
-  name: 'Discount Currency',
+  name: 'DiscountCurrency',
 }
 export const discussionUrl = {
   type: GraphQLUrl,
   description: 'A link to the page containing the comments of the CreativeWork.',
-  name: 'Discussion Url',
+  name: 'DiscussionUrl',
 }
 export const dissolutionDate = {
   type: GraphQLDate,
   description: 'The date that this organization was dissolved.',
-  name: 'Dissolution Date',
+  name: 'DissolutionDate',
 }
 export const distance = {
   type: Distance,
@@ -1235,37 +1235,37 @@ export const distribution = {
 export const diversityPolicy = {
   type: CreativeWork,
   description: 'Statement on diversity policy by an Organization e.g. a NewsMediaOrganization. For a NewsMediaOrganization, a statement describing the newsroom’s diversity policy on both staffing and sources, typically providing staffing data.',
-  name: 'Diversity Policy',
+  name: 'DiversityPolicy',
 }
 export const doorTime = {
   type: GraphQLDate,
   description: 'The time admission will commence.',
-  name: 'Door Time',
+  name: 'DoorTime',
 }
 export const downloadUrl = {
   type: GraphQLUrl,
   description: 'If the file can be downloaded, URL to download the binary.',
-  name: 'Download Url',
+  name: 'DownloadUrl',
 }
 export const downvoteCount = {
   type: GraphQLInt,
   description: 'The number of downvotes this question, answer or comment has received from the community.',
-  name: 'Downvote Count',
+  name: 'DownvoteCount',
 }
 export const driveWheelConfiguration = {
   type: DriveWheelConfigurationValue,
   description: 'The drive wheel configuration, i.e. which roadwheels will receive torque from the vehicle\'s engine via the drivetrain.',
-  name: 'Drive Wheel Configuration',
+  name: 'DriveWheelConfiguration',
 }
 export const dropoffLocation = {
   type: Place,
   description: 'Where a rental car can be dropped off.',
-  name: 'Dropoff Location',
+  name: 'DropoffLocation',
 }
 export const dropoffTime = {
   type: GraphQLDate,
   description: 'When a rental car can be dropped off.',
-  name: 'Dropoff Time',
+  name: 'DropoffTime',
 }
 export const duns = {
   type: GraphQLString,
@@ -1280,12 +1280,12 @@ export const duration = {
 export const durationOfWarranty = {
   type: QuantitativeValue,
   description: 'The duration of the warranty promise. Common unitCode values are ANN for year, MON for months, or DAY for days.',
-  name: 'Duration of Warranty',
+  name: 'DurationofWarranty',
 }
 export const duringMedia = {
   type: MediaObject,
   description: 'A media object representing the circumstances while performing this direction.',
-  name: 'During Media',
+  name: 'DuringMedia',
 }
 export const editor = {
   type: Person,
@@ -1295,32 +1295,32 @@ export const editor = {
 export const educationRequirements = {
   type: GraphQLString,
   description: 'Educational background needed for the position.',
-  name: 'Education Requirements',
+  name: 'EducationRequirements',
 }
 export const educationalAlignment = {
   type: AlignmentObject,
   description: 'An alignment to an established educational framework.',
-  name: 'Educational Alignment',
+  name: 'EducationalAlignment',
 }
 export const educationalCredentialAwarded = {
   type: GraphQLString,
   description: 'A description of the qualification, award, certificate, diploma or other educational credential awarded as a consequence of successful completion of this course.',
-  name: 'Educational Credential Awarded',
+  name: 'EducationalCredentialAwarded',
 }
 export const educationalFramework = {
   type: GraphQLString,
   description: 'The framework to which the resource being described is aligned.',
-  name: 'Educational Framework',
+  name: 'EducationalFramework',
 }
 export const educationalRole = {
   type: GraphQLString,
   description: 'An educationalRole of an EducationalAudience.',
-  name: 'Educational Role',
+  name: 'EducationalRole',
 }
 export const educationalUse = {
   type: GraphQLString,
   description: 'The purpose of a work in the context of education; for example, \'assignment\', \'group work\'.',
-  name: 'Educational Use',
+  name: 'EducationalUse',
 }
 export const elevation = {
   type: GraphQLString,
@@ -1330,27 +1330,27 @@ export const elevation = {
 export const eligibleCustomerType = {
   type: BusinessEntityType,
   description: 'The type(s) of customers for which the given offer is valid.',
-  name: 'Eligible Customer Type',
+  name: 'EligibleCustomerType',
 }
 export const eligibleDuration = {
   type: QuantitativeValue,
   description: 'The duration for which the given offer is valid.',
-  name: 'Eligible Duration',
+  name: 'EligibleDuration',
 }
 export const eligibleQuantity = {
   type: QuantitativeValue,
   description: 'The interval and unit of measurement of ordering quantities for which the offer or price specification is valid. This allows e.g. specifying that a certain freight charge is valid only for a certain quantity.',
-  name: 'Eligible Quantity',
+  name: 'EligibleQuantity',
 }
 export const eligibleRegion = {
   type: GraphQLString,
   description: 'The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.  See also ineligibleRegion.',
-  name: 'Eligible Region',
+  name: 'EligibleRegion',
 }
 export const eligibleTransactionVolume = {
   type: PriceSpecification,
   description: 'The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.',
-  name: 'Eligible Transaction Volume',
+  name: 'EligibleTransactionVolume',
 }
 export const email = {
   type: GraphQLString,
@@ -1360,12 +1360,12 @@ export const email = {
 export const embedUrl = {
   type: GraphQLUrl,
   description: 'A URL pointing to a player for a specific video. In general, this is the information in the src element of an embed tag and should not be the same as the content of the loc tag.',
-  name: 'Embed Url',
+  name: 'EmbedUrl',
 }
 export const emissionsCO2 = {
   type: GraphQLFloat,
   description: 'The CO2 emissions in g/km. When used in combination with a QuantitativeValue, put "g/km" into the unitText property of that value, since there is no UN/CEFACT Common Code for "g/km".',
-  name: 'Emissions CO2',
+  name: 'EmissionsCO2',
 }
 export const employee = {
   type: Person,
@@ -1375,12 +1375,12 @@ export const employee = {
 export const employmentType = {
   type: GraphQLString,
   description: 'Type of employment (e.g. full-time, part-time, contract, temporary, seasonal, internship).',
-  name: 'Employment Type',
+  name: 'EmploymentType',
 }
 export const encodesCreativeWork = {
   type: CreativeWork,
   description: 'The CreativeWork encoded by this media object.',
-  name: 'Encodes Creative Work',
+  name: 'EncodesCreativeWork',
 }
 export const encoding = {
   type: MediaObject,
@@ -1390,22 +1390,22 @@ export const encoding = {
 export const encodingFormat = {
   type: GraphQLString,
   description: 'mp3, mpeg4, etc.',
-  name: 'Encoding Format',
+  name: 'EncodingFormat',
 }
 export const encodingType = {
   type: GraphQLString,
   description: 'The supported encoding type(s) for an EntryPoint request.',
-  name: 'Encoding Type',
+  name: 'EncodingType',
 }
 export const endDate = {
   type: GraphQLDate,
   description: 'The end date and time of the item (in ISO 8601 date format).',
-  name: 'End Date',
+  name: 'EndDate',
 }
 export const endTime = {
   type: GraphQLDate,
   description: 'The endTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to end. For actions that span a period of time, when the action was performed. e.g. John wrote a book from January to December.  Note that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.',
-  name: 'End Time',
+  name: 'EndTime',
 }
 export const endorsee = {
   type: Organization,
@@ -1415,22 +1415,22 @@ export const endorsee = {
 export const engineDisplacement = {
   type: QuantitativeValue,
   description: 'The volume swept by all of the pistons inside the cylinders of an internal combustion engine in a single movement.   Typical unit code(s): CMQ for cubic centimeter, LTR for liters, INQ for cubic inches * Note 1: You can link to information about how the given value has been determined using the valueReference property. * Note 2: You can use minValue and maxValue to indicate ranges.',
-  name: 'Engine Displacement',
+  name: 'EngineDisplacement',
 }
 export const enginePower = {
   type: QuantitativeValue,
   description: 'The power of the vehicle\'s engine.     Typical unit code(s): KWT for kilowatt, BHP for brake horsepower, N12 for metric horsepower (PS, with 1 PS = 735,49875 W)   Note 1: There are many different ways of measuring an engine\'s power. For an overview, see  http://en.wikipedia.org/wiki/Horsepower#Enginepowertest_codes. Note 2: You can link to information about how the given value has been determined using the valueReference property. Note 3: You can use minValue and maxValue to indicate ranges.',
-  name: 'Engine Power',
+  name: 'EnginePower',
 }
 export const engineType = {
   type: QualitativeValue,
   description: 'The type of engine or engines powering the vehicle.',
-  name: 'Engine Type',
+  name: 'EngineType',
 }
 export const entertainmentBusiness = {
   type: EntertainmentBusiness,
   description: 'A sub property of location. The entertainment business where the action occurred.',
-  name: 'Entertainment Business',
+  name: 'EntertainmentBusiness',
 }
 export const episode = {
   type: Episode,
@@ -1440,7 +1440,7 @@ export const episode = {
 export const episodeNumber = {
   type: GraphQLInt,
   description: 'Position of the episode within an ordered group of episodes.',
-  name: 'Episode Number',
+  name: 'EpisodeNumber',
 }
 export const equal = {
   type: QualitativeValue,
@@ -1455,22 +1455,22 @@ export const error = {
 export const estimatedCost = {
   type: GraphQLString,
   description: 'The estimated cost of the supply or supplies consumed when performing instructions.',
-  name: 'Estimated Cost',
+  name: 'EstimatedCost',
 }
 export const estimatedFlightDuration = {
   type: Duration,
   description: 'The estimated time the flight will take.',
-  name: 'Estimated Flight Duration',
+  name: 'EstimatedFlightDuration',
 }
 export const estimatedSalary = {
   type: MonetaryAmount,
   description: 'A property describing the estimated salary for a job posting based on a variety of variables including, but not limited to industry, job title, and location. The estimated salary is usually computed by outside organizations and therefore the hiring organization is not bound to this estimated salary.',
-  name: 'Estimated Salary',
+  name: 'EstimatedSalary',
 }
 export const ethicsPolicy = {
   type: CreativeWork,
   description: 'Statement about ethics policy, e.g. of a NewsMediaOrganization regarding journalistic and publishing practices, or of a Restaurant, a page describing food source policies. In the case of a NewsMediaOrganization, an ethicsPolicy is typically a statement describing the personal, organizational, and corporate standards of behavior expected by the organization.',
-  name: 'Ethics Policy',
+  name: 'EthicsPolicy',
 }
 export const event = {
   type: Event,
@@ -1480,62 +1480,62 @@ export const event = {
 export const eventStatus = {
   type: EventStatusType,
   description: 'An eventStatus of an event represents its status; particularly useful when an event is cancelled or rescheduled.',
-  name: 'Event Status',
+  name: 'EventStatus',
 }
 export const exampleOfWork = {
   type: CreativeWork,
   description: 'A creative work that this work is an example/instance/realization/derivation of. Inverse property: workExample.',
-  name: 'Example of Work',
+  name: 'ExampleofWork',
 }
 export const executableLibraryName = {
   type: GraphQLString,
   description: 'Library file name e.g., mscorlib.dll, system.web.dll. Supersedes assembly.',
-  name: 'Executable Library Name',
+  name: 'ExecutableLibraryName',
 }
 export const exerciseCourse = {
   type: Place,
   description: 'A sub property of location. The course where this action was taken. Supersedes course.',
-  name: 'Exercise Course',
+  name: 'ExerciseCourse',
 }
 export const exercisePlan = {
   type: ExercisePlan,
   description: 'A sub property of instrument. The exercise plan used on this action.',
-  name: 'Exercise Plan',
+  name: 'ExercisePlan',
 }
 export const exerciseRelatedDiet = {
   type: Diet,
   description: 'A sub property of instrument. The diet used in this action.',
-  name: 'Exercise Related Diet',
+  name: 'ExerciseRelatedDiet',
 }
 export const exerciseType = {
   type: GraphQLString,
   description: 'Type(s) of exercise or activity, such as strength training, flexibility training, aerobics, cardiac rehabilitation, etc.',
-  name: 'Exercise Type',
+  name: 'ExerciseType',
 }
 export const exifData = {
   type: PropertyValue,
   description: 'exif data for this object.',
-  name: 'Exif Data',
+  name: 'ExifData',
 }
 export const expectedArrivalFrom = {
   type: GraphQLDate,
   description: 'The earliest date the package may arrive.',
-  name: 'Expected Arrival From',
+  name: 'ExpectedArrivalFrom',
 }
 export const expectedArrivalUntil = {
   type: GraphQLDate,
   description: 'The latest date the package may arrive.',
-  name: 'Expected Arrival Until',
+  name: 'ExpectedArrivalUntil',
 }
 export const expectsAcceptanceOf = {
   type: Offer,
   description: 'An Offer which must be accepted before the user can perform the Action. For example, the user may need to buy a movie before being able to watch it.',
-  name: 'Expects Acceptance of',
+  name: 'ExpectsAcceptanceof',
 }
 export const experienceRequirements = {
   type: GraphQLString,
   description: 'Description of skills and experience needed for the position.',
-  name: 'Experience Requirements',
+  name: 'ExperienceRequirements',
 }
 export const expires = {
   type: GraphQLDate,
@@ -1545,67 +1545,67 @@ export const expires = {
 export const familyName = {
   type: GraphQLString,
   description: 'Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the name property.',
-  name: 'Family Name',
+  name: 'FamilyName',
 }
 export const fatContent = {
   type: Mass,
   description: 'The number of grams of fat.',
-  name: 'Fat Content',
+  name: 'FatContent',
 }
 export const faxNumber = {
   type: GraphQLString,
   description: 'The fax number.',
-  name: 'Fax Number',
+  name: 'FaxNumber',
 }
 export const featureList = {
   type: GraphQLString,
   description: 'Features or modules provided by this application (and possibly required by other applications).',
-  name: 'Feature List',
+  name: 'FeatureList',
 }
 export const feesAndCommissionsSpecification = {
   type: GraphQLUrl,
   description: 'Description of fees, commissions, and other terms applied either to a class of financial product, or by a financial service organization.',
-  name: 'Fees And Commissions Specification',
+  name: 'FeesAndCommissionsSpecification',
 }
 export const fiberContent = {
   type: Mass,
   description: 'The number of grams of fiber.',
-  name: 'Fiber Content',
+  name: 'FiberContent',
 }
 export const fileFormat = {
   type: GraphQLString,
   description: 'Media type, typically MIME format (see IANA site) of the content e.g. application/zip of a SoftwareApplication binary. In cases where a CreativeWork has several media type representations, \'encoding\' can be used to indicate each MediaObject alongside particular fileFormat information. Unregistered or niche file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia entry.',
-  name: 'File Format',
+  name: 'FileFormat',
 }
 export const fileSize = {
   type: GraphQLString,
   description: 'Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.',
-  name: 'File Size',
+  name: 'FileSize',
 }
 export const firstPerformance = {
   type: Event,
   description: 'The date and place the work was first performed.',
-  name: 'First Performance',
+  name: 'FirstPerformance',
 }
 export const flightDistance = {
   type: Distance,
   description: 'The distance of the flight.',
-  name: 'Flight Distance',
+  name: 'FlightDistance',
 }
 export const flightNumber = {
   type: GraphQLString,
   description: 'The unique identifier for a flight including the airline IATA code. For example, if describing United flight 110, where the IATA code for United is \'UA\', the flightNumber is \'UA110\'.',
-  name: 'Flight Number',
+  name: 'FlightNumber',
 }
 export const floorLimit = {
   type: MonetaryAmount,
   description: 'A floor limit is the amount of money above which credit card transactions must be authorized.',
-  name: 'Floor Limit',
+  name: 'FloorLimit',
 }
 export const floorSize = {
   type: QuantitativeValue,
   description: 'The size of the accommodation, e.g. in square meter or squarefoot. Typical unit code(s): MTK for square meter, FTK for square foot, or YDK for square yard',
-  name: 'Floor Size',
+  name: 'FloorSize',
 }
 export const followee = {
   type: Organization,
@@ -1620,12 +1620,12 @@ export const follows = {
 export const foodEstablishment = {
   type: FoodEstablishment,
   description: 'A sub property of location. The specific food establishment where the action occurred.',
-  name: 'Food Establishment',
+  name: 'FoodEstablishment',
 }
 export const foodEvent = {
   type: FoodEvent,
   description: 'A sub property of location. The specific food event where the action occurred.',
-  name: 'Food Event',
+  name: 'FoodEvent',
 }
 export const founder = {
   type: Person,
@@ -1635,37 +1635,37 @@ export const founder = {
 export const foundingDate = {
   type: GraphQLDate,
   description: 'The date that this organization was founded.',
-  name: 'Founding Date',
+  name: 'FoundingDate',
 }
 export const foundingLocation = {
   type: Place,
   description: 'The place where the Organization was founded.',
-  name: 'Founding Location',
+  name: 'FoundingLocation',
 }
 export const fromLocation = {
   type: Place,
   description: 'A sub property of location. The original location of the object or the agent before the action.',
-  name: 'From Location',
+  name: 'FromLocation',
 }
 export const fuelCapacity = {
   type: QuantitativeValue,
   description: 'The capacity of the fuel tank or in the case of electric cars, the battery. If there are multiple components for storage, this should indicate the total of all storage of the same type.  Typical unit code(s): LTR for liters, GLL of US gallons, GLI for UK / imperial gallons, AMH for ampere-hours (for electrical vehicles).',
-  name: 'Fuel Capacity',
+  name: 'FuelCapacity',
 }
 export const fuelConsumption = {
   type: QuantitativeValue,
   description: 'The amount of fuel consumed for traveling a particular distance or temporal duration with the given vehicle (e.g. liters per 100 km).   Note 1: There are unfortunately no standard unit codes for liters per 100 km.  Use unitText to indicate the unit of measurement, e.g. L/100 km. Note 2: There are two ways of indicating the fuel consumption, fuelConsumption (e.g. 8 liters per 100 km) and fuelEfficiency (e.g. 30 miles per gallon). They are reciprocal. Note 3: Often, the absolute value is useful only when related to driving speed ("at 80 km/h") or usage pattern ("city traffic"). You can use valueReference to link the value for the fuel consumption to another value.',
-  name: 'Fuel Consumption',
+  name: 'FuelConsumption',
 }
 export const fuelEfficiency = {
   type: QuantitativeValue,
   description: 'The distance traveled per unit of fuel used; most commonly miles per gallon (mpg) or kilometers per liter (km/L).   Note 1: There are unfortunately no standard unit codes for miles per gallon or kilometers per liter. Use unitText to indicate the unit of measurement, e.g. mpg or km/L. Note 2: There are two ways of indicating the fuel consumption, fuelConsumption (e.g. 8 liters per 100 km) and fuelEfficiency (e.g. 30 miles per gallon). They are reciprocal. Note 3: Often, the absolute value is useful only when related to driving speed ("at 80 km/h") or usage pattern ("city traffic"). You can use valueReference to link the value for the fuel economy to another value.',
-  name: 'Fuel Efficiency',
+  name: 'FuelEfficiency',
 }
 export const fuelType = {
   type: QualitativeValue,
   description: 'The type of fuel suitable for the engine or engines of the vehicle. If the vehicle has only one engine, this property can be attached directly to the vehicle.',
-  name: 'Fuel Type',
+  name: 'FuelType',
 }
 export const funder = {
   type: Organization,
@@ -1680,27 +1680,27 @@ export const game = {
 export const gameItem = {
   type: Thing,
   description: 'An item is an object within the game world that can be collected by a player or, occasionally, a non-player character.',
-  name: 'Game Item',
+  name: 'GameItem',
 }
 export const gameLocation = {
   type: GraphQLUrl,
   description: 'Real or fictional location of the game (or part of game).',
-  name: 'Game Location',
+  name: 'GameLocation',
 }
 export const gamePlatform = {
   type: GraphQLUrl,
   description: 'The electronic systems used to play video games.',
-  name: 'Game Platform',
+  name: 'GamePlatform',
 }
 export const gameServer = {
   type: GameServer,
   description: 'The server on which  it is possible to play the game. Inverse property: game.',
-  name: 'Game Server',
+  name: 'GameServer',
 }
 export const gameTip = {
   type: CreativeWork,
   description: 'Links to tips, tactics, etc.',
-  name: 'Game Tip',
+  name: 'GameTip',
 }
 export const gender = {
   type: GenderType,
@@ -1720,82 +1720,82 @@ export const geo = {
 export const geoMidpoint = {
   type: GeoCoordinates,
   description: 'Indicates the GeoCoordinates at the centre of a GeoShape e.g. GeoCircle.',
-  name: 'Geo Midpoint',
+  name: 'GeoMidpoint',
 }
 export const geoRadius = {
   type: Distance,
   description: 'Indicates the approximate radius of a GeoCircle (metres unless indicated otherwise via Distance notation).',
-  name: 'Geo Radius',
+  name: 'GeoRadius',
 }
 export const geographicArea = {
   type: AdministrativeArea,
   description: 'The geographic area associated with the audience.',
-  name: 'Geographic Area',
+  name: 'GeographicArea',
 }
 export const geospatiallyContains = {
   type: GeospatialGeometry,
   description: 'Represents a relationship between two geometries (or the places they represent), relating a containing geometry to a contained geometry. "a contains b iff no points of b lie in the exterior of a, and at least one point of the interior of b lies in the interior of a". As defined in DE-9IM.',
-  name: 'Geospatially Contains',
+  name: 'GeospatiallyContains',
 }
 export const geospatiallyCoveredBy = {
   type: GeospatialGeometry,
   description: 'Represents a relationship between two geometries (or the places they represent), relating a geometry to another that covers it. As defined in DE-9IM.',
-  name: 'Geospatially Covered by',
+  name: 'GeospatiallyCoveredby',
 }
 export const geospatiallyCovers = {
   type: GeospatialGeometry,
   description: 'Represents a relationship between two geometries (or the places they represent), relating a covering geometry to a covered geometry. "Every point of b is a point of (the interior or boundary of) a". As defined in DE-9IM.',
-  name: 'Geospatially Covers',
+  name: 'GeospatiallyCovers',
 }
 export const geospatiallyCrosses = {
   type: GeospatialGeometry,
   description: 'Represents a relationship between two geometries (or the places they represent), relating a geometry to another that crosses it: "a crosses b: they have some but not all interior points in common, and the dimension of the intersection is less than that of at least one of them". As defined in DE-9IM.',
-  name: 'Geospatially Crosses',
+  name: 'GeospatiallyCrosses',
 }
 export const geospatiallyDisjoint = {
   type: GeospatialGeometry,
   description: 'Represents spatial relations in which two geometries (or the places they represent) are topologically disjoint: they have no point in common. They form a set of disconnected geometries." (a symmetric relationship, as defined in DE-9IM)',
-  name: 'Geospatially Disjoint',
+  name: 'GeospatiallyDisjoint',
 }
 export const geospatiallyEquals = {
   type: GeospatialGeometry,
   description: 'Represents spatial relations in which two geometries (or the places they represent) are topologically equal, as defined in DE-9IM. "Two geometries are topologically equal if their interiors intersect and no part of the interior or boundary of one geometry intersects the exterior of the other" (a symmetric relationship)',
-  name: 'Geospatially Equals',
+  name: 'GeospatiallyEquals',
 }
 export const geospatiallyIntersects = {
   type: GeospatialGeometry,
   description: 'Represents spatial relations in which two geometries (or the places they represent) have at least one point in common. As defined in DE-9IM.',
-  name: 'Geospatially Intersects',
+  name: 'GeospatiallyIntersects',
 }
 export const geospatiallyOverlaps = {
   type: GeospatialGeometry,
   description: 'Represents a relationship between two geometries (or the places they represent), relating a geometry to another that geospatially overlaps it, i.e. they have some but not all points in common. As defined in DE-9IM.',
-  name: 'Geospatially Overlaps',
+  name: 'GeospatiallyOverlaps',
 }
 export const geospatiallyTouches = {
   type: GeospatialGeometry,
   description: 'Represents spatial relations in which two geometries (or the places they represent) touch: they have at least one boundary point in common, but no interior points." (a symmetric relationship, as defined in DE-9IM )',
-  name: 'Geospatially Touches',
+  name: 'GeospatiallyTouches',
 }
 export const geospatiallyWithin = {
   type: GeospatialGeometry,
   description: 'Represents a relationship between two geometries (or the places they represent), relating a geometry to one that contains it, i.e. it is inside (i.e. within) its interior. As defined in DE-9IM.',
-  name: 'Geospatially Within',
+  name: 'GeospatiallyWithin',
 }
 export const givenName = {
   type: GraphQLString,
   description: 'Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property.',
-  name: 'Given Name',
+  name: 'GivenName',
 }
 export const globalLocationNumber = {
   type: GraphQLString,
   description: 'The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.',
-  name: 'Global Location Number',
+  name: 'GlobalLocationNumber',
 }
 export const gracePeriod = {
   type: Duration,
   description: 'The period of time after any due date that the borrower has to fulfil its obligations before a default (failure to pay) is deemed to have occurred.',
-  name: 'Grace Period',
+  name: 'GracePeriod',
 }
 export const grantee = {
   type: Audience,
@@ -1810,7 +1810,7 @@ export const greater = {
 export const greaterOrEqual = {
   type: QualitativeValue,
   description: 'This ordering relation for qualitative values indicates that the subject is greater than or equal to the object.',
-  name: 'Greater or Equal',
+  name: 'GreaterorEqual',
 }
 export const gtin12 = {
   type: GraphQLString,
@@ -1835,57 +1835,57 @@ export const gtin8 = {
 export const hasBroadcastChannel = {
   type: BroadcastChannel,
   description: 'A broadcast channel of a broadcast service. Inverse property: providesBroadcastService.',
-  name: 'Has Broadcast Channel',
+  name: 'HasBroadcastChannel',
 }
 export const hasCourseInstance = {
   type: CourseInstance,
   description: 'An offering of the course at a specific time and place or through specific media or mode of study or to a specific section of students.',
-  name: 'Has Course Instance',
+  name: 'HasCourseInstance',
 }
 export const hasDeliveryMethod = {
   type: DeliveryMethod,
   description: 'Method used for delivery or shipping.',
-  name: 'Has Delivery Method',
+  name: 'HasDeliveryMethod',
 }
 export const hasDigitalDocumentPermission = {
   type: DigitalDocumentPermission,
   description: 'A permission related to the access to this document (e.g. permission to read or write an electronic document). For a public document, specify a grantee with an Audience with audienceType equal to "public".',
-  name: 'Has Digital Document Permission',
+  name: 'HasDigitalDocumentPermission',
 }
 export const hasMap = {
   type: Map,
   description: 'A URL to a map of the place. Supersedes map, maps.',
-  name: 'Has Map',
+  name: 'HasMap',
 }
 export const hasMenu = {
   type: Menu,
   description: 'Either the actual menu as a structured representation, as text, or a URL of the menu. Supersedes menu.',
-  name: 'Has Menu',
+  name: 'HasMenu',
 }
 export const hasMenuItem = {
   type: MenuItem,
   description: 'A food or drink item contained in a menu or menu section.',
-  name: 'Has Menu Item',
+  name: 'HasMenuItem',
 }
 export const hasMenuSection = {
   type: MenuSection,
   description: 'A subgrouping of the menu (by dishes, course, serving time period, etc.).',
-  name: 'Has Menu Section',
+  name: 'HasMenuSection',
 }
 export const hasOfferCatalog = {
   type: OfferCatalog,
   description: 'Indicates an OfferCatalog listing for this Organization, Person, or Service.',
-  name: 'Has Offer Catalog',
+  name: 'HasOfferCatalog',
 }
 export const hasPOS = {
   type: Place,
   description: 'Points-of-Sales operated by the organization or person.',
-  name: 'Has POS',
+  name: 'HasPOS',
 }
 export const hasPart = {
   type: CreativeWork,
   description: 'Indicates a CreativeWork that is (in some sense) a part of this CreativeWork. Inverse property: isPartOf.',
-  name: 'Has Part',
+  name: 'HasPart',
 }
 export const headline = {
   type: GraphQLString,
@@ -1895,12 +1895,12 @@ export const headline = {
 export const healthCondition = {
   type: MedicalCondition,
   description: 'Specifying the health condition(s) of a patient, medical study, or other target audience.',
-  name: 'Health Condition',
+  name: 'HealthCondition',
 }
 export const healthPlanNetworkId = {
   type: GraphQLString,
   description: 'Name or unique ID of network. (Networks are often reused across different insurance plans).',
-  name: 'Health Plan Network Id',
+  name: 'HealthPlanNetworkId',
 }
 export const height = {
   type: Distance,
@@ -1910,62 +1910,62 @@ export const height = {
 export const highPrice = {
   type: GraphQLFloat,
   description: 'The highest price of all offers available.',
-  name: 'High Price',
+  name: 'HighPrice',
 }
 export const hiringOrganization = {
   type: Organization,
   description: 'Organization offering the job position.',
-  name: 'Hiring Organization',
+  name: 'HiringOrganization',
 }
 export const homeLocation = {
   type: ContactPoint,
   description: 'A contact location for a person\'s residence.',
-  name: 'Home Location',
+  name: 'HomeLocation',
 }
 export const homeTeam = {
   type: Person,
   description: 'The home team in a sports event.',
-  name: 'Home Team',
+  name: 'HomeTeam',
 }
 export const honorificPrefix = {
   type: GraphQLString,
   description: 'An honorific prefix preceding a Person\'s name such as Dr/Mrs/Mr.',
-  name: 'Honorific Prefix',
+  name: 'HonorificPrefix',
 }
 export const honorificSuffix = {
   type: GraphQLString,
   description: 'An honorific suffix preceding a Person\'s name such as M.D. /PhD/MSCSW.',
-  name: 'Honorific Suffix',
+  name: 'HonorificSuffix',
 }
 export const hospitalAffiliation = {
   type: Hospital,
   description: 'A hospital with which the physician or office is affiliated.',
-  name: 'Hospital Affiliation',
+  name: 'HospitalAffiliation',
 }
 export const hostingOrganization = {
   type: Organization,
   description: 'The organization (airline, travelers\' club, etc.) the membership is made with.',
-  name: 'Hosting Organization',
+  name: 'HostingOrganization',
 }
 export const hoursAvailable = {
   type: OpeningHoursSpecification,
   description: 'The hours during which this service or contact is available.',
-  name: 'Hours Available',
+  name: 'HoursAvailable',
 }
 export const httpMethod = {
   type: GraphQLString,
   description: 'An HTTP method that specifies the appropriate HTTP method for a request to an HTTP EntryPoint. Values are capitalized strings as used in HTTP.',
-  name: 'Http Method',
+  name: 'HttpMethod',
 }
 export const iataCode = {
   type: GraphQLString,
   description: 'IATA identifier for an airline or airport.',
-  name: 'Iata Code',
+  name: 'IataCode',
 }
 export const icaoCode = {
   type: GraphQLString,
   description: 'ICAO identifier for an airport.',
-  name: 'Icao Code',
+  name: 'IcaoCode',
 }
 export const identifier = {
   type: PropertyValue,
@@ -1985,42 +1985,42 @@ export const image = {
 export const inAlbum = {
   type: MusicAlbum,
   description: 'The album to which this recording belongs.',
-  name: 'In Album',
+  name: 'InAlbum',
 }
 export const inBroadcastLineup = {
   type: CableOrSatelliteService,
   description: 'The CableOrSatelliteService offering the channel.',
-  name: 'In Broadcast Lineup',
+  name: 'InBroadcastLineup',
 }
 export const inLanguage = {
   type: GraphQLString,
   description: 'The language of the content or performance or used in an action. Please use one of the language codes from the IETF BCP 47 standard. See also availableLanguage. Supersedes language.',
-  name: 'In Language',
+  name: 'InLanguage',
 }
 export const inPlaylist = {
   type: MusicPlaylist,
   description: 'The playlist to which this recording belongs.',
-  name: 'In Playlist',
+  name: 'InPlaylist',
 }
 export const incentiveCompensation = {
   type: GraphQLString,
   description: 'Description of bonus and commission compensation aspects of the job. Supersedes incentives.',
-  name: 'Incentive Compensation',
+  name: 'IncentiveCompensation',
 }
 export const includedComposition = {
   type: MusicComposition,
   description: 'Smaller compositions included in this work (e.g. a movement in a symphony).',
-  name: 'Included Composition',
+  name: 'IncludedComposition',
 }
 export const includedInDataCatalog = {
   type: DataCatalog,
   description: 'A data catalog which contains this dataset. Supersedes catalog, includedDataCatalog. Inverse property: dataset.',
-  name: 'Included in Data Catalog',
+  name: 'IncludedinDataCatalog',
 }
 export const includesObject = {
   type: TypeAndQuantityNode,
   description: 'This links to a node or nodes indicating the exact quantity of the products included in the offer.',
-  name: 'Includes Object',
+  name: 'IncludesObject',
 }
 export const industry = {
   type: GraphQLString,
@@ -2030,7 +2030,7 @@ export const industry = {
 export const ineligibleRegion = {
   type: GraphQLString,
   description: 'The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is not valid, e.g. a region where the transaction is not allowed.  See also eligibleRegion.',
-  name: 'Ineligible Region',
+  name: 'IneligibleRegion',
 }
 export const inker = {
   type: Person,
@@ -2040,7 +2040,7 @@ export const inker = {
 export const installUrl = {
   type: GraphQLUrl,
   description: 'URL at which the app may be installed, if different from the URL of the item.',
-  name: 'Install Url',
+  name: 'InstallUrl',
 }
 export const instructor = {
   type: Person,
@@ -2055,82 +2055,82 @@ export const instrument = {
 export const interactionStatistic = {
   type: InteractionCounter,
   description: 'The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used. Supersedes interactionCount.',
-  name: 'Interaction Statistic',
+  name: 'InteractionStatistic',
 }
 export const interactivityType = {
   type: GraphQLString,
   description: 'The predominant mode of learning supported by the learning resource. Acceptable values are \'active\', \'expositive\', or \'mixed\'.',
-  name: 'Interactivity Type',
+  name: 'InteractivityType',
 }
 export const interestRate = {
   type: GraphQLFloat,
   description: 'The interest rate, charged or paid, applicable to the financial product. Note: This is different from the calculated annualPercentageRate.',
-  name: 'Interest Rate',
+  name: 'InterestRate',
 }
 export const inventoryLevel = {
   type: QuantitativeValue,
   description: 'The current approximate inventory level for the item or items.',
-  name: 'Inventory Level',
+  name: 'InventoryLevel',
 }
 export const isAcceptingNewPatients = {
   type: GraphQLBoolean,
   description: 'Whether the provider is accepting new patients.',
-  name: 'Is Accepting New Patients',
+  name: 'IsAcceptingNewPatients',
 }
 export const isAccessibleForFree = {
   type: GraphQLBoolean,
   description: 'A flag to signal that the item, event, or place is accessible for free. Supersedes free.',
-  name: 'Is Accessible for Free',
+  name: 'IsAccessibleforFree',
 }
 export const isAccessoryOrSparePartFor = {
   type: Product,
   description: 'A pointer to another product (or multiple products) for which this product is an accessory or spare part.',
-  name: 'Is Accessory or Spare Part for',
+  name: 'IsAccessoryorSparePartfor',
 }
 export const isBasedOn = {
   type: CreativeWork,
   description: 'A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html. Supersedes isBasedOnUrl.',
-  name: 'Is Based On',
+  name: 'IsBasedOn',
 }
 export const isConsumableFor = {
   type: Product,
   description: 'A pointer to another product (or multiple products) for which this product is a consumable.',
-  name: 'Is Consumable for',
+  name: 'IsConsumablefor',
 }
 export const isFamilyFriendly = {
   type: GraphQLBoolean,
   description: 'Indicates whether this content is family friendly.',
-  name: 'Is Family Friendly',
+  name: 'IsFamilyFriendly',
 }
 export const isGift = {
   type: GraphQLBoolean,
   description: 'Was the offer accepted as a gift for someone other than the buyer.',
-  name: 'Is Gift',
+  name: 'IsGift',
 }
 export const isLiveBroadcast = {
   type: GraphQLBoolean,
   description: 'True is the broadcast is of a live event.',
-  name: 'Is Live Broadcast',
+  name: 'IsLiveBroadcast',
 }
 export const isPartOf = {
   type: CreativeWork,
   description: 'Indicates a CreativeWork that this CreativeWork is (in some sense) part of. Inverse property: hasPart.',
-  name: 'Is Part of',
+  name: 'IsPartof',
 }
 export const isRelatedTo = {
   type: Product,
   description: 'A pointer to another, somehow related product (or multiple products).',
-  name: 'Is Related to',
+  name: 'IsRelatedto',
 }
 export const isSimilarTo = {
   type: Product,
   description: 'A pointer to another, functionally similar product (or multiple products).',
-  name: 'Is Similar to',
+  name: 'IsSimilarto',
 }
 export const isVariantOf = {
   type: ProductModel,
   description: 'A pointer to a base product from which this product is a variant. It is safe to infer that the variant inherits all product features from the base model, unless defined locally. This is not transitive.',
-  name: 'Is Variant of',
+  name: 'IsVariantof',
 }
 export const isbn = {
   type: GraphQLString,
@@ -2140,12 +2140,12 @@ export const isbn = {
 export const isicV4 = {
   type: GraphQLString,
   description: 'The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.',
-  name: 'Isic V4',
+  name: 'IsicV4',
 }
 export const isrcCode = {
   type: GraphQLString,
   description: 'The International Standard Recording Code for the recording.',
-  name: 'Isrc Code',
+  name: 'IsrcCode',
 }
 export const issn = {
   type: GraphQLString,
@@ -2155,22 +2155,22 @@ export const issn = {
 export const issueNumber = {
   type: GraphQLInt,
   description: 'Identifies the issue of publication; for example, "iii" or "2".',
-  name: 'Issue Number',
+  name: 'IssueNumber',
 }
 export const issuedBy = {
   type: Organization,
   description: 'The organization issuing the ticket or permit.',
-  name: 'Issued by',
+  name: 'Issuedby',
 }
 export const issuedThrough = {
   type: Service,
   description: 'The service through with the permit was granted.',
-  name: 'Issued Through',
+  name: 'IssuedThrough',
 }
 export const iswcCode = {
   type: GraphQLString,
   description: 'The International Standard Musical Work Code for the composition.',
-  name: 'Iswc Code',
+  name: 'IswcCode',
 }
 export const item = {
   type: Thing,
@@ -2180,47 +2180,47 @@ export const item = {
 export const itemCondition = {
   type: OfferItemCondition,
   description: 'A predefined value from OfferItemCondition or a textual description of the condition of the product or service, or the products or services included in the offer.',
-  name: 'Item Condition',
+  name: 'ItemCondition',
 }
 export const itemListElement = {
   type: ListItem,
   description: 'For itemListElement values, you can use simple strings (e.g. "Peter", "Paul", "Mary"), existing entities, or use ListItem.  Text values are best if the elements in the list are plain strings. Existing entities are best for a simple, unordered list of existing things in your data. ListItem is used with ordered lists when you want to provide additional context about the element in that list or when the same item might be in different places in different lists.  Note: The order of elements in your mark-up is not sufficient for indicating the order or elements.  Use ListItem with a \'position\' property in such cases.',
-  name: 'Item List Element',
+  name: 'ItemListElement',
 }
 export const itemListOrder = {
   type: ItemListOrderType,
   description: 'Type of ordering (e.g. Ascending, Descending, Unordered).',
-  name: 'Item List Order',
+  name: 'ItemListOrder',
 }
 export const itemOffered = {
   type: Product,
   description: 'The item being offered.',
-  name: 'Item Offered',
+  name: 'ItemOffered',
 }
 export const itemReviewed = {
   type: Thing,
   description: 'The item that is being reviewed/rated.',
-  name: 'Item Reviewed',
+  name: 'ItemReviewed',
 }
 export const itemShipped = {
   type: Product,
   description: 'Item(s) being shipped.',
-  name: 'Item Shipped',
+  name: 'ItemShipped',
 }
 export const jobBenefits = {
   type: GraphQLString,
   description: 'Description of benefits associated with the job. Supersedes benefits.',
-  name: 'Job Benefits',
+  name: 'JobBenefits',
 }
 export const jobLocation = {
   type: Place,
   description: 'A (typically single) geographic location associated with the job position.',
-  name: 'Job Location',
+  name: 'JobLocation',
 }
 export const jobTitle = {
   type: GraphQLString,
   description: 'The job title of the person (for example, Financial Manager).',
-  name: 'Job Title',
+  name: 'JobTitle',
 }
 export const keywords = {
   type: GraphQLString,
@@ -2230,7 +2230,7 @@ export const keywords = {
 export const knownVehicleDamages = {
   type: GraphQLString,
   description: 'A textual description of known damages, both repaired and unrepaired.',
-  name: 'Known Vehicle Damages',
+  name: 'KnownVehicleDamages',
 }
 export const knows = {
   type: Person,
@@ -2245,7 +2245,7 @@ export const landlord = {
 export const lastReviewed = {
   type: GraphQLDate,
   description: 'Date on which the content on this web page was last reviewed for accuracy and/or completeness.',
-  name: 'Last Reviewed',
+  name: 'LastReviewed',
 }
 export const latitude = {
   type: GraphQLFloat,
@@ -2255,17 +2255,17 @@ export const latitude = {
 export const learningResourceType = {
   type: GraphQLString,
   description: 'The predominant type or kind characterizing the learning resource. For example, \'presentation\', \'handout\'.',
-  name: 'Learning Resource Type',
+  name: 'LearningResourceType',
 }
 export const legalName = {
   type: GraphQLString,
   description: 'The official name of the organization, e.g. the registered company name.',
-  name: 'Legal Name',
+  name: 'LegalName',
 }
 export const leiCode = {
   type: GraphQLString,
   description: 'An organization identifier that uniquely identifies a legal entity as defined in ISO 17442.',
-  name: 'Lei Code',
+  name: 'LeiCode',
 }
 export const lender = {
   type: Organization,
@@ -2280,7 +2280,7 @@ export const lesser = {
 export const lesserOrEqual = {
   type: QualitativeValue,
   description: 'This ordering relation for qualitative values indicates that the subject is lesser than or equal to the object.',
-  name: 'Lesser or Equal',
+  name: 'LesserorEqual',
 }
 export const letterer = {
   type: Person,
@@ -2300,22 +2300,22 @@ export const line = {
 export const liveBlogUpdate = {
   type: BlogPosting,
   description: 'An update to the LiveBlog.',
-  name: 'Live Blog Update',
+  name: 'LiveBlogUpdate',
 }
 export const loanRepaymentForm = {
   type: RepaymentSpecification,
   description: 'A form of paying back money previously borrowed from a lender. Repayment usually takes the form of periodic payments that normally include part principal plus interest in each payment.',
-  name: 'Loan Repayment Form',
+  name: 'LoanRepaymentForm',
 }
 export const loanTerm = {
   type: QuantitativeValue,
   description: 'The duration of the loan or credit agreement.',
-  name: 'Loan Term',
+  name: 'LoanTerm',
 }
 export const loanType = {
   type: GraphQLString,
   description: 'The type of a loan or credit.',
-  name: 'Loan Type',
+  name: 'LoanType',
 }
 export const location = {
   type: GraphQLString,
@@ -2325,17 +2325,17 @@ export const location = {
 export const locationCreated = {
   type: Place,
   description: 'The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork.',
-  name: 'Location Created',
+  name: 'LocationCreated',
 }
 export const lodgingUnitDescription = {
   type: GraphQLString,
   description: 'A full description of the lodging unit.',
-  name: 'Lodging Unit Description',
+  name: 'LodgingUnitDescription',
 }
 export const lodgingUnitType = {
   type: QualitativeValue,
   description: 'Textual description of the unit type (including suite vs. room, size of bed, etc.).',
-  name: 'Lodging Unit Type',
+  name: 'LodgingUnitType',
 }
 export const logo = {
   type: GraphQLUrl,
@@ -2355,7 +2355,7 @@ export const loser = {
 export const lowPrice = {
   type: GraphQLFloat,
   description: 'The lowest price of all offers available.',
-  name: 'Low Price',
+  name: 'LowPrice',
 }
 export const lyricist = {
   type: Person,
@@ -2370,22 +2370,22 @@ export const lyrics = {
 export const mainContentOfPage = {
   type: WebPageElement,
   description: 'Indicates if this web page element is the main subject of the page. Supersedes aspect.',
-  name: 'Main Content of Page',
+  name: 'MainContentofPage',
 }
 export const mainEntity = {
   type: Thing,
   description: 'Indicates the primary entity described in some page or other CreativeWork. Inverse property: mainEntityOfPage.',
-  name: 'Main Entity',
+  name: 'MainEntity',
 }
 export const mainEntityOfPage = {
   type: CreativeWork,
   description: 'Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details. Inverse property: mainEntity.',
-  name: 'Main Entity of Page',
+  name: 'MainEntityofPage',
 }
 export const makesOffer = {
   type: Offer,
   description: 'A pointer to products or services offered by the organization or person. Inverse property: offeredBy.',
-  name: 'Makes Offer',
+  name: 'MakesOffer',
 }
 export const manufacturer = {
   type: Organization,
@@ -2395,7 +2395,7 @@ export const manufacturer = {
 export const mapType = {
   type: MapCategoryType,
   description: 'Indicates the kind of Map, from the MapCategoryType Enumeration.',
-  name: 'Map Type',
+  name: 'MapType',
 }
 export const material = {
   type: GraphQLUrl,
@@ -2405,37 +2405,37 @@ export const material = {
 export const maxPrice = {
   type: GraphQLFloat,
   description: 'The highest price if the price is a range.',
-  name: 'Max Price',
+  name: 'MaxPrice',
 }
 export const maxValue = {
   type: GraphQLFloat,
   description: 'The upper value of some characteristic or property.',
-  name: 'Max Value',
+  name: 'MaxValue',
 }
 export const maximumAttendeeCapacity = {
   type: GraphQLInt,
   description: 'The total number of individuals that may attend an event or venue.',
-  name: 'Maximum Attendee Capacity',
+  name: 'MaximumAttendeeCapacity',
 }
 export const mealService = {
   type: GraphQLString,
   description: 'Description of the meals that will be provided or available for purchase.',
-  name: 'Meal Service',
+  name: 'MealService',
 }
 export const measurementTechnique = {
   type: GraphQLUrl,
   description: 'A technique or technology used in a Dataset (or DataDownload, DataCatalog), corresponding to the method used for measuring the corresponding variable(s) (described using variableMeasured). This is oriented towards scientific and scholarly dataset publication but may have broader applicability; it is not intended as a full representation of measurement, but rather as a high level summary for dataset discovery.  For example, if variableMeasured is: molecule concentration, measurementTechnique could be: "mass spectrometry" or "nmr spectroscopy" or "colorimetry" or "immunofluorescence".  If the variableMeasured is "depression rating", the measurementTechnique could be "Zung Scale" or "HAM-D" or "Beck Depression Inventory".  If there are several variableMeasured properties recorded for some given data object, use a PropertyValue for each variableMeasured and attach the corresponding measurementTechnique.',
-  name: 'Measurement Technique',
+  name: 'MeasurementTechnique',
 }
 export const medicalSpecialty = {
   type: MedicalSpecialty,
   description: 'A medical specialty of the provider.',
-  name: 'Medical Specialty',
+  name: 'MedicalSpecialty',
 }
 export const meetsEmissionStandard = {
   type: QualitativeValue,
   description: 'Indicates that the vehicle meets the respective emission standard.',
-  name: 'Meets Emission Standard',
+  name: 'MeetsEmissionStandard',
 }
 export const member = {
   type: Organization,
@@ -2445,17 +2445,17 @@ export const member = {
 export const memberOf = {
   type: Organization,
   description: 'An Organization (or ProgramMembership) to which this Person or Organization belongs. Inverse property: member.',
-  name: 'Member of',
+  name: 'Memberof',
 }
 export const membershipNumber = {
   type: GraphQLString,
   description: 'A unique identifier for the membership.',
-  name: 'Membership Number',
+  name: 'MembershipNumber',
 }
 export const memoryRequirements = {
   type: GraphQLString,
   description: 'Minimum memory requirements.',
-  name: 'Memory Requirements',
+  name: 'MemoryRequirements',
 }
 export const mentions = {
   type: Thing,
@@ -2465,32 +2465,32 @@ export const mentions = {
 export const menuAddOn = {
   type: MenuItem,
   description: 'Additional menu item(s) such as a side dish of salad or side order of fries that can be added to this menu item. Additionally it can be a menu section containing allowed add-on menu items for this menu item.',
-  name: 'Menu Add On',
+  name: 'MenuAddOn',
 }
 export const messageAttachment = {
   type: CreativeWork,
   description: 'A CreativeWork attached to the message.',
-  name: 'Message Attachment',
+  name: 'MessageAttachment',
 }
 export const mileageFromOdometer = {
   type: QuantitativeValue,
   description: 'The total distance travelled by the particular vehicle since its initial production, as read from its odometer.  Typical unit code(s): KMT for kilometers, SMI for statute miles',
-  name: 'Mileage From Odometer',
+  name: 'MileageFromOdometer',
 }
 export const minPrice = {
   type: GraphQLFloat,
   description: 'The lowest price if the price is a range.',
-  name: 'Min Price',
+  name: 'MinPrice',
 }
 export const minValue = {
   type: GraphQLFloat,
   description: 'The lower value of some characteristic or property.',
-  name: 'Min Value',
+  name: 'MinValue',
 }
 export const minimumPaymentDue = {
   type: MonetaryAmount,
   description: 'The minimum payment required at this time.',
-  name: 'Minimum Payment Due',
+  name: 'MinimumPaymentDue',
 }
 export const model = {
   type: ProductModel,
@@ -2500,17 +2500,17 @@ export const model = {
 export const modelDate = {
   type: GraphQLDate,
   description: 'The release date of a vehicle model (often used to differentiate versions of the same make and model).',
-  name: 'Model Date',
+  name: 'ModelDate',
 }
 export const modifiedTime = {
   type: GraphQLDate,
   description: 'The date and time the reservation was modified.',
-  name: 'Modified Time',
+  name: 'ModifiedTime',
 }
 export const monthlyMinimumRepaymentAmount = {
   type: MonetaryAmount,
   description: 'The minimum payment is the lowest amount of money that one is required to pay on a credit card statement each month.',
-  name: 'Monthly Minimum Repayment Amount',
+  name: 'MonthlyMinimumRepaymentAmount',
 }
 export const mpn = {
   type: GraphQLString,
@@ -2520,32 +2520,32 @@ export const mpn = {
 export const multipleValues = {
   type: GraphQLBoolean,
   description: 'Whether multiple values are allowed for the property.  Default is false.',
-  name: 'Multiple Values',
+  name: 'MultipleValues',
 }
 export const musicArrangement = {
   type: MusicComposition,
   description: 'An arrangement derived from the composition.',
-  name: 'Music Arrangement',
+  name: 'MusicArrangement',
 }
 export const musicBy = {
   type: Person,
   description: 'The composer of the soundtrack.',
-  name: 'Music by',
+  name: 'Musicby',
 }
 export const musicCompositionForm = {
   type: GraphQLString,
   description: 'The type of composition (e.g. overture, sonata, symphony, etc.).',
-  name: 'Music Composition Form',
+  name: 'MusicCompositionForm',
 }
 export const musicReleaseFormat = {
   type: MusicReleaseFormatType,
   description: 'Format of this release (the type of recording media used, ie. compact disc, digital media, LP, etc.).',
-  name: 'Music Release Format',
+  name: 'MusicReleaseFormat',
 }
 export const musicalKey = {
   type: GraphQLString,
   description: 'The key, mode, or scale this composition uses.',
-  name: 'Musical Key',
+  name: 'MusicalKey',
 }
 export const naics = {
   type: GraphQLString,
@@ -2565,102 +2565,102 @@ export const nationality = {
 export const netWorth = {
   type: MonetaryAmount,
   description: 'The total financial value of the person as calculated by subtracting assets from liabilities.',
-  name: 'Net Worth',
+  name: 'NetWorth',
 }
 export const nextItem = {
   type: ListItem,
   description: 'A link to the ListItem that follows the current one.',
-  name: 'Next Item',
+  name: 'NextItem',
 }
 export const nonEqual = {
   type: QualitativeValue,
   description: 'This ordering relation for qualitative values indicates that the subject is not equal to the object.',
-  name: 'Non Equal',
+  name: 'NonEqual',
 }
 export const numAdults = {
   type: GraphQLInt,
   description: 'The number of adults staying in the unit.',
-  name: 'Num Adults',
+  name: 'NumAdults',
 }
 export const numChildren = {
   type: GraphQLInt,
   description: 'The number of children staying in the unit.',
-  name: 'Num Children',
+  name: 'NumChildren',
 }
 export const numTracks = {
   type: GraphQLInt,
   description: 'The number of tracks in this album or playlist.',
-  name: 'Num Tracks',
+  name: 'NumTracks',
 }
 export const numberOfAirbags = {
   type: GraphQLFloat,
   description: 'The number or type of airbags in the vehicle.',
-  name: 'Number of Airbags',
+  name: 'NumberofAirbags',
 }
 export const numberOfAxles = {
   type: GraphQLFloat,
   description: 'The number of axles.  Typical unit code(s): C62',
-  name: 'Number of Axles',
+  name: 'NumberofAxles',
 }
 export const numberOfBeds = {
   type: GraphQLFloat,
   description: 'The quantity of the given bed type available in the HotelRoom, Suite, House, or Apartment.',
-  name: 'Number of Beds',
+  name: 'NumberofBeds',
 }
 export const numberOfDoors = {
   type: GraphQLFloat,
   description: 'The number of doors.  Typical unit code(s): C62',
-  name: 'Number of Doors',
+  name: 'NumberofDoors',
 }
 export const numberOfEmployees = {
   type: QuantitativeValue,
   description: 'The number of employees in an organization e.g. business.',
-  name: 'Number of Employees',
+  name: 'NumberofEmployees',
 }
 export const numberOfEpisodes = {
   type: GraphQLInt,
   description: 'The number of episodes in this season or series.',
-  name: 'Number of Episodes',
+  name: 'NumberofEpisodes',
 }
 export const numberOfForwardGears = {
   type: GraphQLFloat,
   description: 'The total number of forward gears available for the transmission system of the vehicle.  Typical unit code(s): C62',
-  name: 'Number of Forward Gears',
+  name: 'NumberofForwardGears',
 }
 export const numberOfItems = {
   type: GraphQLInt,
   description: 'The number of items in an ItemList. Note that some descriptions might not fully describe all items in a list (e.g., multi-page pagination); in such cases, the numberOfItems would be for the entire list.',
-  name: 'Number of Items',
+  name: 'NumberofItems',
 }
 export const numberOfPages = {
   type: GraphQLInt,
   description: 'The number of pages in the book.',
-  name: 'Number of Pages',
+  name: 'NumberofPages',
 }
 export const numberOfPlayers = {
   type: QuantitativeValue,
   description: 'Indicate how many people can play this game (minimum, maximum, or range).',
-  name: 'Number of Players',
+  name: 'NumberofPlayers',
 }
 export const numberOfPreviousOwners = {
   type: GraphQLFloat,
   description: 'The number of owners of the vehicle, including the current one.  Typical unit code(s): C62',
-  name: 'Number of Previous Owners',
+  name: 'NumberofPreviousOwners',
 }
 export const numberOfRooms = {
   type: GraphQLFloat,
   description: 'The number of rooms (excluding bathrooms and closets) of the acccommodation or lodging business. Typical unit code(s): ROM for room or C62 for no unit. The type of room can be put in the unitText property of the QuantitativeValue.',
-  name: 'Number of Rooms',
+  name: 'NumberofRooms',
 }
 export const numberOfSeasons = {
   type: GraphQLInt,
   description: 'The number of seasons in this series.',
-  name: 'Number of Seasons',
+  name: 'NumberofSeasons',
 }
 export const numberedPosition = {
   type: GraphQLFloat,
   description: 'A number associated with a role in an organization, for example, the number on an athlete\'s jersey.',
-  name: 'Numbered Position',
+  name: 'NumberedPosition',
 }
 export const nutrition = {
   type: NutritionInformation,
@@ -2680,17 +2680,17 @@ export const occupancy = {
 export const occupationalCategory = {
   type: GraphQLString,
   description: 'Category or categories describing the job. Use BLS O*NET-SOC taxonomy: http://www.onetcenter.org/taxonomy.html. Ideally includes textual label and formal code, with the property repeated for each applicable value.',
-  name: 'Occupational Category',
+  name: 'OccupationalCategory',
 }
 export const offerCount = {
   type: GraphQLInt,
   description: 'The number of offers for the product.',
-  name: 'Offer Count',
+  name: 'OfferCount',
 }
 export const offeredBy = {
   type: Organization,
   description: 'A pointer to the organization or person making the offer. Inverse property: makesOffer.',
-  name: 'Offered by',
+  name: 'Offeredby',
 }
 export const offers = {
   type: Offer,
@@ -2700,12 +2700,12 @@ export const offers = {
 export const openingHours = {
   type: GraphQLString,
   description: 'The general opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas \',\' separating each day. Day or time ranges are specified using a hyphen \'-\'.   Days are specified using the following two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su. Times are specified using 24:00 time. For example, 3pm is specified as 15:00.  Here is an example: <time itemprop="openingHours" datetime="Tu,Th 16:00-20:00">Tuesdays and Thursdays 4-8pm</time>. If a business is open 7 days a week, then it can be specified as <time itemprop="openingHours" datetime="Mo-Su">Monday through Sunday, all day</time>.',
-  name: 'Opening Hours',
+  name: 'OpeningHours',
 }
 export const openingHoursSpecification = {
   type: OpeningHoursSpecification,
   description: 'The opening hours of a certain place.',
-  name: 'Opening Hours Specification',
+  name: 'OpeningHoursSpecification',
 }
 export const opens = {
   type: GraphQLDate,
@@ -2715,7 +2715,7 @@ export const opens = {
 export const operatingSystem = {
   type: GraphQLString,
   description: 'Operating systems supported (Windows 7, OSX 10.6, Android 1.6).',
-  name: 'Operating System',
+  name: 'OperatingSystem',
 }
 export const opponent = {
   type: Person,
@@ -2725,42 +2725,42 @@ export const opponent = {
 export const orderDate = {
   type: GraphQLDate,
   description: 'Date order was placed.',
-  name: 'Order Date',
+  name: 'OrderDate',
 }
 export const orderDelivery = {
   type: ParcelDelivery,
   description: 'The delivery of the parcel related to this order or order item.',
-  name: 'Order Delivery',
+  name: 'OrderDelivery',
 }
 export const orderItemNumber = {
   type: GraphQLString,
   description: 'The identifier of the order item.',
-  name: 'Order Item Number',
+  name: 'OrderItemNumber',
 }
 export const orderItemStatus = {
   type: OrderStatus,
   description: 'The current status of the order item.',
-  name: 'Order Item Status',
+  name: 'OrderItemStatus',
 }
 export const orderNumber = {
   type: GraphQLString,
   description: 'The identifier of the transaction.',
-  name: 'Order Number',
+  name: 'OrderNumber',
 }
 export const orderQuantity = {
   type: GraphQLFloat,
   description: 'The number of the item ordered. If the property is not set, assume the quantity is one.',
-  name: 'Order Quantity',
+  name: 'OrderQuantity',
 }
 export const orderStatus = {
   type: OrderStatus,
   description: 'The current status of the order.',
-  name: 'Order Status',
+  name: 'OrderStatus',
 }
 export const orderedItem = {
   type: Product,
   description: 'The item ordered.',
-  name: 'Ordered Item',
+  name: 'OrderedItem',
 }
 export const organizer = {
   type: Organization,
@@ -2770,17 +2770,17 @@ export const organizer = {
 export const originAddress = {
   type: PostalAddress,
   description: 'Shipper\'s address.',
-  name: 'Origin Address',
+  name: 'OriginAddress',
 }
 export const ownedFrom = {
   type: GraphQLDate,
   description: 'The date and time of obtaining the product.',
-  name: 'Owned From',
+  name: 'OwnedFrom',
 }
 export const ownedThrough = {
   type: GraphQLDate,
   description: 'The date and time of giving up ownership on the product.',
-  name: 'Owned Through',
+  name: 'OwnedThrough',
 }
 export const owns = {
   type: OwnershipInfo,
@@ -2790,12 +2790,12 @@ export const owns = {
 export const pageEnd = {
   type: GraphQLInt,
   description: 'The page on which the work ends; for example "138" or "xvi".',
-  name: 'Page End',
+  name: 'PageEnd',
 }
 export const pageStart = {
   type: GraphQLInt,
   description: 'The page on which the work starts; for example "135" or "xiii".',
-  name: 'Page Start',
+  name: 'PageStart',
 }
 export const pagination = {
   type: GraphQLString,
@@ -2810,42 +2810,42 @@ export const parent = {
 export const parentItem = {
   type: Question,
   description: 'The parent of a question, answer or item in general.',
-  name: 'Parent Item',
+  name: 'ParentItem',
 }
 export const parentOrganization = {
   type: Organization,
   description: 'The larger organization that this organization is a subOrganization of, if any. Supersedes branchOf. Inverse property: subOrganization.',
-  name: 'Parent Organization',
+  name: 'ParentOrganization',
 }
 export const parentService = {
   type: BroadcastService,
   description: 'A broadcast service to which the broadcast service may belong to such as regional variations of a national channel.',
-  name: 'Parent Service',
+  name: 'ParentService',
 }
 export const partOfEpisode = {
   type: Episode,
   description: 'The episode to which this clip belongs.',
-  name: 'Part of Episode',
+  name: 'PartofEpisode',
 }
 export const partOfInvoice = {
   type: Invoice,
   description: 'The order is being paid as part of the referenced Invoice.',
-  name: 'Part of Invoice',
+  name: 'PartofInvoice',
 }
 export const partOfOrder = {
   type: Order,
   description: 'The overall order the items in this delivery were included in.',
-  name: 'Part of Order',
+  name: 'PartofOrder',
 }
 export const partOfSeason = {
   type: CreativeWorkSeason,
   description: 'The season to which this episode belongs.',
-  name: 'Part of Season',
+  name: 'PartofSeason',
 }
 export const partOfSeries = {
   type: CreativeWorkSeries,
   description: 'The series to which this episode or season belongs. Supersedes partOfTVSeries.',
-  name: 'Part of Series',
+  name: 'PartofSeries',
 }
 export const participant = {
   type: Organization,
@@ -2855,17 +2855,17 @@ export const participant = {
 export const partySize = {
   type: GraphQLInt,
   description: 'Number of people the reservation should accommodate.',
-  name: 'Party Size',
+  name: 'PartySize',
 }
 export const passengerPriorityStatus = {
   type: QualitativeValue,
   description: 'The priority status assigned to a passenger for security or boarding (e.g. FastTrack or Priority).',
-  name: 'Passenger Priority Status',
+  name: 'PassengerPriorityStatus',
 }
 export const passengerSequenceNumber = {
   type: GraphQLString,
   description: 'The passenger\'s sequence number as assigned by the airline.',
-  name: 'Passenger Sequence Number',
+  name: 'PassengerSequenceNumber',
 }
 export const payload = {
   type: QuantitativeValue,
@@ -2875,32 +2875,32 @@ export const payload = {
 export const paymentAccepted = {
   type: GraphQLString,
   description: 'Cash, credit card, etc.',
-  name: 'Payment Accepted',
+  name: 'PaymentAccepted',
 }
 export const paymentDueDate = {
   type: GraphQLDate,
   description: 'The date that payment is due. Supersedes paymentDue.',
-  name: 'Payment Due Date',
+  name: 'PaymentDueDate',
 }
 export const paymentMethod = {
   type: PaymentMethod,
   description: 'The name of the credit card or other method of payment for the order.',
-  name: 'Payment Method',
+  name: 'PaymentMethod',
 }
 export const paymentMethodId = {
   type: GraphQLString,
   description: 'An identifier for the method of payment used (e.g. the last 4 digits of the credit card).',
-  name: 'Payment Method Id',
+  name: 'PaymentMethodId',
 }
 export const paymentStatus = {
   type: PaymentStatusType,
   description: 'The status of payment; whether the invoice has been paid or not.',
-  name: 'Payment Status',
+  name: 'PaymentStatus',
 }
 export const paymentUrl = {
   type: GraphQLUrl,
   description: 'The URL for sending a payment.',
-  name: 'Payment Url',
+  name: 'PaymentUrl',
 }
 export const penciler = {
   type: Person,
@@ -2910,7 +2910,7 @@ export const penciler = {
 export const performTime = {
   type: Duration,
   description: 'The length of time it takes to perform instructions or a direction (not including time to prepare the supplies), in ISO 8601 duration format.',
-  name: 'Perform Time',
+  name: 'PerformTime',
 }
 export const performer = {
   type: Organization,
@@ -2920,12 +2920,12 @@ export const performer = {
 export const performerIn = {
   type: Event,
   description: 'Event that this person is a performer or participant in.',
-  name: 'Performer in',
+  name: 'Performerin',
 }
 export const permissionType = {
   type: DigitalDocumentPermissionType,
   description: 'The type of permission granted the person, organization, or audience.',
-  name: 'Permission Type',
+  name: 'PermissionType',
 }
 export const permissions = {
   type: GraphQLString,
@@ -2935,17 +2935,17 @@ export const permissions = {
 export const permitAudience = {
   type: Audience,
   description: 'The target audience for this permit.',
-  name: 'Permit Audience',
+  name: 'PermitAudience',
 }
 export const permittedUsage = {
   type: GraphQLString,
   description: 'Indications regarding the permitted usage of the accommodation.',
-  name: 'Permitted Usage',
+  name: 'PermittedUsage',
 }
 export const petsAllowed = {
   type: GraphQLString,
   description: 'Indicates whether pets are allowed to enter the accommodation or lodging business. More detailed information can be put in a text value.',
-  name: 'Pets Allowed',
+  name: 'PetsAllowed',
 }
 export const photo = {
   type: ImageObject,
@@ -2955,27 +2955,27 @@ export const photo = {
 export const pickupLocation = {
   type: Place,
   description: 'Where a taxi will pick up a passenger or a rental car can be picked up.',
-  name: 'Pickup Location',
+  name: 'PickupLocation',
 }
 export const pickupTime = {
   type: GraphQLDate,
   description: 'When a taxi will pickup a passenger or a rental car can be picked up.',
-  name: 'Pickup Time',
+  name: 'PickupTime',
 }
 export const playMode = {
   type: GamePlayMode,
   description: 'Indicates whether this game is multi-player, co-op or single-player.  The game can be marked as multi-player, co-op and single-player at the same time.',
-  name: 'Play Mode',
+  name: 'PlayMode',
 }
 export const playerType = {
   type: GraphQLString,
   description: 'Player type required—for example, Flash or Silverlight.',
-  name: 'Player Type',
+  name: 'PlayerType',
 }
 export const playersOnline = {
   type: GraphQLInt,
   description: 'Number of players on the server.',
-  name: 'Players Online',
+  name: 'PlayersOnline',
 }
 export const polygon = {
   type: GraphQLString,
@@ -2990,37 +2990,37 @@ export const position = {
 export const postOfficeBoxNumber = {
   type: GraphQLString,
   description: 'The post office box number for PO box addresses.',
-  name: 'Post Office Box Number',
+  name: 'PostOfficeBoxNumber',
 }
 export const postalCode = {
   type: GraphQLString,
   description: 'The postal code. For example, 94043.',
-  name: 'Postal Code',
+  name: 'PostalCode',
 }
 export const potentialAction = {
   type: Action,
   description: 'Indicates a potential Action, which describes an idealized action in which this thing would play an \'object\' role.',
-  name: 'Potential Action',
+  name: 'PotentialAction',
 }
 export const predecessorOf = {
   type: ProductModel,
   description: 'A pointer from a previous, often discontinued variant of the product to its newer variant.',
-  name: 'Predecessor of',
+  name: 'Predecessorof',
 }
 export const prepTime = {
   type: Duration,
   description: 'The length of time it takes to prepare the items to be used in instructions or a direction, in ISO 8601 duration format.',
-  name: 'Prep Time',
+  name: 'PrepTime',
 }
 export const previousItem = {
   type: ListItem,
   description: 'A link to the ListItem that preceeds the current one.',
-  name: 'Previous Item',
+  name: 'PreviousItem',
 }
 export const previousStartDate = {
   type: GraphQLDate,
   description: 'Used in conjunction with eventStatus for rescheduled or cancelled events. This property contains the previously scheduled start date. For rescheduled events, the startDate property should be used for the newly scheduled start date. In the (rare) case of an event that has been postponed and rescheduled multiple times, this field may be repeated.',
-  name: 'Previous Start Date',
+  name: 'PreviousStartDate',
 }
 export const price = {
   type: GraphQLString,
@@ -3030,67 +3030,67 @@ export const price = {
 export const priceComponent = {
   type: UnitPriceSpecification,
   description: 'This property links to all UnitPriceSpecification nodes that apply in parallel for the CompoundPriceSpecification node.',
-  name: 'Price Component',
+  name: 'PriceComponent',
 }
 export const priceCurrency = {
   type: GraphQLString,
   description: 'The currency (in 3-letter ISO 4217 format) of the price or a price component, when attached to PriceSpecification and its subtypes.',
-  name: 'Price Currency',
+  name: 'PriceCurrency',
 }
 export const priceRange = {
   type: GraphQLString,
   description: 'The price range of the business, for example $$$.',
-  name: 'Price Range',
+  name: 'PriceRange',
 }
 export const priceSpecification = {
   type: PriceSpecification,
   description: 'One or more detailed price specifications, indicating the unit price and delivery or payment charges.',
-  name: 'Price Specification',
+  name: 'PriceSpecification',
 }
 export const priceType = {
   type: GraphQLString,
   description: 'A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.',
-  name: 'Price Type',
+  name: 'PriceType',
 }
 export const priceValidUntil = {
   type: GraphQLDate,
   description: 'The date after which the price is no longer available.',
-  name: 'Price Valid Until',
+  name: 'PriceValidUntil',
 }
 export const primaryImageOfPage = {
   type: ImageObject,
   description: 'Indicates the main image on the page.',
-  name: 'Primary Image of Page',
+  name: 'PrimaryImageofPage',
 }
 export const printColumn = {
   type: GraphQLString,
   description: 'The number of the column in which the NewsArticle appears in the print edition.',
-  name: 'Print Column',
+  name: 'PrintColumn',
 }
 export const printEdition = {
   type: GraphQLString,
   description: 'The edition of the print product in which the NewsArticle appears.',
-  name: 'Print Edition',
+  name: 'PrintEdition',
 }
 export const printPage = {
   type: GraphQLString,
   description: 'If this NewsArticle appears in print, this field indicates the name of the page on which the article is found. Please note that this field is intended for the exact page name (e.g. A5, B18).',
-  name: 'Print Page',
+  name: 'PrintPage',
 }
 export const printSection = {
   type: GraphQLString,
   description: 'If this NewsArticle appears in print, this field indicates the print section in which the article appeared.',
-  name: 'Print Section',
+  name: 'PrintSection',
 }
 export const processingTime = {
   type: Duration,
   description: 'Estimated processing time for the service using this channel.',
-  name: 'Processing Time',
+  name: 'ProcessingTime',
 }
 export const processorRequirements = {
   type: GraphQLString,
   description: 'Processor architecture required to run the application (e.g. IA64).',
-  name: 'Processor Requirements',
+  name: 'ProcessorRequirements',
 }
 export const producer = {
   type: Organization,
@@ -3100,57 +3100,57 @@ export const producer = {
 export const productID = {
   type: GraphQLString,
   description: 'The product identifier, such as ISBN. For example: meta itemprop="productID" content="isbn:123-456-789".',
-  name: 'Product ID',
+  name: 'ProductID',
 }
 export const productSupported = {
   type: Product,
   description: 'The product or service this support contact point is related to (such as product support for a particular product line). This can be a specific product or product line (e.g. "iPhone") or a general category of products or services (e.g. "smartphones").',
-  name: 'Product Supported',
+  name: 'ProductSupported',
 }
 export const productionCompany = {
   type: Organization,
   description: 'The production company or studio responsible for the item e.g. series, video game, episode etc.',
-  name: 'Production Company',
+  name: 'ProductionCompany',
 }
 export const productionDate = {
   type: GraphQLDate,
   description: 'The date of production of the item, e.g. vehicle.',
-  name: 'Production Date',
+  name: 'ProductionDate',
 }
 export const proficiencyLevel = {
   type: GraphQLString,
   description: 'Proficiency needed for this content; expected values: \'Beginner\', \'Expert\'.',
-  name: 'Proficiency Level',
+  name: 'ProficiencyLevel',
 }
 export const programMembershipUsed = {
   type: ProgramMembership,
   description: 'Any membership in a frequent flyer, hotel loyalty program, etc. being applied to the reservation.',
-  name: 'Program Membership Used',
+  name: 'ProgramMembershipUsed',
 }
 export const programName = {
   type: GraphQLString,
   description: 'The program providing the membership.',
-  name: 'Program Name',
+  name: 'ProgramName',
 }
 export const programmingLanguage = {
   type: ComputerLanguage,
   description: 'The computer programming language.',
-  name: 'Programming Language',
+  name: 'ProgrammingLanguage',
 }
 export const programmingModel = {
   type: GraphQLString,
   description: 'Indicates whether API is managed or unmanaged.',
-  name: 'Programming Model',
+  name: 'ProgrammingModel',
 }
 export const propertyID = {
   type: GraphQLString,
   description: 'A commonly used identifier for the characteristic represented by the property, e.g. a manufacturer or a standard code for a property. propertyID can be (1) a prefixed string, mainly meant to be used with standards for product properties; (2) a site-specific, non-prefixed string (e.g. the primary key of the property or the vendor-specific id of the property), or (3) a URL indicating the type of the property, either pointing to an external vocabulary, or a Web resource that describes the property (e.g. a glossary entry). Standards bodies should promote a standard prefix for the identifiers of properties from their standards.',
-  name: 'Property ID',
+  name: 'PropertyID',
 }
 export const proteinContent = {
   type: Mass,
   description: 'The number of grams of protein.',
-  name: 'Protein Content',
+  name: 'ProteinContent',
 }
 export const provider = {
   type: Organization,
@@ -3160,22 +3160,22 @@ export const provider = {
 export const providerMobility = {
   type: GraphQLString,
   description: 'Indicates the mobility of a provided service (e.g. \'static\', \'dynamic\').',
-  name: 'Provider Mobility',
+  name: 'ProviderMobility',
 }
 export const providesBroadcastService = {
   type: BroadcastService,
   description: 'The BroadcastService offered on this channel. Inverse property: hasBroadcastChannel.',
-  name: 'Provides Broadcast Service',
+  name: 'ProvidesBroadcastService',
 }
 export const providesService = {
   type: Service,
   description: 'The service provided by this channel.',
-  name: 'Provides Service',
+  name: 'ProvidesService',
 }
 export const publicAccess = {
   type: GraphQLBoolean,
   description: 'A flag to signal that the Place is open to public visitors.  If this property is omitted there is no assumed default boolean value',
-  name: 'Public Access',
+  name: 'PublicAccess',
 }
 export const publication = {
   type: PublicationEvent,
@@ -3185,12 +3185,12 @@ export const publication = {
 export const publishedBy = {
   type: Organization,
   description: 'An agent associated with the publication event.',
-  name: 'Published by',
+  name: 'Publishedby',
 }
 export const publishedOn = {
   type: BroadcastService,
   description: 'A broadcast service associated with the publication event.',
-  name: 'Published On',
+  name: 'PublishedOn',
 }
 export const publisher = {
   type: Organization,
@@ -3200,17 +3200,17 @@ export const publisher = {
 export const publisherImprint = {
   type: Organization,
   description: 'The publishing division which published the comic.',
-  name: 'Publisher Imprint',
+  name: 'PublisherImprint',
 }
 export const publishingPrinciples = {
   type: GraphQLUrl,
   description: 'The publishingPrinciples property indicates (typically via URL) a document describing the editorial principles of an Organization (or individual e.g. a Person writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies. When applied to a CreativeWork (e.g. NewsArticle) the principles are those of the party primarily responsible for the creation of the CreativeWork.  While such policies are most typically expressed in natural language, sometimes related information (e.g. indicating a funder) can be expressed using schema.org terminology.',
-  name: 'Publishing Principles',
+  name: 'PublishingPrinciples',
 }
 export const purchaseDate = {
   type: GraphQLDate,
   description: 'The date the item e.g. vehicle was purchased by the current owner.',
-  name: 'Purchase Date',
+  name: 'PurchaseDate',
 }
 export const purpose = {
   type: Thing,
@@ -3240,22 +3240,22 @@ export const question = {
 export const ratingCount = {
   type: GraphQLInt,
   description: 'The count of total number of ratings.',
-  name: 'Rating Count',
+  name: 'RatingCount',
 }
 export const ratingValue = {
   type: GraphQLFloat,
   description: 'The rating for the content.',
-  name: 'Rating Value',
+  name: 'RatingValue',
 }
 export const readonlyValue = {
   type: GraphQLBoolean,
   description: 'Whether or not a property is mutable.  Default is false. Specifying this for a property that also has a value makes it act similar to a "hidden" input in an HTML form.',
-  name: 'Readonly Value',
+  name: 'ReadonlyValue',
 }
 export const realEstateAgent = {
   type: RealEstateAgent,
   description: 'A sub property of participant. The real estate agent involved in the action.',
-  name: 'Real Estate Agent',
+  name: 'RealEstateAgent',
 }
 export const recipe = {
   type: Recipe,
@@ -3265,27 +3265,27 @@ export const recipe = {
 export const recipeCategory = {
   type: GraphQLString,
   description: 'The category of the recipe—for example, appetizer, entree, etc.',
-  name: 'Recipe Category',
+  name: 'RecipeCategory',
 }
 export const recipeCuisine = {
   type: GraphQLString,
   description: 'The cuisine of the recipe (for example, French or Ethiopian).',
-  name: 'Recipe Cuisine',
+  name: 'RecipeCuisine',
 }
 export const recipeIngredient = {
   type: GraphQLString,
   description: 'A single ingredient used in the recipe, e.g. sugar, flour or garlic. Supersedes ingredients.',
-  name: 'Recipe Ingredient',
+  name: 'RecipeIngredient',
 }
 export const recipeInstructions = {
   type: CreativeWork,
   description: 'A step in making the recipe, in the form of a single item (document, video, etc.) or an ordered list with HowToStep and/or HowToSection items.',
-  name: 'Recipe Instructions',
+  name: 'RecipeInstructions',
 }
 export const recipeYield = {
   type: QuantitativeValue,
   description: 'The quantity produced by the recipe (for example, number of people served, number of servings, etc).',
-  name: 'Recipe Yield',
+  name: 'RecipeYield',
 }
 export const recipient = {
   type: Organization,
@@ -3295,87 +3295,87 @@ export const recipient = {
 export const recordLabel = {
   type: Organization,
   description: 'The label that issued the release.',
-  name: 'Record Label',
+  name: 'RecordLabel',
 }
 export const recordedAs = {
   type: MusicRecording,
   description: 'An audio recording of the work. Inverse property: recordingOf.',
-  name: 'Recorded As',
+  name: 'RecordedAs',
 }
 export const recordedAt = {
   type: Event,
   description: 'The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event. Inverse property: recordedIn.',
-  name: 'Recorded At',
+  name: 'RecordedAt',
 }
 export const recordedIn = {
   type: CreativeWork,
   description: 'The CreativeWork that captured all or part of this Event. Inverse property: recordedAt.',
-  name: 'Recorded in',
+  name: 'Recordedin',
 }
 export const recordingOf = {
   type: MusicComposition,
   description: 'The composition this track is a recording of. Inverse property: recordedAs.',
-  name: 'Recording of',
+  name: 'Recordingof',
 }
 export const recourseLoan = {
   type: GraphQLBoolean,
   description: 'The only way you get the money back in the event of default is the security. Recourse is where you still have the opportunity to go back to the borrower for the rest of the money.',
-  name: 'Recourse Loan',
+  name: 'RecourseLoan',
 }
 export const referenceQuantity = {
   type: QuantitativeValue,
   description: 'The reference quantity for which a certain price applies, e.g. 1 EUR per 4 kWh of electricity. This property is a replacement for unitOfMeasurement for the advanced cases where the price does not relate to a standard unit.',
-  name: 'Reference Quantity',
+  name: 'ReferenceQuantity',
 }
 export const referencesOrder = {
   type: Order,
   description: 'The Order(s) related to this Invoice. One or more Orders may be combined into a single Invoice.',
-  name: 'References Order',
+  name: 'ReferencesOrder',
 }
 export const regionsAllowed = {
   type: Place,
   description: 'The regions where the media is allowed. If not specified, then it\'s assumed to be allowed everywhere. Specify the countries in ISO 3166 format.',
-  name: 'Regions Allowed',
+  name: 'RegionsAllowed',
 }
 export const relatedLink = {
   type: GraphQLUrl,
   description: 'A link related to this web page, for example to other related web pages.',
-  name: 'Related Link',
+  name: 'RelatedLink',
 }
 export const relatedTo = {
   type: Person,
   description: 'The most generic familial relation.',
-  name: 'Related to',
+  name: 'Relatedto',
 }
 export const releaseDate = {
   type: GraphQLDate,
   description: 'The release date of a product or product model. This can be used to distinguish the exact variant of a product.',
-  name: 'Release Date',
+  name: 'ReleaseDate',
 }
 export const releaseNotes = {
   type: GraphQLString,
   description: 'Description of what changed in this version.',
-  name: 'Release Notes',
+  name: 'ReleaseNotes',
 }
 export const releaseOf = {
   type: MusicAlbum,
   description: 'The album this is a release of. Inverse property: albumRelease.',
-  name: 'Release of',
+  name: 'Releaseof',
 }
 export const releasedEvent = {
   type: PublicationEvent,
   description: 'The place and time the release was issued, expressed as a PublicationEvent.',
-  name: 'Released Event',
+  name: 'ReleasedEvent',
 }
 export const remainingAttendeeCapacity = {
   type: GraphQLInt,
   description: 'The number of attendee places for an event that remain unallocated.',
-  name: 'Remaining Attendee Capacity',
+  name: 'RemainingAttendeeCapacity',
 }
 export const renegotiableLoan = {
   type: GraphQLBoolean,
   description: 'Whether the terms for payment of interest can be renegotiated during the life of the loan.',
-  name: 'Renegotiable Loan',
+  name: 'RenegotiableLoan',
 }
 export const replacee = {
   type: Thing,
@@ -3390,62 +3390,62 @@ export const replacer = {
 export const reportNumber = {
   type: GraphQLString,
   description: 'The number or other unique designator assigned to a Report by the publishing organization.',
-  name: 'Report Number',
+  name: 'ReportNumber',
 }
 export const representativeOfPage = {
   type: GraphQLBoolean,
   description: 'Indicates whether this image is representative of the content of the page.',
-  name: 'Representative of Page',
+  name: 'RepresentativeofPage',
 }
 export const requiredCollateral = {
   type: GraphQLString,
   description: 'Assets required to secure loan or credit repayments. It may take form of third party pledge, goods, financial instruments (cash, securities, etc.)',
-  name: 'Required Collateral',
+  name: 'RequiredCollateral',
 }
 export const requiredGender = {
   type: GraphQLString,
   description: 'Audiences defined by a person\'s gender.',
-  name: 'Required Gender',
+  name: 'RequiredGender',
 }
 export const requiredMaxAge = {
   type: GraphQLInt,
   description: 'Audiences defined by a person\'s maximum age.',
-  name: 'Required Max Age',
+  name: 'RequiredMaxAge',
 }
 export const requiredMinAge = {
   type: GraphQLInt,
   description: 'Audiences defined by a person\'s minimum age.',
-  name: 'Required Min Age',
+  name: 'RequiredMinAge',
 }
 export const requiredQuantity = {
   type: GraphQLFloat,
   description: 'The required quantity of the item(s).',
-  name: 'Required Quantity',
+  name: 'RequiredQuantity',
 }
 export const requiresSubscription = {
   type: GraphQLBoolean,
   description: 'Indicates if use of the media require a subscription  (either paid or free). Allowed values are true or false (note that an earlier version had \'yes\', \'no\').',
-  name: 'Requires Subscription',
+  name: 'RequiresSubscription',
 }
 export const reservationFor = {
   type: Thing,
   description: 'The thing -- flight, event, restaurant,etc. being reserved.',
-  name: 'Reservation for',
+  name: 'Reservationfor',
 }
 export const reservationId = {
   type: GraphQLString,
   description: 'A unique identifier for the reservation.',
-  name: 'Reservation Id',
+  name: 'ReservationId',
 }
 export const reservationStatus = {
   type: ReservationStatusType,
   description: 'The current status of the reservation.',
-  name: 'Reservation Status',
+  name: 'ReservationStatus',
 }
 export const reservedTicket = {
   type: Ticket,
   description: 'A ticket associated with the reservation.',
-  name: 'Reserved Ticket',
+  name: 'ReservedTicket',
 }
 export const responsibilities = {
   type: GraphQLString,
@@ -3460,12 +3460,12 @@ export const result = {
 export const resultComment = {
   type: Comment,
   description: 'A sub property of result. The Comment created or sent as a result of this action.',
-  name: 'Result Comment',
+  name: 'ResultComment',
 }
 export const resultReview = {
   type: Review,
   description: 'A sub property of result. The review that resulted in the performing of the action.',
-  name: 'Result Review',
+  name: 'ResultReview',
 }
 export const review = {
   type: Review,
@@ -3475,77 +3475,77 @@ export const review = {
 export const reviewBody = {
   type: GraphQLString,
   description: 'The actual body of the review.',
-  name: 'Review Body',
+  name: 'ReviewBody',
 }
 export const reviewCount = {
   type: GraphQLInt,
   description: 'The count of total number of reviews.',
-  name: 'Review Count',
+  name: 'ReviewCount',
 }
 export const reviewRating = {
   type: Rating,
   description: 'The rating given in this review. Note that reviews can themselves be rated. The reviewRating applies to rating given by the review. The aggregateRating property applies to the review itself, as a creative work.',
-  name: 'Review Rating',
+  name: 'ReviewRating',
 }
 export const reviewedBy = {
   type: Organization,
   description: 'People or organizations that have reviewed the content on this web page for accuracy and/or completeness.',
-  name: 'Reviewed by',
+  name: 'Reviewedby',
 }
 export const roleName = {
   type: GraphQLString,
   description: 'A role played, performed or filled by a person or organization. For example, the team of creators for a comic book might fill the roles named \'inker\', \'penciller\', and \'letterer\'; or an athlete in a SportsTeam might play in the position named \'Quarterback\'. Supersedes namedPosition.',
-  name: 'Role Name',
+  name: 'RoleName',
 }
 export const roofLoad = {
   type: QuantitativeValue,
   description: 'The permitted total weight of cargo and installations (e.g. a roof rack) on top of the vehicle.  Typical unit code(s): KGM for kilogram, LBR for pound   Note 1: You can indicate additional information in the name of the QuantitativeValue node. Note 2: You may also link to a QualitativeValue node that provides additional information using valueReference Note 3: Note that you can use minValue and maxValue to indicate ranges.',
-  name: 'Roof Load',
+  name: 'RoofLoad',
 }
 export const rsvpResponse = {
   type: RsvpResponseType,
   description: 'The response (yes, no, maybe) to the RSVP.',
-  name: 'Rsvp Response',
+  name: 'RsvpResponse',
 }
 export const runtimePlatform = {
   type: GraphQLString,
   description: 'Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0). Supersedes runtime.',
-  name: 'Runtime Platform',
+  name: 'RuntimePlatform',
 }
 export const salaryCurrency = {
   type: GraphQLString,
   description: 'The currency (coded using ISO 4217 ) used for the main salary information in this job posting or for this employee.',
-  name: 'Salary Currency',
+  name: 'SalaryCurrency',
 }
 export const sameAs = {
   type: GraphQLUrl,
   description: 'URL of a reference Web page that unambiguously indicates the item\'s identity. E.g. the URL of the item\'s Wikipedia page, Wikidata entry, or official website.',
-  name: 'Same As',
+  name: 'SameAs',
 }
 export const saturatedFatContent = {
   type: Mass,
   description: 'The number of grams of saturated fat.',
-  name: 'Saturated Fat Content',
+  name: 'SaturatedFatContent',
 }
 export const scheduledPaymentDate = {
   type: GraphQLDate,
   description: 'The date the invoice is scheduled to be paid.',
-  name: 'Scheduled Payment Date',
+  name: 'ScheduledPaymentDate',
 }
 export const scheduledTime = {
   type: GraphQLDate,
   description: 'The time the object is scheduled to.',
-  name: 'Scheduled Time',
+  name: 'ScheduledTime',
 }
 export const schemaVersion = {
   type: GraphQLString,
   description: 'Indicates (by URL or string) a particular version of a schema used in some CreativeWork. For example, a document could declare a schemaVersion using an URL such as http://schema.org/version/2.0/ if precise indication of schema version was required by some application.',
-  name: 'Schema Version',
+  name: 'SchemaVersion',
 }
 export const screenCount = {
   type: GraphQLFloat,
   description: 'The number of screens in the movie theater.',
-  name: 'Screen Count',
+  name: 'ScreenCount',
 }
 export const screenshot = {
   type: ImageObject,
@@ -3555,32 +3555,32 @@ export const screenshot = {
 export const seatNumber = {
   type: GraphQLString,
   description: 'The location of the reserved seat (e.g., 27).',
-  name: 'Seat Number',
+  name: 'SeatNumber',
 }
 export const seatRow = {
   type: GraphQLString,
   description: 'The row location of the reserved seat (e.g., B).',
-  name: 'Seat Row',
+  name: 'SeatRow',
 }
 export const seatSection = {
   type: GraphQLString,
   description: 'The section location of the reserved seat (e.g. Orchestra).',
-  name: 'Seat Section',
+  name: 'SeatSection',
 }
 export const seatingCapacity = {
   type: GraphQLFloat,
   description: 'The number of persons that can be seated (e.g. in a vehicle), both in terms of the physical space available, and in terms of limitations set by law.  Typical unit code(s): C62 for persons',
-  name: 'Seating Capacity',
+  name: 'SeatingCapacity',
 }
 export const seatingType = {
   type: QualitativeValue,
   description: 'The type/class of the seat.',
-  name: 'Seating Type',
+  name: 'SeatingType',
 }
 export const securityScreening = {
   type: GraphQLString,
   description: 'The type of security screening the passenger is subject to.',
-  name: 'Security Screening',
+  name: 'SecurityScreening',
 }
 export const seeks = {
   type: Demand,
@@ -3600,67 +3600,67 @@ export const sender = {
 export const serialNumber = {
   type: GraphQLString,
   description: 'The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.',
-  name: 'Serial Number',
+  name: 'SerialNumber',
 }
 export const serverStatus = {
   type: GameServerStatus,
   description: 'Status of a game server.',
-  name: 'Server Status',
+  name: 'ServerStatus',
 }
 export const servesCuisine = {
   type: GraphQLString,
   description: 'The cuisine of the restaurant.',
-  name: 'Serves Cuisine',
+  name: 'ServesCuisine',
 }
 export const serviceLocation = {
   type: Place,
   description: 'The location (e.g. civic structure, local business, etc.) where a person can go to access the service.',
-  name: 'Service Location',
+  name: 'ServiceLocation',
 }
 export const serviceOperator = {
   type: Organization,
   description: 'The operating organization, if different from the provider.  This enables the representation of services that are provided by an organization, but operated by another organization like a subcontractor.',
-  name: 'Service Operator',
+  name: 'ServiceOperator',
 }
 export const serviceOutput = {
   type: Thing,
   description: 'The tangible thing generated by the service, e.g. a passport, permit, etc. Supersedes produces.',
-  name: 'Service Output',
+  name: 'ServiceOutput',
 }
 export const servicePhone = {
   type: ContactPoint,
   description: 'The phone number to use to access the service.',
-  name: 'Service Phone',
+  name: 'ServicePhone',
 }
 export const servicePostalAddress = {
   type: PostalAddress,
   description: 'The address for accessing the service by mail.',
-  name: 'Service Postal Address',
+  name: 'ServicePostalAddress',
 }
 export const serviceSmsNumber = {
   type: ContactPoint,
   description: 'The number to access the service by text message.',
-  name: 'Service Sms Number',
+  name: 'ServiceSmsNumber',
 }
 export const serviceType = {
   type: GraphQLString,
   description: 'The type of service being offered, e.g. veterans\' benefits, emergency relief, etc.',
-  name: 'Service Type',
+  name: 'ServiceType',
 }
 export const serviceUrl = {
   type: GraphQLUrl,
   description: 'The website to access the service.',
-  name: 'Service Url',
+  name: 'ServiceUrl',
 }
 export const servingSize = {
   type: GraphQLString,
   description: 'The serving size, in terms of the number of volume or mass.',
-  name: 'Serving Size',
+  name: 'ServingSize',
 }
 export const sharedContent = {
   type: CreativeWork,
   description: 'A CreativeWork such as an image, video, or audio clip shared as part of this posting.',
-  name: 'Shared Content',
+  name: 'SharedContent',
 }
 export const sibling = {
   type: Person,
@@ -3670,7 +3670,7 @@ export const sibling = {
 export const significantLink = {
   type: GraphQLUrl,
   description: 'One of the more significant URLs on the page. Typically, these are the non-navigation links that are clicked on the most. Supersedes significantLinks.',
-  name: 'Significant Link',
+  name: 'SignificantLink',
 }
 export const skills = {
   type: GraphQLString,
@@ -3685,42 +3685,42 @@ export const sku = {
 export const smokingAllowed = {
   type: GraphQLBoolean,
   description: 'Indicates whether it is allowed to smoke in the place, e.g. in the restaurant, hotel or hotel room.',
-  name: 'Smoking Allowed',
+  name: 'SmokingAllowed',
 }
 export const sodiumContent = {
   type: Mass,
   description: 'The number of milligrams of sodium.',
-  name: 'Sodium Content',
+  name: 'SodiumContent',
 }
 export const softwareAddOn = {
   type: SoftwareApplication,
   description: 'Additional content for a software application.',
-  name: 'Software Add On',
+  name: 'SoftwareAddOn',
 }
 export const softwareHelp = {
   type: CreativeWork,
   description: 'Software application help.',
-  name: 'Software Help',
+  name: 'SoftwareHelp',
 }
 export const softwareRequirements = {
   type: GraphQLString,
   description: 'Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime). Supersedes requirements.',
-  name: 'Software Requirements',
+  name: 'SoftwareRequirements',
 }
 export const softwareVersion = {
   type: GraphQLString,
   description: 'Version of the software instance.',
-  name: 'Software Version',
+  name: 'SoftwareVersion',
 }
 export const sourceOrganization = {
   type: Organization,
   description: 'The Organization on whose behalf the creator was working.',
-  name: 'Source Organization',
+  name: 'SourceOrganization',
 }
 export const spatialCoverage = {
   type: Place,
   description: 'The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of       contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates       areas that the dataset describes: a dataset of New York weather would have spatialCoverage which was the place: the state of New York. Supersedes spatial.',
-  name: 'Spatial Coverage',
+  name: 'SpatialCoverage',
 }
 export const speakable = {
   type: GraphQLUrl,
@@ -3730,12 +3730,12 @@ export const speakable = {
 export const specialCommitments = {
   type: GraphQLString,
   description: 'Any special commitments associated with this job posting. Valid entries include VeteranCommit, MilitarySpouseCommit, etc.',
-  name: 'Special Commitments',
+  name: 'SpecialCommitments',
 }
 export const specialOpeningHoursSpecification = {
   type: OpeningHoursSpecification,
   description: 'The special opening hours of a certain place.  Use this to explicitly override general opening hours brought in scope by openingHoursSpecification or openingHours.',
-  name: 'Special Opening Hours Specification',
+  name: 'SpecialOpeningHoursSpecification',
 }
 export const specialty = {
   type: Specialty,
@@ -3760,17 +3760,17 @@ export const sport = {
 export const sportsActivityLocation = {
   type: SportsActivityLocation,
   description: 'A sub property of location. The sports activity location where this action occurred.',
-  name: 'Sports Activity Location',
+  name: 'SportsActivityLocation',
 }
 export const sportsEvent = {
   type: SportsEvent,
   description: 'A sub property of location. The sports event where this action occurred.',
-  name: 'Sports Event',
+  name: 'SportsEvent',
 }
 export const sportsTeam = {
   type: SportsTeam,
   description: 'A sub property of participant. The sports team that participated on this action.',
-  name: 'Sports Team',
+  name: 'SportsTeam',
 }
 export const spouse = {
   type: Person,
@@ -3780,27 +3780,27 @@ export const spouse = {
 export const starRating = {
   type: Rating,
   description: 'An official rating for a lodging business or food establishment, e.g. from national associations or standards bodies. Use the author property to indicate the rating organization, e.g. as an Organization with name such as (e.g. HOTREC, DEHOGA, WHR, or Hotelstars).',
-  name: 'Star Rating',
+  name: 'StarRating',
 }
 export const startDate = {
   type: GraphQLDate,
   description: 'The start date and time of the item (in ISO 8601 date format).',
-  name: 'Start Date',
+  name: 'StartDate',
 }
 export const startTime = {
   type: GraphQLDate,
   description: 'The startTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to start. For actions that span a period of time, when the action was performed. e.g. John wrote a book from January to December.  Note that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.',
-  name: 'Start Time',
+  name: 'StartTime',
 }
 export const steeringPosition = {
   type: SteeringPositionValue,
   description: 'The position of the steering wheel or similar device (mostly for cars).',
-  name: 'Steering Position',
+  name: 'SteeringPosition',
 }
 export const stepValue = {
   type: GraphQLFloat,
   description: 'The stepValue attribute indicates the granularity that is expected (and required) of the value in a PropertyValueSpecification.',
-  name: 'Step Value',
+  name: 'StepValue',
 }
 export const steps = {
   type: GraphQLString,
@@ -3810,77 +3810,77 @@ export const steps = {
 export const storageRequirements = {
   type: GraphQLString,
   description: 'Storage requirements (free space required).',
-  name: 'Storage Requirements',
+  name: 'StorageRequirements',
 }
 export const streetAddress = {
   type: GraphQLString,
   description: 'The street address. For example, 1600 Amphitheatre Pkwy.',
-  name: 'Street Address',
+  name: 'StreetAddress',
 }
 export const subEvent = {
   type: Event,
   description: 'An Event that is part of this event. For example, a conference event includes many presentations, each of which is a subEvent of the conference. Supersedes subEvents. Inverse property: superEvent.',
-  name: 'Sub Event',
+  name: 'SubEvent',
 }
 export const subOrganization = {
   type: Organization,
   description: 'A relationship between two organizations where the first includes the second, e.g., as a subsidiary. See also: the more specific \'department\' property. Inverse property: parentOrganization.',
-  name: 'Sub Organization',
+  name: 'SubOrganization',
 }
 export const subReservation = {
   type: Reservation,
   description: 'The individual reservations included in the package. Typically a repeated property.',
-  name: 'Sub Reservation',
+  name: 'SubReservation',
 }
 export const subtitleLanguage = {
   type: GraphQLString,
   description: 'Languages in which subtitles/captions are available, in IETF BCP 47 standard format.',
-  name: 'Subtitle Language',
+  name: 'SubtitleLanguage',
 }
 export const successorOf = {
   type: ProductModel,
   description: 'A pointer from a newer variant of a product  to its previous, often discontinued predecessor.',
-  name: 'Successor of',
+  name: 'Successorof',
 }
 export const sugarContent = {
   type: Mass,
   description: 'The number of grams of sugar.',
-  name: 'Sugar Content',
+  name: 'SugarContent',
 }
 export const suggestedAnswer = {
   type: Answer,
   description: 'An answer (possibly one of several, possibly incorrect) to a Question, e.g. on a Question/Answer site.',
-  name: 'Suggested Answer',
+  name: 'SuggestedAnswer',
 }
 export const suggestedGender = {
   type: GraphQLString,
   description: 'The gender of the person or audience.',
-  name: 'Suggested Gender',
+  name: 'SuggestedGender',
 }
 export const suggestedMaxAge = {
   type: GraphQLFloat,
   description: 'Maximal age recommended for viewing content.',
-  name: 'Suggested Max Age',
+  name: 'SuggestedMaxAge',
 }
 export const suggestedMinAge = {
   type: GraphQLFloat,
   description: 'Minimal age recommended for viewing content.',
-  name: 'Suggested Min Age',
+  name: 'SuggestedMinAge',
 }
 export const suitableForDiet = {
   type: RestrictedDiet,
   description: 'Indicates a dietary restriction or guideline for which this recipe or menu item is suitable, e.g. diabetic, halal etc.',
-  name: 'Suitable for Diet',
+  name: 'SuitableforDiet',
 }
 export const superEvent = {
   type: Event,
   description: 'An event that this event is a part of. For example, a collection of individual music performances might each have a music festival as their superEvent. Inverse property: subEvent.',
-  name: 'Super Event',
+  name: 'SuperEvent',
 }
 export const supersededBy = {
   type: Class,
   description: 'Relates a term (i.e. a property, class or enumeration) to one that supersedes it.',
-  name: 'Superseded by',
+  name: 'Supersededby',
 }
 export const supply = {
   type: GraphQLString,
@@ -3890,7 +3890,7 @@ export const supply = {
 export const supportingData = {
   type: DataFeed,
   description: 'Supporting data for a SoftwareApplication.',
-  name: 'Supporting Data',
+  name: 'SupportingData',
 }
 export const target = {
   type: EntryPoint,
@@ -3900,37 +3900,37 @@ export const target = {
 export const targetCollection = {
   type: Thing,
   description: 'A sub property of object. The collection target of the action. Supersedes collection.',
-  name: 'Target Collection',
+  name: 'TargetCollection',
 }
 export const targetDescription = {
   type: GraphQLString,
   description: 'The description of a node in an established educational framework.',
-  name: 'Target Description',
+  name: 'TargetDescription',
 }
 export const targetName = {
   type: GraphQLString,
   description: 'The name of a node in an established educational framework.',
-  name: 'Target Name',
+  name: 'TargetName',
 }
 export const targetPlatform = {
   type: GraphQLString,
   description: 'Type of app development: phone, Metro style, desktop, XBox, etc.',
-  name: 'Target Platform',
+  name: 'TargetPlatform',
 }
 export const targetProduct = {
   type: SoftwareApplication,
   description: 'Target Operating System / Product to which the code applies.  If applies to several versions, just the product name can be used.',
-  name: 'Target Product',
+  name: 'TargetProduct',
 }
 export const targetUrl = {
   type: GraphQLUrl,
   description: 'The URL of a node in an established educational framework.',
-  name: 'Target Url',
+  name: 'TargetUrl',
 }
 export const taxID = {
   type: GraphQLString,
   description: 'The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.',
-  name: 'Tax ID',
+  name: 'TaxID',
 }
 export const telephone = {
   type: GraphQLString,
@@ -3940,12 +3940,12 @@ export const telephone = {
 export const temporalCoverage = {
   type: GraphQLDate,
   description: 'The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in ISO 8601 time interval format. In       the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written "2011/2012"). Other forms of content e.g. ScholarlyArticle, Book, TVSeries or TVEpisode may indicate their temporalCoverage in broader terms - textually or via well-known URL.       Written works such as books may sometimes have precise temporal coverage too, e.g. a work set in 1939 - 1945 can be indicated in ISO 8601 interval format format via "1939/1945". Supersedes datasetTimeInterval, temporal.',
-  name: 'Temporal Coverage',
+  name: 'TemporalCoverage',
 }
 export const termsOfService = {
   type: GraphQLString,
   description: 'Human-readable terms of service documentation.',
-  name: 'Terms of Service',
+  name: 'TermsofService',
 }
 export const text = {
   type: GraphQLString,
@@ -3960,32 +3960,32 @@ export const thumbnail = {
 export const thumbnailUrl = {
   type: GraphQLUrl,
   description: 'A thumbnail image relevant to the Thing.',
-  name: 'Thumbnail Url',
+  name: 'ThumbnailUrl',
 }
 export const tickerSymbol = {
   type: GraphQLString,
   description: 'The exchange traded instrument associated with a Corporation object. The tickerSymbol is expressed as an exchange and an instrument name separated by a space character. For the exchange component of the tickerSymbol attribute, we reccommend using the controlled vocaulary of Market Identifier Codes (MIC) specified in ISO15022.',
-  name: 'Ticker Symbol',
+  name: 'TickerSymbol',
 }
 export const ticketNumber = {
   type: GraphQLString,
   description: 'The unique identifier for the ticket.',
-  name: 'Ticket Number',
+  name: 'TicketNumber',
 }
 export const ticketToken = {
   type: GraphQLString,
   description: 'Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance.',
-  name: 'Ticket Token',
+  name: 'TicketToken',
 }
 export const ticketedSeat = {
   type: Seat,
   description: 'The seat associated with the ticket.',
-  name: 'Ticketed Seat',
+  name: 'TicketedSeat',
 }
 export const timeRequired = {
   type: Duration,
   description: 'Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. \'P30M\', \'P1H25M\'.',
-  name: 'Time Required',
+  name: 'TimeRequired',
 }
 export const title = {
   type: GraphQLString,
@@ -3995,17 +3995,17 @@ export const title = {
 export const toLocation = {
   type: Place,
   description: 'A sub property of location. The final location of the object or the agent after the action.',
-  name: 'To Location',
+  name: 'ToLocation',
 }
 export const toRecipient = {
   type: Audience,
   description: 'A sub property of recipient. The recipient who was directly sent the message.',
-  name: 'To Recipient',
+  name: 'ToRecipient',
 }
 export const tongueWeight = {
   type: QuantitativeValue,
   description: 'The permitted vertical load (TWR) of a trailer attached to the vehicle. Also referred to as Tongue Load Rating (TLR) or Vertical Load Rating (VLR)  Typical unit code(s): KGM for kilogram, LBR for pound   Note 1: You can indicate additional information in the name of the QuantitativeValue node. Note 2: You may also link to a QualitativeValue node that provides additional information using valueReference. Note 3: Note that you can use minValue and maxValue to indicate ranges.',
-  name: 'Tongue Weight',
+  name: 'TongueWeight',
 }
 export const tool = {
   type: GraphQLString,
@@ -4020,22 +4020,22 @@ export const torque = {
 export const totalPaymentDue = {
   type: MonetaryAmount,
   description: 'The total amount due.',
-  name: 'Total Payment Due',
+  name: 'TotalPaymentDue',
 }
 export const totalPrice = {
   type: GraphQLString,
   description: 'The total price for the reservation or ticket, including applicable taxes, shipping, etc.',
-  name: 'Total Price',
+  name: 'TotalPrice',
 }
 export const totalTime = {
   type: Duration,
   description: 'The total time required to perform instructions or a direction (including time to prepare the supplies), in ISO 8601 duration format.',
-  name: 'Total Time',
+  name: 'TotalTime',
 }
 export const touristType = {
   type: Audience,
   description: 'Attraction suitable for type(s) of tourist. eg. Children, visitors from a particular country, etc.',
-  name: 'Tourist Type',
+  name: 'TouristType',
 }
 export const track = {
   type: MusicRecording,
@@ -4045,12 +4045,12 @@ export const track = {
 export const trackingNumber = {
   type: GraphQLString,
   description: 'Shipper tracking number.',
-  name: 'Tracking Number',
+  name: 'TrackingNumber',
 }
 export const trackingUrl = {
   type: GraphQLUrl,
   description: 'Tracking url for the parcel delivery.',
-  name: 'Tracking Url',
+  name: 'TrackingUrl',
 }
 export const trailer = {
   type: VideoObject,
@@ -4060,22 +4060,22 @@ export const trailer = {
 export const trailerWeight = {
   type: QuantitativeValue,
   description: 'The permitted weight of a trailer attached to the vehicle.  Typical unit code(s): KGM for kilogram, LBR for pound * Note 1: You can indicate additional information in the name of the QuantitativeValue node. * Note 2: You may also link to a QualitativeValue node that provides additional information using valueReference. * Note 3: Note that you can use minValue and maxValue to indicate ranges.',
-  name: 'Trailer Weight',
+  name: 'TrailerWeight',
 }
 export const trainName = {
   type: GraphQLString,
   description: 'The name of the train (e.g. The Orient Express).',
-  name: 'Train Name',
+  name: 'TrainName',
 }
 export const trainNumber = {
   type: GraphQLString,
   description: 'The unique identifier for the train.',
-  name: 'Train Number',
+  name: 'TrainNumber',
 }
 export const transFatContent = {
   type: Mass,
   description: 'The number of grams of trans fat.',
-  name: 'Trans Fat Content',
+  name: 'TransFatContent',
 }
 export const transcript = {
   type: GraphQLString,
@@ -4085,7 +4085,7 @@ export const transcript = {
 export const translationOfWork = {
   type: CreativeWork,
   description: 'The work that this work has been translated from. e.g. 物种起源 is a translationOf “On the Origin of Species” Inverse property: workTranslation.',
-  name: 'Translation of Work',
+  name: 'TranslationofWork',
 }
 export const translator = {
   type: Organization,
@@ -4095,52 +4095,52 @@ export const translator = {
 export const typeOfBed = {
   type: BedType,
   description: 'The type of bed to which the BedDetail refers, i.e. the type of bed available in the quantity indicated by quantity.',
-  name: 'Type of Bed',
+  name: 'TypeofBed',
 }
 export const typeOfGood = {
   type: Product,
   description: 'The product that this structured value is referring to.',
-  name: 'Type of Good',
+  name: 'TypeofGood',
 }
 export const typicalAgeRange = {
   type: GraphQLString,
   description: 'The typical expected age range, e.g. \'7-9\', \'11-\'.',
-  name: 'Typical Age Range',
+  name: 'TypicalAgeRange',
 }
 export const underName = {
   type: Organization,
   description: 'The person or organization the reservation or ticket is for.',
-  name: 'Under Name',
+  name: 'UnderName',
 }
 export const unitCode = {
   type: GraphQLUrl,
   description: 'The unit of measurement given using the UN/CEFACT Common Code (3 characters) or a URL. Other codes than the UN/CEFACT Common Code may be used with a prefix followed by a colon.',
-  name: 'Unit Code',
+  name: 'UnitCode',
 }
 export const unitText = {
   type: GraphQLString,
   description: 'A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for unitCode.',
-  name: 'Unit Text',
+  name: 'UnitText',
 }
 export const unnamedSourcesPolicy = {
   type: CreativeWork,
   description: 'For an Organization (typically a NewsMediaOrganization), a statement about policy on use of unnamed sources and the decision process required.',
-  name: 'Unnamed Sources Policy',
+  name: 'UnnamedSourcesPolicy',
 }
 export const unsaturatedFatContent = {
   type: Mass,
   description: 'The number of grams of unsaturated fat.',
-  name: 'Unsaturated Fat Content',
+  name: 'UnsaturatedFatContent',
 }
 export const uploadDate = {
   type: GraphQLDate,
   description: 'Date when this media object was uploaded to this site.',
-  name: 'Upload Date',
+  name: 'UploadDate',
 }
 export const upvoteCount = {
   type: GraphQLInt,
   description: 'The number of upvotes this question, answer or comment has received from the community.',
-  name: 'Upvote Count',
+  name: 'UpvoteCount',
 }
 export const url = {
   type: GraphQLUrl,
@@ -4150,32 +4150,32 @@ export const url = {
 export const urlTemplate = {
   type: GraphQLString,
   description: 'An url template (RFC6570) that will be used to construct the target of the execution of the action.',
-  name: 'Url Template',
+  name: 'UrlTemplate',
 }
 export const validFor = {
   type: Duration,
   description: 'The time validity of the permit.',
-  name: 'Valid for',
+  name: 'Validfor',
 }
 export const validFrom = {
   type: GraphQLDate,
   description: 'The date when the item becomes valid.',
-  name: 'Valid From',
+  name: 'ValidFrom',
 }
 export const validIn = {
   type: AdministrativeArea,
   description: 'The geographic area where the permit is valid.',
-  name: 'Valid in',
+  name: 'Validin',
 }
 export const validThrough = {
   type: GraphQLDate,
   description: 'The date after when the item is not valid. For example the end of an offer, salary period, or a period of opening hours.',
-  name: 'Valid Through',
+  name: 'ValidThrough',
 }
 export const validUntil = {
   type: GraphQLDate,
   description: 'The date when the item is no longer valid.',
-  name: 'Valid Until',
+  name: 'ValidUntil',
 }
 export const value = {
   type: GraphQLString,
@@ -4185,92 +4185,92 @@ export const value = {
 export const valueAddedTaxIncluded = {
   type: GraphQLBoolean,
   description: 'Specifies whether the applicable value-added tax (VAT) is included in the price specification or not.',
-  name: 'Value Added Tax Included',
+  name: 'ValueAddedTaxIncluded',
 }
 export const valueMaxLength = {
   type: GraphQLFloat,
   description: 'Specifies the allowed range for number of characters in a literal value.',
-  name: 'Value Max Length',
+  name: 'ValueMaxLength',
 }
 export const valueMinLength = {
   type: GraphQLFloat,
   description: 'Specifies the minimum allowed range for number of characters in a literal value.',
-  name: 'Value Min Length',
+  name: 'ValueMinLength',
 }
 export const valueName = {
   type: GraphQLString,
   description: 'Indicates the name of the PropertyValueSpecification to be used in URL templates and form encoding in a manner analogous to HTML\'s input@name.',
-  name: 'Value Name',
+  name: 'ValueName',
 }
 export const valuePattern = {
   type: GraphQLString,
   description: 'Specifies a regular expression for testing literal values according to the HTML spec.',
-  name: 'Value Pattern',
+  name: 'ValuePattern',
 }
 export const valueReference = {
   type: QualitativeValue,
   description: 'A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.',
-  name: 'Value Reference',
+  name: 'ValueReference',
 }
 export const valueRequired = {
   type: GraphQLBoolean,
   description: 'Whether the property must be filled in to complete the action.  Default is false.',
-  name: 'Value Required',
+  name: 'ValueRequired',
 }
 export const variableMeasured = {
   type: PropertyValue,
   description: 'The variableMeasured property can indicate (repeated as necessary) the  variables that are measured in some dataset, either described as text or as pairs of identifier and description using PropertyValue.',
-  name: 'Variable Measured',
+  name: 'VariableMeasured',
 }
 export const vatID = {
   type: GraphQLString,
   description: 'The Value-added Tax ID of the organization or person.',
-  name: 'Vat ID',
+  name: 'VatID',
 }
 export const vehicleConfiguration = {
   type: GraphQLString,
   description: 'A short text indicating the configuration of the vehicle, e.g. \'5dr hatchback ST 2.5 MT 225 hp\' or \'limited edition\'.',
-  name: 'Vehicle Configuration',
+  name: 'VehicleConfiguration',
 }
 export const vehicleEngine = {
   type: EngineSpecification,
   description: 'Information about the engine or engines of the vehicle.',
-  name: 'Vehicle Engine',
+  name: 'VehicleEngine',
 }
 export const vehicleIdentificationNumber = {
   type: GraphQLString,
   description: 'The Vehicle Identification Number (VIN) is a unique serial number used by the automotive industry to identify individual motor vehicles.',
-  name: 'Vehicle Identification Number',
+  name: 'VehicleIdentificationNumber',
 }
 export const vehicleInteriorColor = {
   type: GraphQLString,
   description: 'The color or color combination of the interior of the vehicle.',
-  name: 'Vehicle Interior Color',
+  name: 'VehicleInteriorColor',
 }
 export const vehicleInteriorType = {
   type: GraphQLString,
   description: 'The type or material of the interior of the vehicle (e.g. synthetic fabric, leather, wood, etc.). While most interior types are characterized by the material used, an interior type can also be based on vehicle usage or target audience.',
-  name: 'Vehicle Interior Type',
+  name: 'VehicleInteriorType',
 }
 export const vehicleModelDate = {
   type: GraphQLDate,
   description: 'The release date of a vehicle model (often used to differentiate versions of the same make and model).',
-  name: 'Vehicle Model Date',
+  name: 'VehicleModelDate',
 }
 export const vehicleSeatingCapacity = {
   type: GraphQLFloat,
   description: 'The number of passengers that can be seated in the vehicle, both in terms of the physical space available, and in terms of limitations set by law.  Typical unit code(s): C62 for persons.',
-  name: 'Vehicle Seating Capacity',
+  name: 'VehicleSeatingCapacity',
 }
 export const vehicleSpecialUsage = {
   type: CarUsageType,
   description: 'Indicates whether the vehicle has been used for special purposes, like commercial rental, driving school, or as a taxi. The legislation in many countries requires this information to be revealed when offering a car for sale.',
-  name: 'Vehicle Special Usage',
+  name: 'VehicleSpecialUsage',
 }
 export const vehicleTransmission = {
   type: QualitativeValue,
   description: 'The type of component used for transmitting the power from a rotating power source to the wheels or other relevant component(s) ("gearbox" for cars).',
-  name: 'Vehicle Transmission',
+  name: 'VehicleTransmission',
 }
 export const version = {
   type: GraphQLFloat,
@@ -4285,22 +4285,22 @@ export const video = {
 export const videoFormat = {
   type: GraphQLString,
   description: 'The type of screening or video broadcast used (e.g. IMAX, 3D, SD, HD, etc.).',
-  name: 'Video Format',
+  name: 'VideoFormat',
 }
 export const videoFrameSize = {
   type: GraphQLString,
   description: 'The frame size of the video.',
-  name: 'Video Frame Size',
+  name: 'VideoFrameSize',
 }
 export const videoQuality = {
   type: GraphQLString,
   description: 'The quality of the video.',
-  name: 'Video Quality',
+  name: 'VideoQuality',
 }
 export const volumeNumber = {
   type: GraphQLInt,
   description: 'Identifies the volume of publication or multi-part work; for example, "iii" or "2".',
-  name: 'Volume Number',
+  name: 'VolumeNumber',
 }
 export const warranty = {
   type: WarrantyPromise,
@@ -4310,12 +4310,12 @@ export const warranty = {
 export const warrantyScope = {
   type: WarrantyScope,
   description: 'The scope of the warranty promise.',
-  name: 'Warranty Scope',
+  name: 'WarrantyScope',
 }
 export const webCheckinTime = {
   type: GraphQLDate,
   description: 'The time when a passenger can check into the flight online.',
-  name: 'Web Checkin Time',
+  name: 'WebCheckinTime',
 }
 export const weight = {
   type: QuantitativeValue,
@@ -4325,7 +4325,7 @@ export const weight = {
 export const weightTotal = {
   type: QuantitativeValue,
   description: 'The permitted total weight of the loaded vehicle, including passengers and cargo and the weight of the empty vehicle.  Typical unit code(s): KGM for kilogram, LBR for pound   Note 1: You can indicate additional information in the name of the QuantitativeValue node. Note 2: You may also link to a QualitativeValue node that provides additional information using valueReference. Note 3: Note that you can use minValue and maxValue to indicate ranges.',
-  name: 'Weight Total',
+  name: 'WeightTotal',
 }
 export const wheelbase = {
   type: QuantitativeValue,
@@ -4345,68 +4345,68 @@ export const winner = {
 export const wordCount = {
   type: GraphQLInt,
   description: 'The number of words in the text of the Article.',
-  name: 'Word Count',
+  name: 'WordCount',
 }
 export const workExample = {
   type: CreativeWork,
   description: 'Example/instance/realization/derivation of the concept of this creative work. eg. The paperback edition, first edition, or eBook. Inverse property: exampleOfWork.',
-  name: 'Work Example',
+  name: 'WorkExample',
 }
 export const workFeatured = {
   type: CreativeWork,
   description: 'A work featured in some event, e.g. exhibited in an ExhibitionEvent.        Specific subproperties are available for workPerformed (e.g. a play), or a workPresented (a Movie at a ScreeningEvent).',
-  name: 'Work Featured',
+  name: 'WorkFeatured',
 }
 export const workHours = {
   type: GraphQLString,
   description: 'The typical working hours for this job (e.g. 1st shift, night shift, 8am-5pm).',
-  name: 'Work Hours',
+  name: 'WorkHours',
 }
 export const workLocation = {
   type: ContactPoint,
   description: 'A contact location for a person\'s place of work.',
-  name: 'Work Location',
+  name: 'WorkLocation',
 }
 export const workPerformed = {
   type: CreativeWork,
   description: 'A work performed in some event, for example a play performed in a TheaterEvent.',
-  name: 'Work Performed',
+  name: 'WorkPerformed',
 }
 export const workPresented = {
   type: Movie,
   description: 'The movie presented during this event.',
-  name: 'Work Presented',
+  name: 'WorkPresented',
 }
 export const workTranslation = {
   type: CreativeWork,
   description: 'A work that is a translation of the content of this work. e.g. 西遊記 has an English workTranslation “Journey to the West”,a German workTranslation “Monkeys Pilgerfahrt” and a Vietnamese  translation Tây du ký bình khảo. Inverse property: translationOfWork.',
-  name: 'Work Translation',
+  name: 'WorkTranslation',
 }
 export const worksFor = {
   type: Organization,
   description: 'Organizations that the person works for.',
-  name: 'Works for',
+  name: 'Worksfor',
 }
 export const worstRating = {
   type: GraphQLFloat,
   description: 'The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed.',
-  name: 'Worst Rating',
+  name: 'WorstRating',
 }
 export const yearlyRevenue = {
   type: QuantitativeValue,
   description: 'The size of the business in annual revenue.',
-  name: 'Yearly Revenue',
+  name: 'YearlyRevenue',
 }
 export const yearsInOperation = {
   type: QuantitativeValue,
   description: 'The age of the business.',
-  name: 'Years in Operation',
+  name: 'YearsinOperation',
 }
 
 // types
 export const APIReference = new GraphQLObjectType({
   description: 'Reference documentation for application programming interfaces (APIs).',
-  name: 'API Reference',
+  name: 'APIReference',
   fields: () => ({
     about,
     accessMode,
@@ -4518,7 +4518,7 @@ export const APIReference = new GraphQLObjectType({
 })
 export const AboutPage = new GraphQLObjectType({
   description: 'Web page type: About page.',
-  name: 'About Page',
+  name: 'AboutPage',
   fields: () => ({
     about,
     accessMode,
@@ -4626,7 +4626,7 @@ export const AboutPage = new GraphQLObjectType({
 })
 export const AcceptAction = new GraphQLObjectType({
   description: 'The act of committing to/adopting an object.  Related actions:   RejectAction: The antonym of AcceptAction.',
-  name: 'Accept Action',
+  name: 'AcceptAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -4709,7 +4709,7 @@ export const Accommodation = new GraphQLObjectType({
 })
 export const AccountingService = new GraphQLObjectType({
   description: 'Accountancy business.  As a LocalBusiness it can be described as a provider of one or more Service(s).',
-  name: 'Accounting Service',
+  name: 'AccountingService',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -4801,7 +4801,7 @@ export const AccountingService = new GraphQLObjectType({
 })
 export const AchieveAction = new GraphQLObjectType({
   description: 'The act of accomplishing something via previous efforts. It is an instantaneous action rather than an ongoing process.',
-  name: 'Achieve Action',
+  name: 'AchieveAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -4857,7 +4857,7 @@ export const Action = new GraphQLObjectType({
 })
 export const ActionStatusType = new GraphQLObjectType({
   description: 'The status of an Action.',
-  name: 'Action Status Type',
+  name: 'ActionStatusType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -4875,7 +4875,7 @@ export const ActionStatusType = new GraphQLObjectType({
 })
 export const ActivateAction = new GraphQLObjectType({
   description: 'The act of starting or activating a device or application (e.g. starting a timer or turning on a flashlight).',
-  name: 'Activate Action',
+  name: 'ActivateAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -4903,7 +4903,7 @@ export const ActivateAction = new GraphQLObjectType({
 })
 export const AddAction = new GraphQLObjectType({
   description: 'The act of editing by adding an object to a collection.',
-  name: 'Add Action',
+  name: 'AddAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -4932,7 +4932,7 @@ export const AddAction = new GraphQLObjectType({
 })
 export const AdministrativeArea = new GraphQLObjectType({
   description: 'A geographical region, typically under the jurisdiction of a particular government.',
-  name: 'Administrative Area',
+  name: 'AdministrativeArea',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -4982,7 +4982,7 @@ export const AdministrativeArea = new GraphQLObjectType({
 })
 export const AdultEntertainment = new GraphQLObjectType({
   description: 'An adult entertainment establishment.',
-  name: 'Adult Entertainment',
+  name: 'AdultEntertainment',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -5073,7 +5073,7 @@ export const AdultEntertainment = new GraphQLObjectType({
 })
 export const AggregateOffer = new GraphQLObjectType({
   description: 'When a single product is associated with multiple offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used.',
-  name: 'Aggregate Offer',
+  name: 'AggregateOffer',
   fields: () => ({
     acceptedPaymentMethod,
     addOn,
@@ -5134,7 +5134,7 @@ export const AggregateOffer = new GraphQLObjectType({
 })
 export const AggregateRating = new GraphQLObjectType({
   description: 'The average rating based on multiple ratings or reviews.',
-  name: 'Aggregate Rating',
+  name: 'AggregateRating',
   fields: () => ({
     additionalType,
     alternateName,
@@ -5158,7 +5158,7 @@ export const AggregateRating = new GraphQLObjectType({
 })
 export const AgreeAction = new GraphQLObjectType({
   description: 'The act of expressing a consistency of opinion with the object. An agent agrees to/about an object (a proposition, topic or theme) with participants.',
-  name: 'Agree Action',
+  name: 'AgreeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -5304,7 +5304,7 @@ export const Airport = new GraphQLObjectType({
 })
 export const AlignmentObject = new GraphQLObjectType({
   description: 'An intangible item that describes an alignment between a learning resource and a node in an educational framework.',
-  name: 'Alignment Object',
+  name: 'AlignmentObject',
   fields: () => ({
     additionalType,
     alignmentType,
@@ -5326,7 +5326,7 @@ export const AlignmentObject = new GraphQLObjectType({
 })
 export const AllocateAction = new GraphQLObjectType({
   description: 'The act of organizing tasks/objects/events by associating resources to it.',
-  name: 'Allocate Action',
+  name: 'AllocateAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -5355,7 +5355,7 @@ export const AllocateAction = new GraphQLObjectType({
 })
 export const AmusementPark = new GraphQLObjectType({
   description: 'An amusement park.',
-  name: 'Amusement Park',
+  name: 'AmusementPark',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -5446,7 +5446,7 @@ export const AmusementPark = new GraphQLObjectType({
 })
 export const AnimalShelter = new GraphQLObjectType({
   description: 'Animal shelter.',
-  name: 'Animal Shelter',
+  name: 'AnimalShelter',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -5694,7 +5694,7 @@ export const Apartment = new GraphQLObjectType({
 })
 export const ApartmentComplex = new GraphQLObjectType({
   description: 'Residence type: Apartment complex.',
-  name: 'Apartment Complex',
+  name: 'ApartmentComplex',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -5744,7 +5744,7 @@ export const ApartmentComplex = new GraphQLObjectType({
 })
 export const AppendAction = new GraphQLObjectType({
   description: 'The act of inserting at the end if an ordered collection.',
-  name: 'Append Action',
+  name: 'AppendAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -5774,7 +5774,7 @@ export const AppendAction = new GraphQLObjectType({
 })
 export const ApplyAction = new GraphQLObjectType({
   description: 'The act of registering to an organization/service without the guarantee to receive it.  Related actions:   RegisterAction: Unlike RegisterAction, ApplyAction has no guarantees that the application will be accepted.',
-  name: 'Apply Action',
+  name: 'ApplyAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -5853,7 +5853,7 @@ export const Aquarium = new GraphQLObjectType({
 })
 export const ArriveAction = new GraphQLObjectType({
   description: 'The act of arriving at a place. An agent arrives at a destination from a fromLocation, optionally with participants.',
-  name: 'Arrive Action',
+  name: 'ArriveAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -5883,7 +5883,7 @@ export const ArriveAction = new GraphQLObjectType({
 })
 export const ArtGallery = new GraphQLObjectType({
   description: 'An art gallery.',
-  name: 'Art Gallery',
+  name: 'ArtGallery',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -6080,7 +6080,7 @@ export const Article = new GraphQLObjectType({
 })
 export const AskAction = new GraphQLObjectType({
   description: 'The act of posing a question / favor to someone.  Related actions:   ReplyAction: Appears generally as a response to AskAction.',
-  name: 'Ask Action',
+  name: 'AskAction',
   fields: () => ({
     about,
     actionStatus,
@@ -6112,7 +6112,7 @@ export const AskAction = new GraphQLObjectType({
 })
 export const AssessAction = new GraphQLObjectType({
   description: 'The act of forming one\'s opinion, reaction or sentiment.',
-  name: 'Assess Action',
+  name: 'AssessAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -6140,7 +6140,7 @@ export const AssessAction = new GraphQLObjectType({
 })
 export const AssignAction = new GraphQLObjectType({
   description: 'The act of allocating an action/event/task to some destination (someone or something).',
-  name: 'Assign Action',
+  name: 'AssignAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -6279,7 +6279,7 @@ export const Audience = new GraphQLObjectType({
 })
 export const AudioObject = new GraphQLObjectType({
   description: 'An audio file.',
-  name: 'Audio Object',
+  name: 'AudioObject',
   fields: () => ({
     about,
     accessMode,
@@ -6394,7 +6394,7 @@ export const AudioObject = new GraphQLObjectType({
 })
 export const AuthorizeAction = new GraphQLObjectType({
   description: 'The act of granting permission to an object.',
-  name: 'Authorize Action',
+  name: 'AuthorizeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -6424,7 +6424,7 @@ export const AuthorizeAction = new GraphQLObjectType({
 })
 export const AutoBodyShop = new GraphQLObjectType({
   description: 'Auto body shop.',
-  name: 'Auto Body Shop',
+  name: 'AutoBodyShop',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -6515,7 +6515,7 @@ export const AutoBodyShop = new GraphQLObjectType({
 })
 export const AutoDealer = new GraphQLObjectType({
   description: 'An car dealership.',
-  name: 'Auto Dealer',
+  name: 'AutoDealer',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -6606,7 +6606,7 @@ export const AutoDealer = new GraphQLObjectType({
 })
 export const AutoPartsStore = new GraphQLObjectType({
   description: 'An auto parts store.',
-  name: 'Auto Parts Store',
+  name: 'AutoPartsStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -6697,7 +6697,7 @@ export const AutoPartsStore = new GraphQLObjectType({
 })
 export const AutoRental = new GraphQLObjectType({
   description: 'A car rental business.',
-  name: 'Auto Rental',
+  name: 'AutoRental',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -6788,7 +6788,7 @@ export const AutoRental = new GraphQLObjectType({
 })
 export const AutoRepair = new GraphQLObjectType({
   description: 'Car repair business.',
-  name: 'Auto Repair',
+  name: 'AutoRepair',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -6879,7 +6879,7 @@ export const AutoRepair = new GraphQLObjectType({
 })
 export const AutoWash = new GraphQLObjectType({
   description: 'A car wash business.',
-  name: 'Auto Wash',
+  name: 'AutoWash',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -6970,7 +6970,7 @@ export const AutoWash = new GraphQLObjectType({
 })
 export const AutomatedTeller = new GraphQLObjectType({
   description: 'ATM/cash machine.',
-  name: 'Automated Teller',
+  name: 'AutomatedTeller',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -7062,7 +7062,7 @@ export const AutomatedTeller = new GraphQLObjectType({
 })
 export const AutomotiveBusiness = new GraphQLObjectType({
   description: 'Car repair, sales, or parts.',
-  name: 'Automotive Business',
+  name: 'AutomotiveBusiness',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -7248,7 +7248,7 @@ export const Bakery = new GraphQLObjectType({
 })
 export const BankAccount = new GraphQLObjectType({
   description: 'A product or service offered by a bank whereby one may deposit, withdraw or transfer money and in some cases be paid interest.',
-  name: 'Bank Account',
+  name: 'BankAccount',
   fields: () => ({
     accountMinimumInflow,
     accountOverdraftLimit,
@@ -7291,7 +7291,7 @@ export const BankAccount = new GraphQLObjectType({
 })
 export const BankOrCreditUnion = new GraphQLObjectType({
   description: 'Bank or credit union.',
-  name: 'Bank or Credit Union',
+  name: 'BankOrCreditUnion',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -7383,7 +7383,7 @@ export const BankOrCreditUnion = new GraphQLObjectType({
 })
 export const BarOrPub = new GraphQLObjectType({
   description: 'A bar or pub.',
-  name: 'Bar or Pub',
+  name: 'BarOrPub',
   fields: () => ({
     acceptsReservations,
     actionableFeedbackPolicy,
@@ -7647,7 +7647,7 @@ export const Beach = new GraphQLObjectType({
 })
 export const BeautySalon = new GraphQLObjectType({
   description: 'Beauty salon.',
-  name: 'Beauty Salon',
+  name: 'BeautySalon',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -7738,7 +7738,7 @@ export const BeautySalon = new GraphQLObjectType({
 })
 export const BedAndBreakfast = new GraphQLObjectType({
   description: 'Bed and breakfast.  See also the dedicated document on the use of schema.org for marking up hotels and other forms of accommodations.',
-  name: 'Bed And Breakfast',
+  name: 'BedAndBreakfast',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -7835,7 +7835,7 @@ export const BedAndBreakfast = new GraphQLObjectType({
 })
 export const BedDetails = new GraphQLObjectType({
   description: 'An entity holding detailed information about the available bed types, e.g. the quantity of twin beds for a hotel room. For the single case of just one bed of a certain type, you can use bed directly with a text. See also BedType (under development).',
-  name: 'Bed Details',
+  name: 'BedDetails',
   fields: () => ({
     additionalType,
     alternateName,
@@ -7852,9 +7852,17 @@ export const BedDetails = new GraphQLObjectType({
     url,
   }),
 })
+export const BedType = new GraphQLObjectType({
+  description: 'A type of bed. This is used for indicating the bed or beds available in an accommodation.',
+  name: 'BedType',
+  fields: () => ({
+    name,
+    /* TODO: Complete field list */
+  })
+})
 export const BefriendAction = new GraphQLObjectType({
   description: 'The act of forming a personal connection with someone (object) mutually/bidirectionally/symmetrically.  Related actions:   FollowAction: Unlike FollowAction, BefriendAction implies that the connection is reciprocal.',
-  name: 'Befriend Action',
+  name: 'BefriendAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -7882,7 +7890,7 @@ export const BefriendAction = new GraphQLObjectType({
 })
 export const BikeStore = new GraphQLObjectType({
   description: 'A bike store.',
-  name: 'Bike Store',
+  name: 'BikeStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -8074,7 +8082,7 @@ export const Blog = new GraphQLObjectType({
 })
 export const BlogPosting = new GraphQLObjectType({
   description: 'A blog post.',
-  name: 'Blog Posting',
+  name: 'BlogPosting',
   fields: () => ({
     about,
     accessMode,
@@ -8181,7 +8189,7 @@ export const BlogPosting = new GraphQLObjectType({
 })
 export const BoardingPolicyType = new GraphQLObjectType({
   description: 'A type of boarding policy used by an airline.',
-  name: 'Boarding Policy Type',
+  name: 'BoardingPolicyType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -8199,7 +8207,7 @@ export const BoardingPolicyType = new GraphQLObjectType({
 })
 export const BodyOfWater = new GraphQLObjectType({
   description: 'A body of water, such as a sea, ocean, or lake.',
-  name: 'Body of Water',
+  name: 'BodyOfWater',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -8354,7 +8362,7 @@ export const Book = new GraphQLObjectType({
 })
 export const BookFormatType = new GraphQLObjectType({
   description: 'The publication format of the book.',
-  name: 'Book Format Type',
+  name: 'BookFormatType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -8372,7 +8380,7 @@ export const BookFormatType = new GraphQLObjectType({
 })
 export const BookSeries = new GraphQLObjectType({
   description: 'A series of books. Included books can be indicated with the hasPart property.',
-  name: 'Book Series',
+  name: 'BookSeries',
   fields: () => ({
     about,
     accessMode,
@@ -8474,7 +8482,7 @@ export const BookSeries = new GraphQLObjectType({
 })
 export const BookStore = new GraphQLObjectType({
   description: 'A bookstore.',
-  name: 'Book Store',
+  name: 'BookStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -8565,7 +8573,7 @@ export const BookStore = new GraphQLObjectType({
 })
 export const BookmarkAction = new GraphQLObjectType({
   description: 'An agent bookmarks/flags/labels/tags/marks an object.',
-  name: 'Bookmark Action',
+  name: 'BookmarkAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -8593,7 +8601,7 @@ export const BookmarkAction = new GraphQLObjectType({
 })
 export const BorrowAction = new GraphQLObjectType({
   description: 'The act of obtaining an object under an agreement to return it at a later date. Reciprocal of LendAction.  Related actions:   LendAction: Reciprocal of BorrowAction.',
-  name: 'Borrow Action',
+  name: 'BorrowAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -8624,7 +8632,7 @@ export const BorrowAction = new GraphQLObjectType({
 })
 export const BowlingAlley = new GraphQLObjectType({
   description: 'A bowling alley.',
-  name: 'Bowling Alley',
+  name: 'BowlingAlley',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -8735,7 +8743,7 @@ export const Brand = new GraphQLObjectType({
 })
 export const BreadcrumbList = new GraphQLObjectType({
   description: 'A BreadcrumbList is an ItemList consisting of a chain of linked Web pages, typically described using at least their URL and their name, and typically ending with the current page.  The position property is used to reconstruct the order of the items in a BreadcrumbList The convention is that a breadcrumb list has an itemListOrder of ItemListOrderAscending (lower values listed first), and that the first items in this list correspond to the "top" or beginning of the breadcrumb trail, e.g. with a site or section homepage. The specific values of \'position\' are not assigned meaning for a BreadcrumbList, but they should be integers, e.g. beginning with \'1\' for the first item in the list.',
-  name: 'Breadcrumb List',
+  name: 'BreadcrumbList',
   fields: () => ({
     additionalType,
     alternateName,
@@ -8901,7 +8909,7 @@ export const Bridge = new GraphQLObjectType({
 })
 export const BroadcastChannel = new GraphQLObjectType({
   description: 'A unique instance of a BroadcastService on a CableOrSatelliteService lineup.',
-  name: 'Broadcast Channel',
+  name: 'BroadcastChannel',
   fields: () => ({
     additionalType,
     alternateName,
@@ -8924,7 +8932,7 @@ export const BroadcastChannel = new GraphQLObjectType({
 })
 export const BroadcastEvent = new GraphQLObjectType({
   description: 'An over the air or online broadcast event.',
-  name: 'Broadcast Event',
+  name: 'BroadcastEvent',
   fields: () => ({
     about,
     actor,
@@ -8978,7 +8986,7 @@ export const BroadcastEvent = new GraphQLObjectType({
 })
 export const BroadcastService = new GraphQLObjectType({
   description: 'A delivery service through which content is provided via broadcast over the air or online.',
-  name: 'Broadcast Service',
+  name: 'BroadcastService',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -9023,7 +9031,7 @@ export const BroadcastService = new GraphQLObjectType({
 })
 export const BuddhistTemple = new GraphQLObjectType({
   description: 'A Buddhist temple.',
-  name: 'Buddhist Temple',
+  name: 'BuddhistTemple',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -9074,7 +9082,7 @@ export const BuddhistTemple = new GraphQLObjectType({
 })
 export const BusReservation = new GraphQLObjectType({
   description: 'A reservation for bus travel.   Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use Offer.',
-  name: 'Bus Reservation',
+  name: 'BusReservation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -9103,7 +9111,7 @@ export const BusReservation = new GraphQLObjectType({
 })
 export const BusStation = new GraphQLObjectType({
   description: 'A bus station.',
-  name: 'Bus Station',
+  name: 'BusStation',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -9154,7 +9162,7 @@ export const BusStation = new GraphQLObjectType({
 })
 export const BusStop = new GraphQLObjectType({
   description: 'A bus stop.',
-  name: 'Bus Stop',
+  name: 'BusStop',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -9205,7 +9213,7 @@ export const BusStop = new GraphQLObjectType({
 })
 export const BusTrip = new GraphQLObjectType({
   description: 'A trip on a commercial bus line.',
-  name: 'Bus Trip',
+  name: 'BusTrip',
   fields: () => ({
     additionalType,
     alternateName,
@@ -9229,7 +9237,7 @@ export const BusTrip = new GraphQLObjectType({
 })
 export const BusinessAudience = new GraphQLObjectType({
   description: 'A set of characteristics belonging to businesses, e.g. who compose an item\'s target audience.',
-  name: 'Business Audience',
+  name: 'BusinessAudience',
   fields: () => ({
     additionalType,
     alternateName,
@@ -9251,7 +9259,7 @@ export const BusinessAudience = new GraphQLObjectType({
 })
 export const BusinessEntityType = new GraphQLObjectType({
   description: 'A business entity type is a conceptual entity representing the legal form, the size, the main line of business, the position in the value chain, or any combination thereof, of an organization or business person.  Commonly used values:   http://purl.org/goodrelations/v1#Business http://purl.org/goodrelations/v1#Enduser http://purl.org/goodrelations/v1#PublicInstitution http://purl.org/goodrelations/v1#Reseller',
-  name: 'Business Entity Type',
+  name: 'BusinessEntityType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -9269,7 +9277,7 @@ export const BusinessEntityType = new GraphQLObjectType({
 })
 export const BusinessEvent = new GraphQLObjectType({
   description: 'Event type: Business event.',
-  name: 'Business Event',
+  name: 'BusinessEvent',
   fields: () => ({
     about,
     actor,
@@ -9318,7 +9326,7 @@ export const BusinessEvent = new GraphQLObjectType({
 })
 export const BusinessFunction = new GraphQLObjectType({
   description: 'The business function specifies the type of activity or access (i.e., the bundle of rights) offered by the organization or business person through the offer. Typical are sell, rental or lease, maintenance or repair, manufacture / produce, recycle / dispose, engineering / construction, or installation. Proprietary specifications of access rights are also instances of this class.  Commonly used values:   http://purl.org/goodrelations/v1#ConstructionInstallation http://purl.org/goodrelations/v1#Dispose http://purl.org/goodrelations/v1#LeaseOut http://purl.org/goodrelations/v1#Maintain http://purl.org/goodrelations/v1#ProvideService http://purl.org/goodrelations/v1#Repair http://purl.org/goodrelations/v1#Sell http://purl.org/goodrelations/v1#Buy',
-  name: 'Business Function',
+  name: 'BusinessFunction',
   fields: () => ({
     additionalType,
     alternateName,
@@ -9336,7 +9344,7 @@ export const BusinessFunction = new GraphQLObjectType({
 })
 export const BuyAction = new GraphQLObjectType({
   description: 'The act of giving money to a seller in exchange for goods or services rendered. An agent buys an object, product, or service from a seller for a price. Reciprocal of SellAction.',
-  name: 'Buy Action',
+  name: 'BuyAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -9367,7 +9375,7 @@ export const BuyAction = new GraphQLObjectType({
 })
 export const CableOrSatelliteService = new GraphQLObjectType({
   description: 'A service which provides access to media programming like TV or radio. Access may be via cable or satellite.',
-  name: 'Cable or Satellite Service',
+  name: 'CableOrSatelliteService',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -9404,7 +9412,7 @@ export const CableOrSatelliteService = new GraphQLObjectType({
 })
 export const CafeOrCoffeeShop = new GraphQLObjectType({
   description: 'A cafe or coffee shop.',
-  name: 'Cafe or Coffee Shop',
+  name: 'CafeOrCoffeeShop',
   fields: () => ({
     acceptsReservations,
     actionableFeedbackPolicy,
@@ -9596,7 +9604,7 @@ export const Campground = new GraphQLObjectType({
 })
 export const CampingPitch = new GraphQLObjectType({
   description: 'A camping pitch is an individual place for overnight stay in the outdoors, typically being part of a larger camping site.  See also the dedicated document on the use of schema.org for marking up hotels and other forms of accommodations.',
-  name: 'Camping Pitch',
+  name: 'CampingPitch',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -9700,7 +9708,7 @@ export const Canal = new GraphQLObjectType({
 })
 export const CancelAction = new GraphQLObjectType({
   description: 'The act of asserting that a future event/action is no longer going to happen.  Related actions:   ConfirmAction: The antonym of CancelAction.',
-  name: 'Cancel Action',
+  name: 'CancelAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -9814,6 +9822,14 @@ export const Car = new GraphQLObjectType({
     width,
   }),
 })
+export const CarUsageType = new GraphQLObjectType({
+  description: 'A value indicating a special usage of a car, e.g. commercial rental, driving school, or as a taxi.',
+  name: 'CarUsageType',
+  fields: () => ({
+    name,
+    /* TODO: Complete field list */
+  })
+})
 export const Casino = new GraphQLObjectType({
   description: 'A casino.',
   name: 'Casino',
@@ -9907,7 +9923,7 @@ export const Casino = new GraphQLObjectType({
 })
 export const CatholicChurch = new GraphQLObjectType({
   description: 'A Catholic church.',
-  name: 'Catholic Church',
+  name: 'CatholicChurch',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -10009,7 +10025,7 @@ export const Cemetery = new GraphQLObjectType({
 })
 export const CheckAction = new GraphQLObjectType({
   description: 'An agent inspects, determines, investigates, inquires, or examines an object\'s accuracy, quality, condition, or state.',
-  name: 'Check Action',
+  name: 'CheckAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -10037,7 +10053,7 @@ export const CheckAction = new GraphQLObjectType({
 })
 export const CheckInAction = new GraphQLObjectType({
   description: 'The act of an agent communicating (service provider, social media, etc) their arrival by registering/confirming for a previously reserved service (e.g. flight check in) or at a place (e.g. hotel), possibly resulting in a result (boarding pass, etc).  Related actions:   CheckOutAction: The antonym of CheckInAction. ArriveAction: Unlike ArriveAction, CheckInAction implies that the agent is informing/confirming the start of a previously reserved service. ConfirmAction: Unlike ConfirmAction, CheckInAction implies that the agent is informing/confirming the start of a previously reserved service rather than its validity/existence.',
-  name: 'Check in Action',
+  name: 'CheckInAction',
   fields: () => ({
     about,
     actionStatus,
@@ -10068,7 +10084,7 @@ export const CheckInAction = new GraphQLObjectType({
 })
 export const CheckOutAction = new GraphQLObjectType({
   description: 'The act of an agent communicating (service provider, social media, etc) their departure of a previously reserved service (e.g. flight check in) or place (e.g. hotel).  Related actions:   CheckInAction: The antonym of CheckOutAction. DepartAction: Unlike DepartAction, CheckOutAction implies that the agent is informing/confirming the end of a previously reserved service. CancelAction: Unlike CancelAction, CheckOutAction implies that the agent is informing/confirming the end of a previously reserved service.',
-  name: 'Check Out Action',
+  name: 'CheckOutAction',
   fields: () => ({
     about,
     actionStatus,
@@ -10099,7 +10115,7 @@ export const CheckOutAction = new GraphQLObjectType({
 })
 export const CheckoutPage = new GraphQLObjectType({
   description: 'Web page type: Checkout page.',
-  name: 'Checkout Page',
+  name: 'CheckoutPage',
   fields: () => ({
     about,
     accessMode,
@@ -10207,7 +10223,7 @@ export const CheckoutPage = new GraphQLObjectType({
 })
 export const ChildCare = new GraphQLObjectType({
   description: 'A Childcare center.',
-  name: 'Child Care',
+  name: 'ChildCare',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -10298,7 +10314,7 @@ export const ChildCare = new GraphQLObjectType({
 })
 export const ChildrensEvent = new GraphQLObjectType({
   description: 'Event type: Children\'s event.',
-  name: 'Childrens Event',
+  name: 'ChildrensEvent',
   fields: () => ({
     about,
     actor,
@@ -10347,7 +10363,7 @@ export const ChildrensEvent = new GraphQLObjectType({
 })
 export const ChooseAction = new GraphQLObjectType({
   description: 'The act of expressing a preference from a set of options or a large or unbounded set of choices/options.',
-  name: 'Choose Action',
+  name: 'ChooseAction',
   fields: () => ({
     actionOption,
     actionStatus,
@@ -10477,7 +10493,7 @@ export const City = new GraphQLObjectType({
 })
 export const CityHall = new GraphQLObjectType({
   description: 'A city hall.',
-  name: 'City Hall',
+  name: 'CityHall',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -10528,7 +10544,7 @@ export const CityHall = new GraphQLObjectType({
 })
 export const CivicStructure = new GraphQLObjectType({
   description: 'A public structure, such as a town hall or concert hall.',
-  name: 'Civic Structure',
+  name: 'CivicStructure',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -10579,7 +10595,7 @@ export const CivicStructure = new GraphQLObjectType({
 })
 export const ClaimReview = new GraphQLObjectType({
   description: 'A fact-checking review of claims made (or reported) in some creative work (referenced via itemReviewed).',
-  name: 'Claim Review',
+  name: 'ClaimReview',
   fields: () => ({
     about,
     accessMode,
@@ -10679,6 +10695,14 @@ export const ClaimReview = new GraphQLObjectType({
     workExample,
     workTranslation,
   }),
+})
+export const Class = new GraphQLObjectType({
+  description: 'A class, also often called a "Type"; equivalent to rdfs:Class.',
+  name: 'Class',
+  fields: () => ({
+    name,
+    /* TODO: Complete field list */
+  })
 })
 export const Clip = new GraphQLObjectType({
   description: 'A short TV or radio program or a segment/part of a program.',
@@ -10788,7 +10812,7 @@ export const Clip = new GraphQLObjectType({
 })
 export const ClothingStore = new GraphQLObjectType({
   description: 'A clothing store.',
-  name: 'Clothing Store',
+  name: 'ClothingStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -10879,7 +10903,7 @@ export const ClothingStore = new GraphQLObjectType({
 })
 export const CollectionPage = new GraphQLObjectType({
   description: 'Web page type: Collection page.',
-  name: 'Collection Page',
+  name: 'CollectionPage',
   fields: () => ({
     about,
     accessMode,
@@ -10987,7 +11011,7 @@ export const CollectionPage = new GraphQLObjectType({
 })
 export const CollegeOrUniversity = new GraphQLObjectType({
   description: 'A college, university, or other third-level educational institution.',
-  name: 'College or University',
+  name: 'CollegeOrUniversity',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -11050,7 +11074,7 @@ export const CollegeOrUniversity = new GraphQLObjectType({
 })
 export const ComedyClub = new GraphQLObjectType({
   description: 'A comedy club.',
-  name: 'Comedy Club',
+  name: 'ComedyClub',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -11141,7 +11165,7 @@ export const ComedyClub = new GraphQLObjectType({
 })
 export const ComedyEvent = new GraphQLObjectType({
   description: 'Event type: Comedy event.',
-  name: 'Comedy Event',
+  name: 'ComedyEvent',
   fields: () => ({
     about,
     actor,
@@ -11292,7 +11316,7 @@ export const Comment = new GraphQLObjectType({
 })
 export const CommentAction = new GraphQLObjectType({
   description: 'The act of generating a comment about a subject.',
-  name: 'Comment Action',
+  name: 'CommentAction',
   fields: () => ({
     about,
     actionStatus,
@@ -11324,7 +11348,7 @@ export const CommentAction = new GraphQLObjectType({
 })
 export const CommunicateAction = new GraphQLObjectType({
   description: 'The act of conveying information to another person via a communication medium (instrument) such as speech, email, or telephone conversation.',
-  name: 'Communicate Action',
+  name: 'CommunicateAction',
   fields: () => ({
     about,
     actionStatus,
@@ -11355,7 +11379,7 @@ export const CommunicateAction = new GraphQLObjectType({
 })
 export const CompoundPriceSpecification = new GraphQLObjectType({
   description: 'A compound price specification is one that bundles multiple prices that all apply in combination for different dimensions of consumption. Use the name property of the attached unit price specification for indicating the dimension of a price component (e.g. "electricity" or "final cleaning").',
-  name: 'Compound Price Specification',
+  name: 'CompoundPriceSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -11382,7 +11406,7 @@ export const CompoundPriceSpecification = new GraphQLObjectType({
 })
 export const ComputerLanguage = new GraphQLObjectType({
   description: 'This type covers computer programming languages such as Scheme and Lisp, as well as other language-like computer representations. Natural languages are best represented with the Language type.',
-  name: 'Computer Language',
+  name: 'ComputerLanguage',
   fields: () => ({
     additionalType,
     alternateName,
@@ -11399,7 +11423,7 @@ export const ComputerLanguage = new GraphQLObjectType({
 })
 export const ComputerStore = new GraphQLObjectType({
   description: 'A computer store.',
-  name: 'Computer Store',
+  name: 'ComputerStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -11490,7 +11514,7 @@ export const ComputerStore = new GraphQLObjectType({
 })
 export const ConfirmAction = new GraphQLObjectType({
   description: 'The act of notifying someone that a future event/action is going to happen as expected.  Related actions:   CancelAction: The antonym of ConfirmAction.',
-  name: 'Confirm Action',
+  name: 'ConfirmAction',
   fields: () => ({
     about,
     actionStatus,
@@ -11522,7 +11546,7 @@ export const ConfirmAction = new GraphQLObjectType({
 })
 export const ConsumeAction = new GraphQLObjectType({
   description: 'The act of ingesting information/resources/food.',
-  name: 'Consume Action',
+  name: 'ConsumeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -11551,7 +11575,7 @@ export const ConsumeAction = new GraphQLObjectType({
 })
 export const ContactPage = new GraphQLObjectType({
   description: 'Web page type: Contact page.',
-  name: 'Contact Page',
+  name: 'ContactPage',
   fields: () => ({
     about,
     accessMode,
@@ -11659,7 +11683,7 @@ export const ContactPage = new GraphQLObjectType({
 })
 export const ContactPoint = new GraphQLObjectType({
   description: 'A contact point—for example, a Customer Complaints department.',
-  name: 'Contact Point',
+  name: 'ContactPoint',
   fields: () => ({
     additionalType,
     alternateName,
@@ -11685,7 +11709,7 @@ export const ContactPoint = new GraphQLObjectType({
 })
 export const ContactPointOption = new GraphQLObjectType({
   description: 'Enumerated options related to a ContactPoint.',
-  name: 'Contact Point Option',
+  name: 'ContactPointOption',
   fields: () => ({
     additionalType,
     alternateName,
@@ -11753,7 +11777,7 @@ export const Continent = new GraphQLObjectType({
 })
 export const ControlAction = new GraphQLObjectType({
   description: 'An agent controls a device or application.',
-  name: 'Control Action',
+  name: 'ControlAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -11781,7 +11805,7 @@ export const ControlAction = new GraphQLObjectType({
 })
 export const ConvenienceStore = new GraphQLObjectType({
   description: 'A convenience store.',
-  name: 'Convenience Store',
+  name: 'ConvenienceStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -11971,7 +11995,7 @@ export const Conversation = new GraphQLObjectType({
 })
 export const CookAction = new GraphQLObjectType({
   description: 'The act of producing/preparing food.',
-  name: 'Cook Action',
+  name: 'CookAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -12219,7 +12243,7 @@ export const Course = new GraphQLObjectType({
 })
 export const CourseInstance = new GraphQLObjectType({
   description: 'An instance of a Course which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students.',
-  name: 'Course Instance',
+  name: 'CourseInstance',
   fields: () => ({
     about,
     actor,
@@ -12321,7 +12345,7 @@ export const Courthouse = new GraphQLObjectType({
 })
 export const CreateAction = new GraphQLObjectType({
   description: 'The act of deliberately creating/producing/generating/building a result out of the agent.',
-  name: 'Create Action',
+  name: 'CreateAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -12349,7 +12373,7 @@ export const CreateAction = new GraphQLObjectType({
 })
 export const CreativeWork = new GraphQLObjectType({
   description: 'The most generic kind of creative work, including books, movies, photographs, software programs, etc.',
-  name: 'Creative Work',
+  name: 'CreativeWork',
   fields: () => ({
     about,
     accessMode,
@@ -12448,13 +12472,13 @@ export const CreativeWork = new GraphQLObjectType({
 })
 export const CreativeWorkSeason = new GraphQLObjectType({
   description: 'A media season e.g. tv, radio, video game etc.',
-  name: 'Creative Work Season',
+  name: 'CreativeWorkSeason',
   fields: () => ({
   }),
 })
 export const CreativeWorkSeries = new GraphQLObjectType({
   description: 'A CreativeWorkSeries in schema.org is a group of related items, typically but not necessarily of the same kind. CreativeWorkSeries are usually organized into some order, often chronological. Unlike ItemList which is a general purpose data structure for lists of things, the emphasis with CreativeWorkSeries is on published materials (written e.g. books and periodicals, or media such as tv, radio and games).  Specific subtypes are available for describing TVSeries, RadioSeries, MovieSeries, BookSeries, Periodical and VideoGameSeries. In each case, the hasPart / isPartOf properties can be used to relate the CreativeWorkSeries to its parts. The general CreativeWorkSeries type serves largely just to organize these more specific and practical subtypes.  It is common for properties applicable to an item from the series to be usefully applied to the containing group. Schema.org attempts to anticipate some of these cases, but publishers should be free to apply properties of the series parts to the series as a whole wherever they seem appropriate.',
-  name: 'Creative Work Series',
+  name: 'CreativeWorkSeries',
   fields: () => ({
     about,
     accessMode,
@@ -12556,7 +12580,7 @@ export const CreativeWorkSeries = new GraphQLObjectType({
 })
 export const CreditCard = new GraphQLObjectType({
   description: 'A card payment method of a particular brand or name.  Used to mark up a particular payment method and/or the financial product/service that supplies the card account.  Commonly used values:   http://purl.org/goodrelations/v1#AmericanExpress http://purl.org/goodrelations/v1#DinersClub http://purl.org/goodrelations/v1#Discover http://purl.org/goodrelations/v1#JCB http://purl.org/goodrelations/v1#MasterCard http://purl.org/goodrelations/v1#VISA',
-  name: 'Credit Card',
+  name: 'CreditCard',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -12661,7 +12685,7 @@ export const Crematorium = new GraphQLObjectType({
 })
 export const CurrencyConversionService = new GraphQLObjectType({
   description: 'A service to convert funds from one currency to another currency.',
-  name: 'Currency Conversion Service',
+  name: 'CurrencyConversionService',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -12701,7 +12725,7 @@ export const CurrencyConversionService = new GraphQLObjectType({
 })
 export const DanceEvent = new GraphQLObjectType({
   description: 'Event type: A social dance.',
-  name: 'Dance Event',
+  name: 'DanceEvent',
   fields: () => ({
     about,
     actor,
@@ -12750,7 +12774,7 @@ export const DanceEvent = new GraphQLObjectType({
 })
 export const DanceGroup = new GraphQLObjectType({
   description: 'A dance group—for example, the Alvin Ailey Dance Theater or Riverdance.',
-  name: 'Dance Group',
+  name: 'DanceGroup',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -12813,7 +12837,7 @@ export const DanceGroup = new GraphQLObjectType({
 })
 export const DataCatalog = new GraphQLObjectType({
   description: 'A collection of datasets.',
-  name: 'Data Catalog',
+  name: 'DataCatalog',
   fields: () => ({
     about,
     accessMode,
@@ -12914,7 +12938,7 @@ export const DataCatalog = new GraphQLObjectType({
 })
 export const DataDownload = new GraphQLObjectType({
   description: 'A dataset in downloadable form.',
-  name: 'Data Download',
+  name: 'DataDownload',
   fields: () => ({
     about,
     accessMode,
@@ -13029,7 +13053,7 @@ export const DataDownload = new GraphQLObjectType({
 })
 export const DataFeed = new GraphQLObjectType({
   description: 'A single feed providing structured information about one or more entities or topics.',
-  name: 'Data Feed',
+  name: 'DataFeed',
   fields: () => ({
     about,
     accessMode,
@@ -13134,7 +13158,7 @@ export const DataFeed = new GraphQLObjectType({
 })
 export const DataFeedItem = new GraphQLObjectType({
   description: 'A single item within a larger data feed.',
-  name: 'Data Feed Item',
+  name: 'DataFeedItem',
   fields: () => ({
     additionalType,
     alternateName,
@@ -13259,7 +13283,7 @@ export const Dataset = new GraphQLObjectType({
 })
 export const DayOfWeek = new GraphQLObjectType({
   description: 'The day of the week, e.g. used to specify to which day the opening hours of an OpeningHoursSpecification refer.  Originally, URLs from GoodRelations were used (for Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday plus a special entry for PublicHolidays); these have now been integrated directly into schema.org.',
-  name: 'Day of Week',
+  name: 'DayofWeek',
   fields: () => ({
     additionalType,
     alternateName,
@@ -13277,7 +13301,7 @@ export const DayOfWeek = new GraphQLObjectType({
 })
 export const DaySpa = new GraphQLObjectType({
   description: 'A day spa.',
-  name: 'Day Spa',
+  name: 'DaySpa',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -13368,7 +13392,7 @@ export const DaySpa = new GraphQLObjectType({
 })
 export const DeactivateAction = new GraphQLObjectType({
   description: 'The act of stopping or deactivating a device or application (e.g. stopping a timer or turning off a flashlight).',
-  name: 'Deactivate Action',
+  name: 'DeactivateAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -13396,7 +13420,7 @@ export const DeactivateAction = new GraphQLObjectType({
 })
 export const DefenceEstablishment = new GraphQLObjectType({
   description: 'A defence establishment, such as an army or navy base.',
-  name: 'Defence Establishment',
+  name: 'DefenceEstablishment',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -13447,7 +13471,7 @@ export const DefenceEstablishment = new GraphQLObjectType({
 })
 export const DeleteAction = new GraphQLObjectType({
   description: 'The act of editing a recipient by removing one of its objects.',
-  name: 'Delete Action',
+  name: 'DeleteAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -13476,7 +13500,7 @@ export const DeleteAction = new GraphQLObjectType({
 })
 export const DeliveryChargeSpecification = new GraphQLObjectType({
   description: 'The price for the delivery of an offer using a particular delivery method.',
-  name: 'Delivery Charge Specification',
+  name: 'DeliveryChargeSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -13506,7 +13530,7 @@ export const DeliveryChargeSpecification = new GraphQLObjectType({
 })
 export const DeliveryEvent = new GraphQLObjectType({
   description: 'An event involving the delivery of an item.',
-  name: 'Delivery Event',
+  name: 'DeliveryEvent',
   fields: () => ({
     about,
     accessCode,
@@ -13559,7 +13583,7 @@ export const DeliveryEvent = new GraphQLObjectType({
 })
 export const DeliveryMethod = new GraphQLObjectType({
   description: 'A delivery method is a standardized procedure for transferring the product or service to the destination of fulfillment chosen by the customer. Delivery methods are characterized by the means of transportation used, and by the organization or group that is the contracting party for the sending organization or person.  Commonly used values:   http://purl.org/goodrelations/v1#DeliveryModeDirectDownload http://purl.org/goodrelations/v1#DeliveryModeFreight http://purl.org/goodrelations/v1#DeliveryModeMail http://purl.org/goodrelations/v1#DeliveryModeOwnFleet http://purl.org/goodrelations/v1#DeliveryModePickUp http://purl.org/goodrelations/v1#DHL http://purl.org/goodrelations/v1#FederalExpress http://purl.org/goodrelations/v1#UPS',
-  name: 'Delivery Method',
+  name: 'DeliveryMethod',
   fields: () => ({
     additionalType,
     alternateName,
@@ -13720,7 +13744,7 @@ export const Dentist = new GraphQLObjectType({
 })
 export const DepartAction = new GraphQLObjectType({
   description: 'The act of  departing from a place. An agent departs from an fromLocation for a destination, optionally with participants.',
-  name: 'Depart Action',
+  name: 'DepartAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -13750,7 +13774,7 @@ export const DepartAction = new GraphQLObjectType({
 })
 export const DepartmentStore = new GraphQLObjectType({
   description: 'A department store.',
-  name: 'Department Store',
+  name: 'DepartmentStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -13841,7 +13865,7 @@ export const DepartmentStore = new GraphQLObjectType({
 })
 export const DepositAccount = new GraphQLObjectType({
   description: 'A type of Bank Account with a main purpose of depositing funds to gain interest or other benefits.',
-  name: 'Deposit Account',
+  name: 'DepositAccount',
   fields: () => ({
     accountMinimumInflow,
     accountOverdraftLimit,
@@ -13883,9 +13907,16 @@ export const DepositAccount = new GraphQLObjectType({
     url,
   }),
 })
+export const Diet = new GraphQLObjectType({
+  description: 'A strategy of regulating the intake of food to achieve or maintain a specific health-related goal.',
+  name: 'Diet',
+  fields: () => ({
+    name,
+  })
+})
 export const DigitalDocument = new GraphQLObjectType({
   description: 'An electronic file or document.',
-  name: 'Digital Document',
+  name: 'DigitalDocument',
   fields: () => ({
     about,
     accessMode,
@@ -13985,7 +14016,7 @@ export const DigitalDocument = new GraphQLObjectType({
 })
 export const DigitalDocumentPermission = new GraphQLObjectType({
   description: 'A permission for a particular person or group to access a particular file.',
-  name: 'Digital Document Permission',
+  name: 'DigitalDocumentPermission',
   fields: () => ({
     additionalType,
     alternateName,
@@ -14004,7 +14035,7 @@ export const DigitalDocumentPermission = new GraphQLObjectType({
 })
 export const DigitalDocumentPermissionType = new GraphQLObjectType({
   description: 'A type of permission which can be granted for accessing a digital document.',
-  name: 'Digital Document Permission Type',
+  name: 'DigitalDocumentPermissionType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -14022,7 +14053,7 @@ export const DigitalDocumentPermissionType = new GraphQLObjectType({
 })
 export const DisagreeAction = new GraphQLObjectType({
   description: 'The act of expressing a difference of opinion with the object. An agent disagrees to/about an object (a proposition, topic or theme) with participants.',
-  name: 'Disagree Action',
+  name: 'DisagreeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14050,7 +14081,7 @@ export const DisagreeAction = new GraphQLObjectType({
 })
 export const DiscoverAction = new GraphQLObjectType({
   description: 'The act of discovering/finding an object.',
-  name: 'Discover Action',
+  name: 'DiscoverAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14078,7 +14109,7 @@ export const DiscoverAction = new GraphQLObjectType({
 })
 export const DiscussionForumPosting = new GraphQLObjectType({
   description: 'A posting to a discussion forum.',
-  name: 'Discussion Forum Posting',
+  name: 'DiscussionForumPosting',
   fields: () => ({
     about,
     accessMode,
@@ -14185,7 +14216,7 @@ export const DiscussionForumPosting = new GraphQLObjectType({
 })
 export const DislikeAction = new GraphQLObjectType({
   description: 'The act of expressing a negative sentiment about the object. An agent dislikes an object (a proposition, topic or theme) with participants.',
-  name: 'Dislike Action',
+  name: 'DislikeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14230,7 +14261,7 @@ export const Distance = new GraphQLObjectType({
 })
 export const DonateAction = new GraphQLObjectType({
   description: 'The act of providing goods, services, or money without compensation, often for philanthropic reasons.',
-  name: 'Donate Action',
+  name: 'DonateAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14261,7 +14292,7 @@ export const DonateAction = new GraphQLObjectType({
 })
 export const DownloadAction = new GraphQLObjectType({
   description: 'The act of downloading an object.',
-  name: 'Download Action',
+  name: 'DownloadAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14291,7 +14322,7 @@ export const DownloadAction = new GraphQLObjectType({
 })
 export const DrawAction = new GraphQLObjectType({
   description: 'The act of producing a visual/graphical representation of an object, typically with a pen/pencil and paper as instruments.',
-  name: 'Draw Action',
+  name: 'DrawAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14319,7 +14350,7 @@ export const DrawAction = new GraphQLObjectType({
 })
 export const DrinkAction = new GraphQLObjectType({
   description: 'The act of swallowing liquids.',
-  name: 'Drink Action',
+  name: 'DrinkAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14348,7 +14379,7 @@ export const DrinkAction = new GraphQLObjectType({
 })
 export const DriveWheelConfigurationValue = new GraphQLObjectType({
   description: 'A value indicating which roadwheels will receive torque.',
-  name: 'Drive Wheel Configuration Value',
+  name: 'DriveWheelConfigurationValue',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -14374,7 +14405,7 @@ export const DriveWheelConfigurationValue = new GraphQLObjectType({
 })
 export const DryCleaningOrLaundry = new GraphQLObjectType({
   description: 'A dry-cleaning business.',
-  name: 'Dry Cleaning or Laundry',
+  name: 'DryCleaningorLaundry',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -14482,7 +14513,7 @@ export const Duration = new GraphQLObjectType({
 })
 export const EatAction = new GraphQLObjectType({
   description: 'The act of swallowing solid objects.',
-  name: 'Eat Action',
+  name: 'EatAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -14511,7 +14542,7 @@ export const EatAction = new GraphQLObjectType({
 })
 export const EducationEvent = new GraphQLObjectType({
   description: 'Event type: Education event.',
-  name: 'Education Event',
+  name: 'EducationEvent',
   fields: () => ({
     about,
     actor,
@@ -14560,7 +14591,7 @@ export const EducationEvent = new GraphQLObjectType({
 })
 export const EducationalAudience = new GraphQLObjectType({
   description: 'An EducationalAudience.',
-  name: 'Educational Audience',
+  name: 'EducationalAudience',
   fields: () => ({
     additionalType,
     alternateName,
@@ -14580,7 +14611,7 @@ export const EducationalAudience = new GraphQLObjectType({
 })
 export const EducationalOrganization = new GraphQLObjectType({
   description: 'An educational organization.',
-  name: 'Educational Organization',
+  name: 'EducationalOrganization',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -14734,7 +14765,7 @@ export const Electrician = new GraphQLObjectType({
 })
 export const ElectronicsStore = new GraphQLObjectType({
   description: 'An electronics store.',
-  name: 'Electronics Store',
+  name: 'ElectronicsStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -14825,7 +14856,7 @@ export const ElectronicsStore = new GraphQLObjectType({
 })
 export const ElementarySchool = new GraphQLObjectType({
   description: 'An elementary school.',
-  name: 'Elementary School',
+  name: 'ElementarySchool',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -14888,7 +14919,7 @@ export const ElementarySchool = new GraphQLObjectType({
 })
 export const EmailMessage = new GraphQLObjectType({
   description: 'An email message.',
-  name: 'Email Message',
+  name: 'EmailMessage',
   fields: () => ({
     about,
     accessMode,
@@ -15047,7 +15078,7 @@ export const Embassy = new GraphQLObjectType({
 })
 export const EmergencyService = new GraphQLObjectType({
   description: 'An emergency service, such as a fire station or ER.',
-  name: 'Emergency Service',
+  name: 'EmergencyService',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -15138,7 +15169,7 @@ export const EmergencyService = new GraphQLObjectType({
 })
 export const EmployeeRole = new GraphQLObjectType({
   description: 'A subclass of OrganizationRole used to describe employee relationships.',
-  name: 'Employee Role',
+  name: 'EmployeeRole',
   fields: () => ({
     additionalType,
     alternateName,
@@ -15161,7 +15192,7 @@ export const EmployeeRole = new GraphQLObjectType({
 })
 export const EmploymentAgency = new GraphQLObjectType({
   description: 'An employment agency.',
-  name: 'Employment Agency',
+  name: 'EmploymentAgency',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -15252,7 +15283,7 @@ export const EmploymentAgency = new GraphQLObjectType({
 })
 export const EndorseAction = new GraphQLObjectType({
   description: 'An agent approves/certifies/likes/supports/sanction an object.',
-  name: 'Endorse Action',
+  name: 'EndorseAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -15298,7 +15329,7 @@ export const Energy = new GraphQLObjectType({
 })
 export const EngineSpecification = new GraphQLObjectType({
   description: 'Information about the engine of the vehicle. A vehicle can have multiple engines represented by multiple engine specification entities.',
-  name: 'Engine Specification',
+  name: 'EngineSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -15320,7 +15351,7 @@ export const EngineSpecification = new GraphQLObjectType({
 })
 export const EntertainmentBusiness = new GraphQLObjectType({
   description: 'A business providing entertainment.',
-  name: 'Entertainment Business',
+  name: 'EntertainmentBusiness',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -15411,7 +15442,7 @@ export const EntertainmentBusiness = new GraphQLObjectType({
 })
 export const EntryPoint = new GraphQLObjectType({
   description: 'An entry point, within some Web-based protocol.',
-  name: 'Entry Point',
+  name: 'EntryPoint',
   fields: () => ({
     actionApplication,
     actionPlatform,
@@ -15608,7 +15639,7 @@ export const Event = new GraphQLObjectType({
 })
 export const EventReservation = new GraphQLObjectType({
   description: 'A reservation for an event like a concert, sporting event, or lecture.  Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use Offer.',
-  name: 'Event Reservation',
+  name: 'EventReservation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -15637,7 +15668,7 @@ export const EventReservation = new GraphQLObjectType({
 })
 export const EventStatusType = new GraphQLObjectType({
   description: 'EventStatusType is an enumeration type whose instances represent several states that an Event may be in.',
-  name: 'Event Status Type',
+  name: 'EventStatusType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -15655,7 +15686,7 @@ export const EventStatusType = new GraphQLObjectType({
 })
 export const EventVenue = new GraphQLObjectType({
   description: 'An event venue.',
-  name: 'Event Venue',
+  name: 'EventVenue',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -15706,7 +15737,7 @@ export const EventVenue = new GraphQLObjectType({
 })
 export const ExerciseAction = new GraphQLObjectType({
   description: 'The act of participating in exertive activity for the purposes of improving health and fitness.',
-  name: 'Exercise Action',
+  name: 'ExerciseAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -15748,7 +15779,7 @@ export const ExerciseAction = new GraphQLObjectType({
 })
 export const ExerciseGym = new GraphQLObjectType({
   description: 'A gym.',
-  name: 'Exercise Gym',
+  name: 'ExerciseGym',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -15837,9 +15868,17 @@ export const ExerciseGym = new GraphQLObjectType({
     vatID,
   }),
 })
+export const ExercisePlan = new GraphQLObjectType({
+  description: 'Fitness-related activity designed for a specific health-related purpose, including defined exercise routines as well as activity prescribed by a clinician.',
+  name: 'ExercisePlan',
+  fields: () => ({
+    name,
+    /* TODO: Complete the field list */
+  })
+})
 export const ExhibitionEvent = new GraphQLObjectType({
   description: 'Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ...',
-  name: 'Exhibition Event',
+  name: 'ExhibitionEvent',
   fields: () => ({
     about,
     actor,
@@ -15894,7 +15933,7 @@ export const False = new GraphQLObjectType({
 })
 export const FastFoodRestaurant = new GraphQLObjectType({
   description: 'A fast-food restaurant.',
-  name: 'Fast Food Restaurant',
+  name: 'FastFoodRestaurant',
   fields: () => ({
     acceptsReservations,
     actionableFeedbackPolicy,
@@ -16038,7 +16077,7 @@ export const Festival = new GraphQLObjectType({
 })
 export const FilmAction = new GraphQLObjectType({
   description: 'The act of capturing sound and moving images on film, video, or digitally.',
-  name: 'Film Action',
+  name: 'FilmAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -16066,7 +16105,7 @@ export const FilmAction = new GraphQLObjectType({
 })
 export const FinancialProduct = new GraphQLObjectType({
   description: 'A product provided to consumers and businesses by financial institutions such as banks, insurance companies, brokerage firms, consumer finance companies, and investment companies which comprise the financial services industry.',
-  name: 'Financial Product',
+  name: 'FinancialProduct',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -16106,7 +16145,7 @@ export const FinancialProduct = new GraphQLObjectType({
 })
 export const FinancialService = new GraphQLObjectType({
   description: 'Financial services business.',
-  name: 'Financial Service',
+  name: 'FinancialService',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -16198,7 +16237,7 @@ export const FinancialService = new GraphQLObjectType({
 })
 export const FindAction = new GraphQLObjectType({
   description: 'The act of finding an object.  Related actions:   SearchAction: FindAction is generally lead by a SearchAction, but not necessarily.',
-  name: 'Find Action',
+  name: 'FindAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -16226,7 +16265,7 @@ export const FindAction = new GraphQLObjectType({
 })
 export const FireStation = new GraphQLObjectType({
   description: 'A fire station. With firemen.',
-  name: 'Fire Station',
+  name: 'FireStation',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -16351,7 +16390,7 @@ export const Flight = new GraphQLObjectType({
 })
 export const FlightReservation = new GraphQLObjectType({
   description: 'A reservation for air travel.  Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use Offer.',
-  name: 'Flight Reservation',
+  name: 'FlightReservation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -16475,7 +16514,7 @@ export const Florist = new GraphQLObjectType({
 })
 export const FollowAction = new GraphQLObjectType({
   description: 'The act of forming a personal connection with someone/something (object) unidirectionally/asymmetrically to get updates polled from.  Related actions:   BefriendAction: Unlike BefriendAction, FollowAction implies that the connection is not necessarily reciprocal. SubscribeAction: Unlike SubscribeAction, FollowAction implies that the follower acts as an active agent constantly/actively polling for updates. RegisterAction: Unlike RegisterAction, FollowAction implies that the agent is interested in continuing receiving updates from the object. JoinAction: Unlike JoinAction, FollowAction implies that the agent is interested in getting updates from the object. TrackAction: Unlike TrackAction, FollowAction refers to the polling of updates of all aspects of animate objects rather than the location of inanimate objects (e.g. you track a package, but you don\'t follow it).',
-  name: 'Follow Action',
+  name: 'FollowAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -16504,7 +16543,7 @@ export const FollowAction = new GraphQLObjectType({
 })
 export const FoodEstablishment = new GraphQLObjectType({
   description: 'A food-related business.',
-  name: 'Food Establishment',
+  name: 'FoodEstablishment',
   fields: () => ({
     acceptsReservations,
     actionableFeedbackPolicy,
@@ -16599,7 +16638,7 @@ export const FoodEstablishment = new GraphQLObjectType({
 })
 export const FoodEstablishmentReservation = new GraphQLObjectType({
   description: 'A reservation to dine at a food-related business.Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations.',
-  name: 'Food Establishment Reservation',
+  name: 'FoodEstablishmentReservation',
   fields: () => ({
     additionalType,
     bookingTime,
@@ -16628,7 +16667,7 @@ export const FoodEstablishmentReservation = new GraphQLObjectType({
 })
 export const FoodEvent = new GraphQLObjectType({
   description: 'Event type: Food event.',
-  name: 'Food Event',
+  name: 'FoodEvent',
   fields: () => ({
     about,
     actor,
@@ -16677,7 +16716,7 @@ export const FoodEvent = new GraphQLObjectType({
 })
 export const FoodService = new GraphQLObjectType({
   description: 'A food service, like breakfast, lunch, or dinner.',
-  name: 'Food Service',
+  name: 'FoodService',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -16714,7 +16753,7 @@ export const FoodService = new GraphQLObjectType({
 })
 export const FurnitureStore = new GraphQLObjectType({
   description: 'A furniture store.',
-  name: 'Furniture Store',
+  name: 'FurnitureStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -16909,7 +16948,7 @@ export const Game = new GraphQLObjectType({
 })
 export const GamePlayMode = new GraphQLObjectType({
   description: 'Indicates whether this game is multi-player, co-op or single-player.',
-  name: 'Game Play Mode',
+  name: 'GamePlayMode',
   fields: () => ({
     additionalType,
     alternateName,
@@ -16927,7 +16966,7 @@ export const GamePlayMode = new GraphQLObjectType({
 })
 export const GameServer = new GraphQLObjectType({
   description: 'Server that provides game interaction in a multiplayer game.',
-  name: 'Game Server',
+  name: 'GameServer',
   fields: () => ({
     additionalType,
     alternateName,
@@ -16947,7 +16986,7 @@ export const GameServer = new GraphQLObjectType({
 })
 export const GameServerStatus = new GraphQLObjectType({
   description: 'Status of a game server.',
-  name: 'Game Server Status',
+  name: 'GameServerStatus',
   fields: () => ({
     additionalType,
     alternateName,
@@ -16965,7 +17004,7 @@ export const GameServerStatus = new GraphQLObjectType({
 })
 export const GardenStore = new GraphQLObjectType({
   description: 'A garden store.',
-  name: 'Garden Store',
+  name: 'GardenStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -17056,7 +17095,7 @@ export const GardenStore = new GraphQLObjectType({
 })
 export const GasStation = new GraphQLObjectType({
   description: 'A gas station.',
-  name: 'Gas Station',
+  name: 'GasStation',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -17147,7 +17186,7 @@ export const GasStation = new GraphQLObjectType({
 })
 export const GatedResidenceCommunity = new GraphQLObjectType({
   description: 'Residence type: Gated community.',
-  name: 'Gated Residence Community',
+  name: 'GatedResidenceCommunity',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -17197,7 +17236,7 @@ export const GatedResidenceCommunity = new GraphQLObjectType({
 })
 export const GenderType = new GraphQLObjectType({
   description: 'An enumeration of genders.',
-  name: 'Gender Type',
+  name: 'GenderType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -17215,7 +17254,7 @@ export const GenderType = new GraphQLObjectType({
 })
 export const GeneralContractor = new GraphQLObjectType({
   description: 'A general contractor.',
-  name: 'General Contractor',
+  name: 'GeneralContractor',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -17306,7 +17345,7 @@ export const GeneralContractor = new GraphQLObjectType({
 })
 export const GeoCircle = new GraphQLObjectType({
   description: 'A GeoCircle is a GeoShape representing a circular geographic area. As it is a GeoShape           it provides the simple textual property \'circle\', but also allows the combination of postalCode alongside geoRadius.           The center of the circle can be indicated via the \'geoMidpoint\' property, or more approximately using \'address\', \'postalCode\'.',
-  name: 'Geo Circle',
+  name: 'GeoCircle',
   fields: () => ({
     additionalType,
     address,
@@ -17333,7 +17372,7 @@ export const GeoCircle = new GraphQLObjectType({
 })
 export const GeoCoordinates = new GraphQLObjectType({
   description: 'The geographic coordinates of a place or event.',
-  name: 'Geo Coordinates',
+  name: 'GeoCoordinates',
   fields: () => ({
     additionalType,
     address,
@@ -17356,7 +17395,7 @@ export const GeoCoordinates = new GraphQLObjectType({
 })
 export const GeoShape = new GraphQLObjectType({
   description: 'The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.',
-  name: 'Geo Shape',
+  name: 'GeoShape',
   fields: () => ({
     additionalType,
     address,
@@ -17379,9 +17418,17 @@ export const GeoShape = new GraphQLObjectType({
     url,
   }),
 })
+export const GeospatialGeometry = new GraphQLObjectType({
+  description: '(Eventually to be defined as) a supertype of GeoShape designed to accommodate definitions from Geo-Spatial best practices.',
+  name: 'GeospatialGeometry',
+  fields: () => ({
+    name,
+    /* TODO: Complete field list */
+  })
+})
 export const GiveAction = new GraphQLObjectType({
   description: 'The act of transferring ownership of an object to a destination. Reciprocal of TakeAction.  Related actions:   TakeAction: Reciprocal of GiveAction. SendAction: Unlike SendAction, GiveAction implies that ownership is being transferred (e.g. I may send my laptop to you, but that doesn\'t mean I\'m giving it to you).',
-  name: 'Give Action',
+  name: 'GiveAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -17412,7 +17459,7 @@ export const GiveAction = new GraphQLObjectType({
 })
 export const GolfCourse = new GraphQLObjectType({
   description: 'A golf course.',
-  name: 'Golf Course',
+  name: 'GolfCourse',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -17503,7 +17550,7 @@ export const GolfCourse = new GraphQLObjectType({
 })
 export const GovernmentBuilding = new GraphQLObjectType({
   description: 'A government building.',
-  name: 'Government Building',
+  name: 'GovernmentBuilding',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -17554,7 +17601,7 @@ export const GovernmentBuilding = new GraphQLObjectType({
 })
 export const GovernmentOffice = new GraphQLObjectType({
   description: 'A government office—for example, an IRS or DMV office.',
-  name: 'Government Office',
+  name: 'GovernmentOffice',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -17645,7 +17692,7 @@ export const GovernmentOffice = new GraphQLObjectType({
 })
 export const GovernmentOrganization = new GraphQLObjectType({
   description: 'A governmental organization or agency.',
-  name: 'Government Organization',
+  name: 'GovernmentOrganization',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -17708,7 +17755,7 @@ export const GovernmentOrganization = new GraphQLObjectType({
 })
 export const GovernmentPermit = new GraphQLObjectType({
   description: 'A permit issued by a government agency.',
-  name: 'Government Permit',
+  name: 'GovernmentPermit',
   fields: () => ({
     additionalType,
     alternateName,
@@ -17732,7 +17779,7 @@ export const GovernmentPermit = new GraphQLObjectType({
 })
 export const GovernmentService = new GraphQLObjectType({
   description: 'A service provided by a government organization, e.g. food stamps, veterans benefits, etc.',
-  name: 'Government Service',
+  name: 'GovernmentService',
   fields: () => ({
     additionalType,
     alternateName,
@@ -17757,7 +17804,7 @@ export const GovernmentService = new GraphQLObjectType({
 })
 export const GroceryStore = new GraphQLObjectType({
   description: 'A grocery store.',
-  name: 'Grocery Store',
+  name: 'GroceryStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -17848,7 +17895,7 @@ export const GroceryStore = new GraphQLObjectType({
 })
 export const HVACBusiness = new GraphQLObjectType({
   description: 'A business that provide Heating, Ventilation and Air Conditioning services.',
-  name: 'HVAC Business',
+  name: 'HVACBusiness',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -17939,7 +17986,7 @@ export const HVACBusiness = new GraphQLObjectType({
 })
 export const HairSalon = new GraphQLObjectType({
   description: 'A hair salon.',
-  name: 'Hair Salon',
+  name: 'HairSalon',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -18030,7 +18077,7 @@ export const HairSalon = new GraphQLObjectType({
 })
 export const HardwareStore = new GraphQLObjectType({
   description: 'A hardware store.',
-  name: 'Hardware Store',
+  name: 'HardwareStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -18121,7 +18168,7 @@ export const HardwareStore = new GraphQLObjectType({
 })
 export const HealthAndBeautyBusiness = new GraphQLObjectType({
   description: 'Health and beauty.',
-  name: 'Health And Beauty Business',
+  name: 'HealthAndBeautyBusiness',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -18212,7 +18259,7 @@ export const HealthAndBeautyBusiness = new GraphQLObjectType({
 })
 export const HealthClub = new GraphQLObjectType({
   description: 'A health club.',
-  name: 'Health Club',
+  name: 'HealthClub',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -18303,7 +18350,7 @@ export const HealthClub = new GraphQLObjectType({
 })
 export const HighSchool = new GraphQLObjectType({
   description: 'A high school.',
-  name: 'High School',
+  name: 'HighSchool',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -18366,7 +18413,7 @@ export const HighSchool = new GraphQLObjectType({
 })
 export const HinduTemple = new GraphQLObjectType({
   description: 'A Hindu temple.',
-  name: 'Hindu Temple',
+  name: 'HinduTemple',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -18417,7 +18464,7 @@ export const HinduTemple = new GraphQLObjectType({
 })
 export const HobbyShop = new GraphQLObjectType({
   description: 'A store that sells materials useful or necessary for various hobbies.',
-  name: 'Hobby Shop',
+  name: 'HobbyShop',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -18508,7 +18555,7 @@ export const HobbyShop = new GraphQLObjectType({
 })
 export const HomeAndConstructionBusiness = new GraphQLObjectType({
   description: 'A construction business.  A HomeAndConstructionBusiness is a LocalBusiness that provides services around homes and buildings.  As a LocalBusiness it can be described as a provider of one or more Service(s).',
-  name: 'Home And Construction Business',
+  name: 'HomeAndConstructionBusiness',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -18599,7 +18646,7 @@ export const HomeAndConstructionBusiness = new GraphQLObjectType({
 })
 export const HomeGoodsStore = new GraphQLObjectType({
   description: 'A home goods store.',
-  name: 'Home Goods Store',
+  name: 'HomeGoodsStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -18979,7 +19026,7 @@ export const Hotel = new GraphQLObjectType({
 })
 export const HotelRoom = new GraphQLObjectType({
   description: 'A hotel room is a single room in a hotel.  See also the dedicated document on the use of schema.org for marking up hotels and other forms of accommodations.',
-  name: 'Hotel Room',
+  name: 'HotelRoom',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -19089,7 +19136,7 @@ export const House = new GraphQLObjectType({
 })
 export const HousePainter = new GraphQLObjectType({
   description: 'A house painting service.',
-  name: 'House Painter',
+  name: 'HousePainter',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -19180,7 +19227,7 @@ export const HousePainter = new GraphQLObjectType({
 })
 export const HowTo = new GraphQLObjectType({
   description: 'Instructions that explain how to achieve a result by performing a sequence of steps.',
-  name: 'How to',
+  name: 'Howto',
   fields: () => ({
     about,
     accessMode,
@@ -19286,7 +19333,7 @@ export const HowTo = new GraphQLObjectType({
 })
 export const HowToDirection = new GraphQLObjectType({
   description: 'A direction indicating a single action to do in the instructions for how to achieve a result.',
-  name: 'How to Direction',
+  name: 'HowtoDirection',
   fields: () => ({
     additionalType,
     afterMedia,
@@ -19315,7 +19362,7 @@ export const HowToDirection = new GraphQLObjectType({
 })
 export const HowToItem = new GraphQLObjectType({
   description: 'An item used as either a tool or supply when performing the instructions for how to to achieve a result.',
-  name: 'How to Item',
+  name: 'HowtoItem',
   fields: () => ({
     additionalType,
     alternateName,
@@ -19337,7 +19384,7 @@ export const HowToItem = new GraphQLObjectType({
 })
 export const HowToSection = new GraphQLObjectType({
   description: 'A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe).',
-  name: 'How to Section',
+  name: 'HowtoSection',
   fields: () => ({
     additionalType,
     alternateName,
@@ -19358,7 +19405,7 @@ export const HowToSection = new GraphQLObjectType({
 })
 export const HowToStep = new GraphQLObjectType({
   description: 'A step in the instructions for how to achieve a result. It is an ordered list with HowToDirection and/or HowToTip items.',
-  name: 'How to Step',
+  name: 'HowtoStep',
   fields: () => ({
     additionalType,
     alternateName,
@@ -19378,7 +19425,7 @@ export const HowToStep = new GraphQLObjectType({
 })
 export const HowToSupply = new GraphQLObjectType({
   description: 'A supply consumed when performing the instructions for how to achieve a result.',
-  name: 'How to Supply',
+  name: 'HowtoSupply',
   fields: () => ({
     additionalType,
     alternateName,
@@ -19401,7 +19448,7 @@ export const HowToSupply = new GraphQLObjectType({
 })
 export const HowToTip = new GraphQLObjectType({
   description: 'An explanation in the instructions for how to achieve a result. It provides supplementary information about a technique, supply, author\'s preference, etc. It can explain what could be done, or what should not be done, but doesn\'t specify what should be done (see HowToDirection).',
-  name: 'How to Tip',
+  name: 'HowtoTip',
   fields: () => ({
     additionalType,
     alternateName,
@@ -19422,7 +19469,7 @@ export const HowToTip = new GraphQLObjectType({
 })
 export const HowToTool = new GraphQLObjectType({
   description: 'A tool used (but not consumed) when performing instructions for how to achieve a result.',
-  name: 'How to Tool',
+  name: 'HowtoTool',
   fields: () => ({
     additionalType,
     alternateName,
@@ -19444,7 +19491,7 @@ export const HowToTool = new GraphQLObjectType({
 })
 export const IceCreamShop = new GraphQLObjectType({
   description: 'An ice cream shop.',
-  name: 'Ice Cream Shop',
+  name: 'IceCreamShop',
   fields: () => ({
     acceptsReservations,
     actionableFeedbackPolicy,
@@ -19539,7 +19586,7 @@ export const IceCreamShop = new GraphQLObjectType({
 })
 export const IgnoreAction = new GraphQLObjectType({
   description: 'The act of intentionally disregarding the object. An agent ignores an object.',
-  name: 'Ignore Action',
+  name: 'IgnoreAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -19567,7 +19614,7 @@ export const IgnoreAction = new GraphQLObjectType({
 })
 export const ImageGallery = new GraphQLObjectType({
   description: 'Web page type: Image gallery page.',
-  name: 'Image Gallery',
+  name: 'ImageGallery',
   fields: () => ({
     about,
     accessMode,
@@ -19675,7 +19722,7 @@ export const ImageGallery = new GraphQLObjectType({
 })
 export const ImageObject = new GraphQLObjectType({
   description: 'An image file.',
-  name: 'Image Object',
+  name: 'ImageObject',
   fields: () => ({
     about,
     accessMode,
@@ -19793,7 +19840,7 @@ export const ImageObject = new GraphQLObjectType({
 })
 export const IndividualProduct = new GraphQLObjectType({
   description: 'A single, identifiable product instance (e.g. a laptop with a particular serial number).',
-  name: 'Individual Product',
+  name: 'IndividualProduct',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -19843,7 +19890,7 @@ export const IndividualProduct = new GraphQLObjectType({
 })
 export const InformAction = new GraphQLObjectType({
   description: 'The act of notifying someone of information pertinent to them, with no expectation of a response.',
-  name: 'Inform Action',
+  name: 'InformAction',
   fields: () => ({
     about,
     actionStatus,
@@ -19875,7 +19922,7 @@ export const InformAction = new GraphQLObjectType({
 })
 export const InsertAction = new GraphQLObjectType({
   description: 'The act of adding at a specific location in an ordered collection.',
-  name: 'Insert Action',
+  name: 'InsertAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -19905,7 +19952,7 @@ export const InsertAction = new GraphQLObjectType({
 })
 export const InstallAction = new GraphQLObjectType({
   description: 'The act of installing an application.',
-  name: 'Install Action',
+  name: 'InstallAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -19934,7 +19981,7 @@ export const InstallAction = new GraphQLObjectType({
 })
 export const InsuranceAgency = new GraphQLObjectType({
   description: 'An Insurance agency.',
-  name: 'Insurance Agency',
+  name: 'InsuranceAgency',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -20043,7 +20090,7 @@ export const Intangible = new GraphQLObjectType({
 })
 export const InteractAction = new GraphQLObjectType({
   description: 'The act of interacting with another person or organization.',
-  name: 'Interact Action',
+  name: 'InteractAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -20071,13 +20118,13 @@ export const InteractAction = new GraphQLObjectType({
 })
 export const InteractionCounter = new GraphQLObjectType({
   description: 'A summary of how users have interacted with this CreativeWork. In most cases, authors will use a subtype to specify the specific type of interaction.',
-  name: 'Interaction Counter',
+  name: 'InteractionCounter',
   fields: () => ({
   }),
 })
 export const InternetCafe = new GraphQLObjectType({
   description: 'An internet cafe.',
-  name: 'Internet Cafe',
+  name: 'InternetCafe',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -20168,7 +20215,7 @@ export const InternetCafe = new GraphQLObjectType({
 })
 export const InvestmentOrDeposit = new GraphQLObjectType({
   description: 'A type of financial product that typically requires the client to transfer funds to a financial service in return for potential beneficial financial return.',
-  name: 'Investment or Deposit',
+  name: 'InvestmentorDeposit',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -20209,7 +20256,7 @@ export const InvestmentOrDeposit = new GraphQLObjectType({
 })
 export const InviteAction = new GraphQLObjectType({
   description: 'The act of asking someone to attend an event. Reciprocal of RsvpAction.',
-  name: 'Invite Action',
+  name: 'InviteAction',
   fields: () => ({
     about,
     actionStatus,
@@ -20273,7 +20320,7 @@ export const Invoice = new GraphQLObjectType({
 })
 export const ItemAvailability = new GraphQLObjectType({
   description: 'A list of possible product availability options.',
-  name: 'Item Availability',
+  name: 'ItemAvailability',
   fields: () => ({
     additionalType,
     alternateName,
@@ -20291,7 +20338,7 @@ export const ItemAvailability = new GraphQLObjectType({
 })
 export const ItemList = new GraphQLObjectType({
   description: 'A list of items of any sort—for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.',
-  name: 'Item List',
+  name: 'ItemList',
   fields: () => ({
     additionalType,
     alternateName,
@@ -20311,7 +20358,7 @@ export const ItemList = new GraphQLObjectType({
 })
 export const ItemListOrderType = new GraphQLObjectType({
   description: 'Enumerated for values for itemListOrder for indicating how an ordered ItemList is organized.',
-  name: 'Item List Order Type',
+  name: 'ItemListOrderType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -20329,7 +20376,7 @@ export const ItemListOrderType = new GraphQLObjectType({
 })
 export const ItemPage = new GraphQLObjectType({
   description: 'A page devoted to a single item, such as a particular product or hotel.',
-  name: 'Item Page',
+  name: 'ItemPage',
   fields: () => ({
     about,
     accessMode,
@@ -20437,7 +20484,7 @@ export const ItemPage = new GraphQLObjectType({
 })
 export const JewelryStore = new GraphQLObjectType({
   description: 'A jewelry store.',
-  name: 'Jewelry Store',
+  name: 'JewelryStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -20528,7 +20575,7 @@ export const JewelryStore = new GraphQLObjectType({
 })
 export const JobPosting = new GraphQLObjectType({
   description: 'A listing that describes a job opening in a certain organization.',
-  name: 'Job Posting',
+  name: 'JobPosting',
   fields: () => ({
     additionalType,
     alternateName,
@@ -20565,7 +20612,7 @@ export const JobPosting = new GraphQLObjectType({
 })
 export const JoinAction = new GraphQLObjectType({
   description: 'An agent joins an event/group with participants/friends at a location.  Related actions:   RegisterAction: Unlike RegisterAction, JoinAction refers to joining a group/team of people. SubscribeAction: Unlike SubscribeAction, JoinAction does not imply that you\'ll be receiving updates. FollowAction: Unlike FollowAction, JoinAction does not imply that you\'ll be polling for updates.',
-  name: 'Join Action',
+  name: 'JoinAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -20594,7 +20641,7 @@ export const JoinAction = new GraphQLObjectType({
 })
 export const LakeBodyOfWater = new GraphQLObjectType({
   description: 'A lake (for example, Lake Pontrachain).',
-  name: 'Lake Body of Water',
+  name: 'LakeBodyofWater',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -20694,7 +20741,7 @@ export const Landform = new GraphQLObjectType({
 })
 export const LandmarksOrHistoricalBuildings = new GraphQLObjectType({
   description: 'An historical landmark or building.',
-  name: 'Landmarks or Historical Buildings',
+  name: 'LandmarksorHistoricalBuildings',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -20761,7 +20808,7 @@ export const Language = new GraphQLObjectType({
 })
 export const LeaveAction = new GraphQLObjectType({
   description: 'An agent leaves an event / group with participants/friends at a location.  Related actions:   JoinAction: The antonym of LeaveAction. UnRegisterAction: Unlike UnRegisterAction, LeaveAction implies leaving a group/team of people rather than a service.',
-  name: 'Leave Action',
+  name: 'LeaveAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -20790,7 +20837,7 @@ export const LeaveAction = new GraphQLObjectType({
 })
 export const LegalService = new GraphQLObjectType({
   description: 'A LegalService is a business that provides legally-oriented services, advice and representation, e.g. law firms.  As a LocalBusiness it can be described as a provider of one or more Service(s).',
-  name: 'Legal Service',
+  name: 'LegalService',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -20881,7 +20928,7 @@ export const LegalService = new GraphQLObjectType({
 })
 export const LegislativeBuilding = new GraphQLObjectType({
   description: 'A legislative building—for example, the state capitol.',
-  name: 'Legislative Building',
+  name: 'LegislativeBuilding',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -20932,7 +20979,7 @@ export const LegislativeBuilding = new GraphQLObjectType({
 })
 export const LendAction = new GraphQLObjectType({
   description: 'The act of providing an object under an agreement that it will be returned at a later date. Reciprocal of BorrowAction.  Related actions:   BorrowAction: Reciprocal of LendAction.',
-  name: 'Lend Action',
+  name: 'LendAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -21054,7 +21101,7 @@ export const Library = new GraphQLObjectType({
 })
 export const LikeAction = new GraphQLObjectType({
   description: 'The act of expressing a positive sentiment about the object. An agent likes an object (a proposition, topic or theme) with participants.',
-  name: 'Like Action',
+  name: 'LikeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -21082,7 +21129,7 @@ export const LikeAction = new GraphQLObjectType({
 })
 export const LiquorStore = new GraphQLObjectType({
   description: 'A shop that sells alcoholic drinks such as wine, beer, whisky and other spirits.',
-  name: 'Liquor Store',
+  name: 'LiquorStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -21173,7 +21220,7 @@ export const LiquorStore = new GraphQLObjectType({
 })
 export const ListItem = new GraphQLObjectType({
   description: 'An list item, e.g. a step in a checklist or how-to description.',
-  name: 'List Item',
+  name: 'ListItem',
   fields: () => ({
     additionalType,
     alternateName,
@@ -21194,7 +21241,7 @@ export const ListItem = new GraphQLObjectType({
 })
 export const ListenAction = new GraphQLObjectType({
   description: 'The act of consuming audio content.',
-  name: 'Listen Action',
+  name: 'ListenAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -21223,7 +21270,7 @@ export const ListenAction = new GraphQLObjectType({
 })
 export const LiteraryEvent = new GraphQLObjectType({
   description: 'Event type: Literary event.',
-  name: 'Literary Event',
+  name: 'LiteraryEvent',
   fields: () => ({
     about,
     actor,
@@ -21272,7 +21319,7 @@ export const LiteraryEvent = new GraphQLObjectType({
 })
 export const LiveBlogPosting = new GraphQLObjectType({
   description: 'A blog post intended to provide a rolling textual coverage of an ongoing event through continuous updates.',
-  name: 'Live Blog Posting',
+  name: 'LiveBlogPosting',
   fields: () => ({
     about,
     accessMode,
@@ -21382,7 +21429,7 @@ export const LiveBlogPosting = new GraphQLObjectType({
 })
 export const LoanOrCredit = new GraphQLObjectType({
   description: 'A financial product for the loaning of an amount of money under agreed terms and charges.',
-  name: 'Loan or Credit',
+  name: 'LoanorCredit',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -21431,7 +21478,7 @@ export const LoanOrCredit = new GraphQLObjectType({
 })
 export const LocalBusiness = new GraphQLObjectType({
   description: 'A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc.',
-  name: 'Local Business',
+  name: 'LocalBusiness',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -21522,7 +21569,7 @@ export const LocalBusiness = new GraphQLObjectType({
 })
 export const LocationFeatureSpecification = new GraphQLObjectType({
   description: 'Specifies a location feature by providing a structured value representing a feature of an accommodation as a property-value pair of varying degrees of formality.',
-  name: 'Location Feature Specification',
+  name: 'LocationFeatureSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -21550,7 +21597,7 @@ export const LocationFeatureSpecification = new GraphQLObjectType({
 })
 export const LockerDelivery = new GraphQLObjectType({
   description: 'A DeliveryMethod in which an item is made available via locker.',
-  name: 'Locker Delivery',
+  name: 'LockerDelivery',
   fields: () => ({
     additionalType,
     alternateName,
@@ -21659,7 +21706,7 @@ export const Locksmith = new GraphQLObjectType({
 })
 export const LodgingBusiness = new GraphQLObjectType({
   description: 'A lodging business, such as a motel, hotel, or inn.',
-  name: 'Lodging Business',
+  name: 'LodgingBusiness',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -21756,7 +21803,7 @@ export const LodgingBusiness = new GraphQLObjectType({
 })
 export const LodgingReservation = new GraphQLObjectType({
   description: 'A reservation for lodging at a hotel, motel, inn, etc.  Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations.',
-  name: 'Lodging Reservation',
+  name: 'LodgingReservation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -21791,7 +21838,7 @@ export const LodgingReservation = new GraphQLObjectType({
 })
 export const LoseAction = new GraphQLObjectType({
   description: 'The act of being defeated in a competitive activity.',
-  name: 'Lose Action',
+  name: 'LoseAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -21920,7 +21967,7 @@ export const Map = new GraphQLObjectType({
 })
 export const MapCategoryType = new GraphQLObjectType({
   description: 'An enumeration of several kinds of Map.',
-  name: 'Map Category Type',
+  name: 'MapCategoryType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -21938,7 +21985,7 @@ export const MapCategoryType = new GraphQLObjectType({
 })
 export const MarryAction = new GraphQLObjectType({
   description: 'The act of marrying a person.',
-  name: 'Marry Action',
+  name: 'MarryAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -21983,7 +22030,7 @@ export const Mass = new GraphQLObjectType({
 })
 export const MediaObject = new GraphQLObjectType({
   description: 'A media object, such as an image, video, or audio object embedded in a web page or a downloadable dataset i.e. DataDownload. Note that a creative work may have many media objects associated with it on the same web page. For example, a page about a single song (MusicRecording) may have a music video (VideoObject), and a high and low bandwidth audio stream (2 AudioObject\'s).',
-  name: 'Media Object',
+  name: 'MediaObject',
   fields: () => ({
     about,
     accessMode,
@@ -22095,9 +22142,17 @@ export const MediaObject = new GraphQLObjectType({
     workTranslation,
   }),
 })
+export const MedicalCondition = new GraphQLObjectType({
+  description: 'Any condition of the human body that affects the normal functioning of a person, whether physically or mentally. Includes diseases, injuries, disabilities, disorders, syndromes, etc.',
+  name: 'MedicalCondition',
+  fields: () => ({
+    name,
+    /* TODO: Complete field list */
+  })
+})
 export const MedicalOrganization = new GraphQLObjectType({
   description: 'A medical organization (physical or not), such as hospital, institution or clinic.',
-  name: 'Medical Organization',
+  name: 'MedicalOrganization',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -22161,9 +22216,25 @@ export const MedicalOrganization = new GraphQLObjectType({
     vatID,
   }),
 })
+export const MedicalSpecialty = new GraphQLObjectType({
+  description: 'Any specific branch of medical science or practice. Medical specialities include clinical specialties that pertain to particular organ systems and their respective disease states, as well as allied health specialties. Enumerated type.',
+  name: 'MedicalSpecialty',
+  fields: () => ({
+    name,
+    /* TODO: Complete field list */
+  })
+})
+
+export const MedicalTest = new GraphQLObjectType({
+  description: 'Any medical test, typically performed for diagnostic purposes.',
+  name: 'MedicalTest',
+  fields: () => ({
+    name,
+  })
+})
 export const MeetingRoom = new GraphQLObjectType({
   description: 'A meeting room, conference room, or conference hall is a room provided for singular events such as business conferences and meetings (Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Conference_hall).  See also the dedicated document on the use of schema.org for marking up hotels and other forms of accommodations.',
-  name: 'Meeting Room',
+  name: 'MeetingRoom',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -22217,7 +22288,7 @@ export const MeetingRoom = new GraphQLObjectType({
 })
 export const MensClothingStore = new GraphQLObjectType({
   description: 'A men\'s clothing store.',
-  name: 'Mens Clothing Store',
+  name: 'MensClothingStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -22409,7 +22480,7 @@ export const Menu = new GraphQLObjectType({
 })
 export const MenuItem = new GraphQLObjectType({
   description: 'A food or drink item listed in a menu or menu section.',
-  name: 'Menu Item',
+  name: 'MenuItem',
   fields: () => ({
     additionalType,
     alternateName,
@@ -22430,7 +22501,7 @@ export const MenuItem = new GraphQLObjectType({
 })
 export const MenuSection = new GraphQLObjectType({
   description: 'A sub-grouping of food or drink items in a menu. E.g. courses (such as \'Dinner\', \'Breakfast\', etc.), specific type of dishes (such as \'Meat\', \'Vegan\', \'Drinks\', etc.), or some other classification made by the menu provider.',
-  name: 'Menu Section',
+  name: 'MenuSection',
   fields: () => ({
     about,
     accessMode,
@@ -22639,7 +22710,7 @@ export const Message = new GraphQLObjectType({
 })
 export const MiddleSchool = new GraphQLObjectType({
   description: 'A middle school (typically for children aged around 11-14, although this varies somewhat).',
-  name: 'Middle School',
+  name: 'MiddleSchool',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -22702,7 +22773,7 @@ export const MiddleSchool = new GraphQLObjectType({
 })
 export const MobileApplication = new GraphQLObjectType({
   description: 'A software application designed specifically to work well on a mobile device such as a telephone.',
-  name: 'Mobile Application',
+  name: 'MobileApplication',
   fields: () => ({
     about,
     accessMode,
@@ -22823,7 +22894,7 @@ export const MobileApplication = new GraphQLObjectType({
 })
 export const MobilePhoneStore = new GraphQLObjectType({
   description: 'A store that sells mobile phones and related accessories.',
-  name: 'Mobile Phone Store',
+  name: 'MobilePhoneStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -22914,7 +22985,7 @@ export const MobilePhoneStore = new GraphQLObjectType({
 })
 export const MonetaryAmount = new GraphQLObjectType({
   description: 'A monetary value or range. This type can be used to describe an amount of money such as $50 USD, or a range as in describing a bank account being suitable for a balance between £1,000 and £1,000,000 GBP, or the value of a salary, etc. It is recommended to use PriceSpecification Types to describe the price of an Offer, Invoice, etc.',
-  name: 'Monetary Amount',
+  name: 'MonetaryAmount',
   fields: () => ({
   }),
 })
@@ -23068,7 +23139,7 @@ export const Motel = new GraphQLObjectType({
 })
 export const MotorcycleDealer = new GraphQLObjectType({
   description: 'A motorcycle dealer.',
-  name: 'Motorcycle Dealer',
+  name: 'MotorcycleDealer',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -23159,7 +23230,7 @@ export const MotorcycleDealer = new GraphQLObjectType({
 })
 export const MotorcycleRepair = new GraphQLObjectType({
   description: 'A motorcycle repair shop.',
-  name: 'Motorcycle Repair',
+  name: 'MotorcycleRepair',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -23300,7 +23371,7 @@ export const Mountain = new GraphQLObjectType({
 })
 export const MoveAction = new GraphQLObjectType({
   description: 'The act of an agent relocating to a place.  Related actions:   TransferAction: Unlike TransferAction, the subject of the move is a living Person or Organization rather than an inanimate object.',
-  name: 'Move Action',
+  name: 'MoveAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -23437,7 +23508,7 @@ export const Movie = new GraphQLObjectType({
 })
 export const MovieClip = new GraphQLObjectType({
   description: 'A short segment/part of a movie.',
-  name: 'Movie Clip',
+  name: 'MovieClip',
   fields: () => ({
     about,
     accessMode,
@@ -23543,7 +23614,7 @@ export const MovieClip = new GraphQLObjectType({
 })
 export const MovieRentalStore = new GraphQLObjectType({
   description: 'A movie rental store.',
-  name: 'Movie Rental Store',
+  name: 'MovieRentalStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -23634,7 +23705,7 @@ export const MovieRentalStore = new GraphQLObjectType({
 })
 export const MovieSeries = new GraphQLObjectType({
   description: 'A series of movies. Included movies can be indicated with the hasPart property.',
-  name: 'Movie Series',
+  name: 'MovieSeries',
   fields: () => ({
     about,
     accessMode,
@@ -23741,7 +23812,7 @@ export const MovieSeries = new GraphQLObjectType({
 })
 export const MovieTheater = new GraphQLObjectType({
   description: 'A movie theater.',
-  name: 'Movie Theater',
+  name: 'MovieTheater',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -23833,7 +23904,7 @@ export const MovieTheater = new GraphQLObjectType({
 })
 export const MovingCompany = new GraphQLObjectType({
   description: 'A moving company.',
-  name: 'Moving Company',
+  name: 'MovingCompany',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -23975,7 +24046,7 @@ export const Museum = new GraphQLObjectType({
 })
 export const MusicAlbum = new GraphQLObjectType({
   description: 'A collection of music tracks.',
-  name: 'Music Album',
+  name: 'MusicAlbum',
   fields: () => ({
     about,
     accessMode,
@@ -24080,7 +24151,7 @@ export const MusicAlbum = new GraphQLObjectType({
 })
 export const MusicAlbumProductionType = new GraphQLObjectType({
   description: 'Classification of the album by it\'s type of content: soundtrack, live album, studio album, etc.',
-  name: 'Music Album Production Type',
+  name: 'MusicAlbumProductionType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -24098,7 +24169,7 @@ export const MusicAlbumProductionType = new GraphQLObjectType({
 })
 export const MusicAlbumReleaseType = new GraphQLObjectType({
   description: 'The kind of release which this album is: single, EP or album.',
-  name: 'Music Album Release Type',
+  name: 'MusicAlbumReleaseType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -24116,7 +24187,7 @@ export const MusicAlbumReleaseType = new GraphQLObjectType({
 })
 export const MusicComposition = new GraphQLObjectType({
   description: 'A musical composition.',
-  name: 'Music Composition',
+  name: 'MusicComposition',
   fields: () => ({
     about,
     accessMode,
@@ -24225,7 +24296,7 @@ export const MusicComposition = new GraphQLObjectType({
 })
 export const MusicEvent = new GraphQLObjectType({
   description: 'Event type: Music event.',
-  name: 'Music Event',
+  name: 'MusicEvent',
   fields: () => ({
     about,
     actor,
@@ -24274,7 +24345,7 @@ export const MusicEvent = new GraphQLObjectType({
 })
 export const MusicGroup = new GraphQLObjectType({
   description: 'A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician.',
-  name: 'Music Group',
+  name: 'MusicGroup',
   fields: () => ({
     actionableFeedbackPolicy,
     address,
@@ -24336,7 +24407,7 @@ export const MusicGroup = new GraphQLObjectType({
 })
 export const MusicPlaylist = new GraphQLObjectType({
   description: 'A collection of music tracks in playlist form.',
-  name: 'Music Playlist',
+  name: 'MusicPlaylist',
   fields: () => ({
     about,
     accessMode,
@@ -24437,7 +24508,7 @@ export const MusicPlaylist = new GraphQLObjectType({
 })
 export const MusicRecording = new GraphQLObjectType({
   description: 'A music recording (track), usually a single song.',
-  name: 'Music Recording',
+  name: 'MusicRecording',
   fields: () => ({
     about,
     accessMode,
@@ -24542,7 +24613,7 @@ export const MusicRecording = new GraphQLObjectType({
 })
 export const MusicRelease = new GraphQLObjectType({
   description: 'A MusicRelease is a specific release of a music album.',
-  name: 'Music Release',
+  name: 'MusicRelease',
   fields: () => ({
     about,
     accessMode,
@@ -24649,7 +24720,7 @@ export const MusicRelease = new GraphQLObjectType({
 })
 export const MusicReleaseFormatType = new GraphQLObjectType({
   description: 'Format of this release (the type of recording media used, ie. compact disc, digital media, LP, etc.).',
-  name: 'Music Release Format Type',
+  name: 'MusicReleaseFormatType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -24667,7 +24738,7 @@ export const MusicReleaseFormatType = new GraphQLObjectType({
 })
 export const MusicStore = new GraphQLObjectType({
   description: 'A music store.',
-  name: 'Music Store',
+  name: 'MusicStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -24758,7 +24829,7 @@ export const MusicStore = new GraphQLObjectType({
 })
 export const MusicVenue = new GraphQLObjectType({
   description: 'A music venue.',
-  name: 'Music Venue',
+  name: 'MusicVenue',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -24809,7 +24880,7 @@ export const MusicVenue = new GraphQLObjectType({
 })
 export const MusicVideoObject = new GraphQLObjectType({
   description: 'A music video file.',
-  name: 'Music Video Object',
+  name: 'MusicVideoObject',
   fields: () => ({
     about,
     accessMode,
@@ -24986,7 +25057,7 @@ export const NGO = new GraphQLObjectType({
 })
 export const NailSalon = new GraphQLObjectType({
   description: 'A nail salon.',
-  name: 'Nail Salon',
+  name: 'NailSalon',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -25077,7 +25148,7 @@ export const NailSalon = new GraphQLObjectType({
 })
 export const NewsArticle = new GraphQLObjectType({
   description: 'A NewsArticle is an article whose content reports news, or provides background context and supporting materials for understanding the news.  A more detailed overview of schema.org News markup is also available.',
-  name: 'News Article',
+  name: 'NewsArticle',
   fields: () => ({
     about,
     accessMode,
@@ -25188,7 +25259,7 @@ export const NewsArticle = new GraphQLObjectType({
 })
 export const NightClub = new GraphQLObjectType({
   description: 'A nightclub or discotheque.',
-  name: 'Night Club',
+  name: 'NightClub',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -25370,7 +25441,7 @@ export const Notary = new GraphQLObjectType({
 })
 export const NoteDigitalDocument = new GraphQLObjectType({
   description: 'A file containing a note, primarily for the author.',
-  name: 'Note Digital Document',
+  name: 'NoteDigitalDocument',
   fields: () => ({
     about,
     accessMode,
@@ -25470,7 +25541,7 @@ export const NoteDigitalDocument = new GraphQLObjectType({
 })
 export const NutritionInformation = new GraphQLObjectType({
   description: 'Nutritional information about the recipe.',
-  name: 'Nutrition Information',
+  name: 'NutritionInformation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -25499,7 +25570,7 @@ export const NutritionInformation = new GraphQLObjectType({
 })
 export const OceanBodyOfWater = new GraphQLObjectType({
   description: 'An ocean (for example, the Pacific).',
-  name: 'Ocean Body of Water',
+  name: 'OceanBodyofWater',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -25606,7 +25677,7 @@ export const Offer = new GraphQLObjectType({
 })
 export const OfferCatalog = new GraphQLObjectType({
   description: 'An OfferCatalog is an ItemList that contains related Offers and/or further OfferCatalogs that are offeredBy the same provider.',
-  name: 'Offer Catalog',
+  name: 'OfferCatalog',
   fields: () => ({
     additionalType,
     alternateName,
@@ -25626,7 +25697,7 @@ export const OfferCatalog = new GraphQLObjectType({
 })
 export const OfferItemCondition = new GraphQLObjectType({
   description: 'A list of possible conditions for the item.',
-  name: 'Offer Item Condition',
+  name: 'OfferItemCondition',
   fields: () => ({
     additionalType,
     alternateName,
@@ -25644,7 +25715,7 @@ export const OfferItemCondition = new GraphQLObjectType({
 })
 export const OfficeEquipmentStore = new GraphQLObjectType({
   description: 'An office equipment store.',
-  name: 'Office Equipment Store',
+  name: 'OfficeEquipmentStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -25735,7 +25806,7 @@ export const OfficeEquipmentStore = new GraphQLObjectType({
 })
 export const OnDemandEvent = new GraphQLObjectType({
   description: 'A publication event e.g. catch-up TV or radio podcast, during which a program is available on-demand.',
-  name: 'On Demand Event',
+  name: 'OnDemandEvent',
   fields: () => ({
     about,
     actor,
@@ -25786,7 +25857,7 @@ export const OnDemandEvent = new GraphQLObjectType({
 })
 export const OpeningHoursSpecification = new GraphQLObjectType({
   description: 'A structured value providing information about the opening hours of a place or a certain service inside a place.  The place is open if the opens property is specified, and closed otherwise.  If the value for the closes property is less than the value for the opens property then the hour range is assumed to span over the next day.',
-  name: 'Opening Hours Specification',
+  name: 'OpeningHoursSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -25845,7 +25916,7 @@ export const Order = new GraphQLObjectType({
 })
 export const OrderAction = new GraphQLObjectType({
   description: 'An agent orders an object/product/service to be delivered/sent.',
-  name: 'Order Action',
+  name: 'OrderAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -25876,7 +25947,7 @@ export const OrderAction = new GraphQLObjectType({
 })
 export const OrderItem = new GraphQLObjectType({
   description: 'An order item is a line of an order. It includes the quantity and shipping details of a bought offer.',
-  name: 'Order Item',
+  name: 'OrderItem',
   fields: () => ({
     additionalType,
     alternateName,
@@ -25898,7 +25969,7 @@ export const OrderItem = new GraphQLObjectType({
 })
 export const OrderStatus = new GraphQLObjectType({
   description: 'Enumerated status values for Order.',
-  name: 'Order Status',
+  name: 'OrderStatus',
   fields: () => ({
     additionalType,
     alternateName,
@@ -25979,7 +26050,7 @@ export const Organization = new GraphQLObjectType({
 })
 export const OrganizationRole = new GraphQLObjectType({
   description: 'A subclass of Role used to describe roles within organizations.',
-  name: 'Organization Role',
+  name: 'OrganizationRole',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26000,7 +26071,7 @@ export const OrganizationRole = new GraphQLObjectType({
 })
 export const OrganizeAction = new GraphQLObjectType({
   description: 'The act of manipulating/administering/supervising/controlling one or more objects.',
-  name: 'Organize Action',
+  name: 'OrganizeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -26028,7 +26099,7 @@ export const OrganizeAction = new GraphQLObjectType({
 })
 export const OutletStore = new GraphQLObjectType({
   description: 'An outlet store.',
-  name: 'Outlet Store',
+  name: 'OutletStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -26119,7 +26190,7 @@ export const OutletStore = new GraphQLObjectType({
 })
 export const OwnershipInfo = new GraphQLObjectType({
   description: 'A structured value providing information about when a certain organization or person owned a certain product.',
-  name: 'Ownership Info',
+  name: 'OwnershipInfo',
   fields: () => ({
     acquiredFrom,
     additionalType,
@@ -26140,7 +26211,7 @@ export const OwnershipInfo = new GraphQLObjectType({
 })
 export const PaintAction = new GraphQLObjectType({
   description: 'The act of producing a painting, typically with paint and canvas as instruments.',
-  name: 'Paint Action',
+  name: 'PaintAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -26267,7 +26338,7 @@ export const Painting = new GraphQLObjectType({
 })
 export const ParcelDelivery = new GraphQLObjectType({
   description: 'The delivery of a parcel either via the postal service or a commercial service.',
-  name: 'Parcel Delivery',
+  name: 'ParcelDelivery',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26295,7 +26366,7 @@ export const ParcelDelivery = new GraphQLObjectType({
 })
 export const ParcelService = new GraphQLObjectType({
   description: 'A private parcel service as the delivery mode available for a certain offer.  Commonly used values:   http://purl.org/goodrelations/v1#DHL http://purl.org/goodrelations/v1#FederalExpress http://purl.org/goodrelations/v1#UPS',
-  name: 'Parcel Service',
+  name: 'ParcelService',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26313,7 +26384,7 @@ export const ParcelService = new GraphQLObjectType({
 })
 export const ParentAudience = new GraphQLObjectType({
   description: 'A set of characteristics describing parents, who can be interested in viewing some content.',
-  name: 'Parent Audience',
+  name: 'ParentAudience',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26392,7 +26463,7 @@ export const Park = new GraphQLObjectType({
 })
 export const ParkingFacility = new GraphQLObjectType({
   description: 'A parking lot or other parking facility.',
-  name: 'Parking Facility',
+  name: 'ParkingFacility',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -26443,7 +26514,7 @@ export const ParkingFacility = new GraphQLObjectType({
 })
 export const PawnShop = new GraphQLObjectType({
   description: 'A shop that will buy, or lend money against the security of, personal possessions.',
-  name: 'Pawn Shop',
+  name: 'PawnShop',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -26534,7 +26605,7 @@ export const PawnShop = new GraphQLObjectType({
 })
 export const PayAction = new GraphQLObjectType({
   description: 'An agent pays a price to a participant.',
-  name: 'Pay Action',
+  name: 'PayAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -26566,7 +26637,7 @@ export const PayAction = new GraphQLObjectType({
 })
 export const PaymentCard = new GraphQLObjectType({
   description: 'A payment method using a credit, debit, store or other card to associate the payment with an account.',
-  name: 'Payment Card',
+  name: 'PaymentCard',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -26610,7 +26681,7 @@ export const PaymentCard = new GraphQLObjectType({
 })
 export const PaymentChargeSpecification = new GraphQLObjectType({
   description: 'The costs of settling the payment using a particular payment method.',
-  name: 'Payment Charge Specification',
+  name: 'PaymentChargeSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26638,7 +26709,7 @@ export const PaymentChargeSpecification = new GraphQLObjectType({
 })
 export const PaymentMethod = new GraphQLObjectType({
   description: 'A payment method is a standardized procedure for transferring the monetary amount for a purchase. Payment methods are characterized by the legal and technical structures used, and by the organization or group carrying out the transaction.  Commonly used values:   http://purl.org/goodrelations/v1#ByBankTransferInAdvance http://purl.org/goodrelations/v1#ByInvoice http://purl.org/goodrelations/v1#Cash http://purl.org/goodrelations/v1#CheckInAdvance http://purl.org/goodrelations/v1#COD http://purl.org/goodrelations/v1#DirectDebit http://purl.org/goodrelations/v1#GoogleCheckout http://purl.org/goodrelations/v1#PayPal http://purl.org/goodrelations/v1#PaySwarm',
-  name: 'Payment Method',
+  name: 'PaymentMethod',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26656,7 +26727,7 @@ export const PaymentMethod = new GraphQLObjectType({
 })
 export const PaymentService = new GraphQLObjectType({
   description: 'A Service to transfer funds from a person or organization to a beneficiary person or organization.',
-  name: 'Payment Service',
+  name: 'PaymentService',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -26696,7 +26767,7 @@ export const PaymentService = new GraphQLObjectType({
 })
 export const PaymentStatusType = new GraphQLObjectType({
   description: 'A specific payment status. For example, PaymentDue, PaymentComplete, etc.',
-  name: 'Payment Status Type',
+  name: 'PaymentStatusType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26714,7 +26785,7 @@ export const PaymentStatusType = new GraphQLObjectType({
 })
 export const PeopleAudience = new GraphQLObjectType({
   description: 'A set of characteristics belonging to people, e.g. who compose an item\'s target audience.',
-  name: 'People Audience',
+  name: 'PeopleAudience',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26740,7 +26811,7 @@ export const PeopleAudience = new GraphQLObjectType({
 })
 export const PerformAction = new GraphQLObjectType({
   description: 'The act of participating in performance arts.',
-  name: 'Perform Action',
+  name: 'PerformAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -26771,7 +26842,7 @@ export const PerformAction = new GraphQLObjectType({
 })
 export const PerformanceRole = new GraphQLObjectType({
   description: 'A PerformanceRole is a Role that some entity places with regard to a theatrical performance, e.g. in a Movie, TVSeries etc.',
-  name: 'Performance Role',
+  name: 'PerformanceRole',
   fields: () => ({
     additionalType,
     alternateName,
@@ -26792,7 +26863,7 @@ export const PerformanceRole = new GraphQLObjectType({
 })
 export const PerformingArtsTheater = new GraphQLObjectType({
   description: 'A theater or other performing art center.',
-  name: 'Performing Arts Theater',
+  name: 'PerformingArtsTheater',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -26843,7 +26914,7 @@ export const PerformingArtsTheater = new GraphQLObjectType({
 })
 export const PerformingGroup = new GraphQLObjectType({
   description: 'A performance group, such as a band, an orchestra, or a circus.',
-  name: 'Performing Group',
+  name: 'PerformingGroup',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -27100,7 +27171,7 @@ export const Person = new GraphQLObjectType({
 })
 export const PetStore = new GraphQLObjectType({
   description: 'A pet store.',
-  name: 'Pet Store',
+  name: 'PetStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -27384,7 +27455,7 @@ export const Photograph = new GraphQLObjectType({
 })
 export const PhotographAction = new GraphQLObjectType({
   description: 'The act of capturing still images of objects using a camera.',
-  name: 'Photograph Action',
+  name: 'PhotographAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -27558,7 +27629,7 @@ export const Place = new GraphQLObjectType({
 })
 export const PlaceOfWorship = new GraphQLObjectType({
   description: 'Place of worship, such as a church, synagogue, or mosque.',
-  name: 'Place of Worship',
+  name: 'PlaceofWorship',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -27609,7 +27680,7 @@ export const PlaceOfWorship = new GraphQLObjectType({
 })
 export const PlanAction = new GraphQLObjectType({
   description: 'The act of planning the execution of an event/task/action/reservation/plan to a future date.',
-  name: 'Plan Action',
+  name: 'PlanAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -27638,7 +27709,7 @@ export const PlanAction = new GraphQLObjectType({
 })
 export const PlayAction = new GraphQLObjectType({
   description: 'The act of playing/exercising/training/performing for enjoyment, leisure, recreation, Competition or exercise.  Related actions:   ListenAction: Unlike ListenAction (which is under ConsumeAction), PlayAction refers to performing for an audience or at an event, rather than consuming music. WatchAction: Unlike WatchAction (which is under ConsumeAction), PlayAction refers to showing/displaying for an audience or at an event, rather than consuming visual content.',
-  name: 'Play Action',
+  name: 'PlayAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -27810,7 +27881,7 @@ export const Plumber = new GraphQLObjectType({
 })
 export const PoliceStation = new GraphQLObjectType({
   description: 'A police station.',
-  name: 'Police Station',
+  name: 'PoliceStation',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -27951,7 +28022,7 @@ export const Pond = new GraphQLObjectType({
 })
 export const PostOffice = new GraphQLObjectType({
   description: 'A post office.',
-  name: 'Post Office',
+  name: 'PostOffice',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -28042,7 +28113,7 @@ export const PostOffice = new GraphQLObjectType({
 })
 export const PostalAddress = new GraphQLObjectType({
   description: 'The mailing address.',
-  name: 'Postal Address',
+  name: 'PostalAddress',
   fields: () => ({
     additionalType,
     addressCountry,
@@ -28074,7 +28145,7 @@ export const PostalAddress = new GraphQLObjectType({
 })
 export const PrependAction = new GraphQLObjectType({
   description: 'The act of inserting at the beginning if an ordered collection.',
-  name: 'Prepend Action',
+  name: 'PrependAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -28167,7 +28238,7 @@ export const Preschool = new GraphQLObjectType({
 })
 export const PresentationDigitalDocument = new GraphQLObjectType({
   description: 'A file containing slides or used for a presentation.',
-  name: 'Presentation Digital Document',
+  name: 'PresentationDigitalDocument',
   fields: () => ({
     about,
     accessMode,
@@ -28267,7 +28338,7 @@ export const PresentationDigitalDocument = new GraphQLObjectType({
 })
 export const PriceSpecification = new GraphQLObjectType({
   description: 'A structured value representing a price or price range. Typically, only the subclasses of this type are used for markup. It is recommended to use MonetaryAmount to describe independent amounts of money such as a salary, credit card limits, etc.',
-  name: 'Price Specification',
+  name: 'PriceSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -28342,7 +28413,7 @@ export const Product = new GraphQLObjectType({
 })
 export const ProductModel = new GraphQLObjectType({
   description: 'A datasheet or vendor specification of a product (in the sense of a prototypical description).',
-  name: 'Product Model',
+  name: 'ProductModel',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -28394,7 +28465,7 @@ export const ProductModel = new GraphQLObjectType({
 })
 export const ProfessionalService = new GraphQLObjectType({
   description: 'Original definition: "provider of professional services."  The general ProfessionalService type for local businesses was deprecated due to confusion with Service. For reference, the types that it included were: Dentist,         AccountingService, Attorney, Notary, as well as types for several kinds of HomeAndConstructionBusiness: Electrician, GeneralContractor,         HousePainter, Locksmith, Plumber, RoofingContractor. LegalService was introduced as a more inclusive supertype of Attorney.',
-  name: 'Professional Service',
+  name: 'ProfessionalService',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -28485,7 +28556,7 @@ export const ProfessionalService = new GraphQLObjectType({
 })
 export const ProfilePage = new GraphQLObjectType({
   description: 'Web page type: Profile page.',
-  name: 'Profile Page',
+  name: 'ProfilePage',
   fields: () => ({
     about,
     accessMode,
@@ -28593,7 +28664,7 @@ export const ProfilePage = new GraphQLObjectType({
 })
 export const ProgramMembership = new GraphQLObjectType({
   description: 'Used to describe membership in a loyalty programs (e.g. "StarAliance"), traveler clubs (e.g. "AAA"), purchase clubs ("Safeway Club"), etc.',
-  name: 'Program Membership',
+  name: 'ProgramMembership',
   fields: () => ({
     additionalType,
     alternateName,
@@ -28614,7 +28685,7 @@ export const ProgramMembership = new GraphQLObjectType({
 })
 export const PropertyValue = new GraphQLObjectType({
   description: 'A property-value pair, e.g. representing a feature of a product or place. Use the \'name\' property for the name of the property. If there is an additional human-readable version of the value, put that into the \'description\' property.  Always use specific schema.org properties when a) they exist and b) you can populate them. Using PropertyValue as a substitute will typically not trigger the same effect as using the original, specific property.',
-  name: 'Property Value',
+  name: 'PropertyValue',
   fields: () => ({
     additionalType,
     alternateName,
@@ -28639,7 +28710,7 @@ export const PropertyValue = new GraphQLObjectType({
 })
 export const PropertyValueSpecification = new GraphQLObjectType({
   description: 'A Property value specification.',
-  name: 'Property Value Specification',
+  name: 'PropertyValueSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -28667,7 +28738,7 @@ export const PropertyValueSpecification = new GraphQLObjectType({
 })
 export const PublicSwimmingPool = new GraphQLObjectType({
   description: 'A public swimming pool.',
-  name: 'Public Swimming Pool',
+  name: 'PublicSwimmingPool',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -28758,7 +28829,7 @@ export const PublicSwimmingPool = new GraphQLObjectType({
 })
 export const PublicationEvent = new GraphQLObjectType({
   description: 'A PublicationEvent corresponds indifferently to the event of publication for a CreativeWork of any type e.g. a broadcast event, an on-demand event, a book/journal publication via a variety of delivery media.',
-  name: 'Publication Event',
+  name: 'PublicationEvent',
   fields: () => ({
     about,
     actor,
@@ -28809,7 +28880,7 @@ export const PublicationEvent = new GraphQLObjectType({
 })
 export const PublicationIssue = new GraphQLObjectType({
   description: 'A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.  blog post.',
-  name: 'Publication Issue',
+  name: 'PublicationIssue',
   fields: () => ({
     about,
     accessMode,
@@ -28912,7 +28983,7 @@ export const PublicationIssue = new GraphQLObjectType({
 })
 export const PublicationVolume = new GraphQLObjectType({
   description: 'A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.    <br/><br/>See also <a href="http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html">blog post</a>.',
-  name: 'Publication Volume',
+  name: 'PublicationVolume',
   fields: () => ({
     accessMode,
     accessibilityFeature,
@@ -28970,7 +29041,7 @@ export const PublicationVolume = new GraphQLObjectType({
 })
 export const QAPage = new GraphQLObjectType({
   description: 'A QAPage is a WebPage focussed on a specific Question and its Answer(s), e.g. in a question answering site or documenting Frequently Asked Questions (FAQs).',
-  name: 'QA Page',
+  name: 'QAPage',
   fields: () => ({
     about,
     accessMode,
@@ -29078,7 +29149,7 @@ export const QAPage = new GraphQLObjectType({
 })
 export const QualitativeValue = new GraphQLObjectType({
   description: 'A predefined value for a product characteristic, e.g. the power cord plug type \'US\' or the garment sizes \'S\', \'M\', \'L\', and \'XL\'.',
-  name: 'Qualitative Value',
+  name: 'QualitativeValue',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -29104,7 +29175,7 @@ export const QualitativeValue = new GraphQLObjectType({
 })
 export const QuantitativeValue = new GraphQLObjectType({
   description: 'A point value or interval for product characteristics and other purposes.',
-  name: 'Quantitative Value',
+  name: 'QuantitativeValue',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -29249,7 +29320,7 @@ export const Question = new GraphQLObjectType({
 })
 export const QuoteAction = new GraphQLObjectType({
   description: 'An agent quotes/estimates/appraises an object/product/service with a price at a location/store.',
-  name: 'Quote Action',
+  name: 'QuoteAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -29277,9 +29348,17 @@ export const QuoteAction = new GraphQLObjectType({
     url,
   }),
 })
+export const RepaymentSpecification = new GraphQLObjectType({
+  description: 'A structured value representing repayment.',
+  name: 'RepaymentSpecification',
+  fields: () => ({
+    name,
+    /* TODO: Complete field list */
+  })
+})
 export const RVPark = new GraphQLObjectType({
   description: 'A place offering space for "Recreational Vehicles", Caravans, mobile homes and the like.',
-  name: 'RV Park',
+  name: 'RVPark',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -29330,7 +29409,7 @@ export const RVPark = new GraphQLObjectType({
 })
 export const RadioChannel = new GraphQLObjectType({
   description: 'A unique instance of a radio BroadcastService on a CableOrSatelliteService lineup.',
-  name: 'Radio Channel',
+  name: 'RadioChannel',
   fields: () => ({
     additionalType,
     alternateName,
@@ -29353,7 +29432,7 @@ export const RadioChannel = new GraphQLObjectType({
 })
 export const RadioClip = new GraphQLObjectType({
   description: 'A short radio program or a segment/part of a radio program.',
-  name: 'Radio Clip',
+  name: 'RadioClip',
   fields: () => ({
     about,
     accessMode,
@@ -29459,7 +29538,7 @@ export const RadioClip = new GraphQLObjectType({
 })
 export const RadioEpisode = new GraphQLObjectType({
   description: 'A radio episode which can be part of a series or season.',
-  name: 'Radio Episode',
+  name: 'RadioEpisode',
   fields: () => ({
     about,
     accessMode,
@@ -29566,7 +29645,7 @@ export const RadioEpisode = new GraphQLObjectType({
 })
 export const RadioSeason = new GraphQLObjectType({
   description: 'Season dedicated to radio broadcast and associated online delivery.',
-  name: 'Radio Season',
+  name: 'RadioSeason',
   fields: () => ({
     about,
     accessMode,
@@ -29675,7 +29754,7 @@ export const RadioSeason = new GraphQLObjectType({
 })
 export const RadioSeries = new GraphQLObjectType({
   description: 'CreativeWorkSeries dedicated to radio broadcast and associated online delivery.',
-  name: 'Radio Series',
+  name: 'RadioSeries',
   fields: () => ({
     about,
     accessMode,
@@ -29786,7 +29865,7 @@ export const RadioSeries = new GraphQLObjectType({
 })
 export const RadioStation = new GraphQLObjectType({
   description: 'A radio station.',
-  name: 'Radio Station',
+  name: 'RadioStation',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -29898,7 +29977,7 @@ export const Rating = new GraphQLObjectType({
 })
 export const ReactAction = new GraphQLObjectType({
   description: 'The act of responding instinctively and emotionally to an object, expressing a sentiment.',
-  name: 'React Action',
+  name: 'ReactAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -29926,7 +30005,7 @@ export const ReactAction = new GraphQLObjectType({
 })
 export const ReadAction = new GraphQLObjectType({
   description: 'The act of consuming written content.',
-  name: 'Read Action',
+  name: 'ReadAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -29955,7 +30034,7 @@ export const ReadAction = new GraphQLObjectType({
 })
 export const RealEstateAgent = new GraphQLObjectType({
   description: 'A real-estate agent.',
-  name: 'Real Estate Agent',
+  name: 'RealEstateAgent',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -30046,7 +30125,7 @@ export const RealEstateAgent = new GraphQLObjectType({
 })
 export const ReceiveAction = new GraphQLObjectType({
   description: 'The act of physically/electronically taking delivery of an object thathas been transferred from an origin to a destination. Reciprocal of SendAction.  Related actions:   SendAction: The reciprocal of ReceiveAction. TakeAction: Unlike TakeAction, ReceiveAction does not imply that the ownership has been transfered (e.g. I can receive a package, but it does not mean the package is now mine).',
-  name: 'Receive Action',
+  name: 'ReceiveAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -30193,7 +30272,7 @@ export const Recipe = new GraphQLObjectType({
 })
 export const RecyclingCenter = new GraphQLObjectType({
   description: 'A recycling center.',
-  name: 'Recycling Center',
+  name: 'RecyclingCenter',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -30284,7 +30363,7 @@ export const RecyclingCenter = new GraphQLObjectType({
 })
 export const RegisterAction = new GraphQLObjectType({
   description: 'The act of registering to be a user of a service, product or web page.  Related actions:   JoinAction: Unlike JoinAction, RegisterAction implies you are registering to be a user of a service, not a group/team of people. [FollowAction]]: Unlike FollowAction, RegisterAction doesn\'t imply that the agent is expecting to poll for updates from the object. SubscribeAction: Unlike SubscribeAction, RegisterAction doesn\'t imply that the agent is expecting updates from the object.',
-  name: 'Register Action',
+  name: 'RegisterAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -30312,7 +30391,7 @@ export const RegisterAction = new GraphQLObjectType({
 })
 export const RejectAction = new GraphQLObjectType({
   description: 'The act of rejecting to/adopting an object.  Related actions:   AcceptAction: The antonym of RejectAction.',
-  name: 'Reject Action',
+  name: 'RejectAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -30341,7 +30420,7 @@ export const RejectAction = new GraphQLObjectType({
 })
 export const RentAction = new GraphQLObjectType({
   description: 'The act of giving money in return for temporary use, but not ownership, of an object such as a vehicle or property. For example, an agent rents a property from a landlord in exchange for a periodic payment.',
-  name: 'Rent Action',
+  name: 'RentAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -30373,7 +30452,7 @@ export const RentAction = new GraphQLObjectType({
 })
 export const RentalCarReservation = new GraphQLObjectType({
   description: 'A reservation for a rental car.  Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations.',
-  name: 'Rental Car Reservation',
+  name: 'RentalCarReservation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -30406,7 +30485,7 @@ export const RentalCarReservation = new GraphQLObjectType({
 })
 export const ReplaceAction = new GraphQLObjectType({
   description: 'The act of editing a recipient by replacing an old object with a new object.',
-  name: 'Replace Action',
+  name: 'ReplaceAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -30437,7 +30516,7 @@ export const ReplaceAction = new GraphQLObjectType({
 })
 export const ReplyAction = new GraphQLObjectType({
   description: 'The act of responding to a question/message asked/sent by the object. Related to AskAction  Related actions:   AskAction: Appears generally as an origin of a ReplyAction.',
-  name: 'Reply Action',
+  name: 'ReplyAction',
   fields: () => ({
     about,
     actionStatus,
@@ -30605,7 +30684,7 @@ export const Reservation = new GraphQLObjectType({
 })
 export const ReservationPackage = new GraphQLObjectType({
   description: 'A group of multiple reservations with common values for all sub-reservations.',
-  name: 'Reservation Package',
+  name: 'ReservationPackage',
   fields: () => ({
     additionalType,
     alternateName,
@@ -30635,7 +30714,7 @@ export const ReservationPackage = new GraphQLObjectType({
 })
 export const ReservationStatusType = new GraphQLObjectType({
   description: 'Enumerated status values for Reservation.',
-  name: 'Reservation Status Type',
+  name: 'ReservationStatusType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -30653,7 +30732,7 @@ export const ReservationStatusType = new GraphQLObjectType({
 })
 export const ReserveAction = new GraphQLObjectType({
   description: 'Reserving a concrete object.  Related actions:   ScheduleAction: Unlike ScheduleAction, ReserveAction reserves concrete objects (e.g. a table, a hotel) towards a time slot / spatial allocation.',
-  name: 'Reserve Action',
+  name: 'ReserveAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -30974,7 +31053,7 @@ export const Restaurant = new GraphQLObjectType({
 })
 export const RestrictedDiet = new GraphQLObjectType({
   description: 'A diet restricted to certain foods or preparations for cultural, religious, health or lifestyle reasons.',
-  name: 'Restricted Diet',
+  name: 'RestrictedDiet',
   fields: () => ({
     additionalType,
     alternateName,
@@ -30992,7 +31071,7 @@ export const RestrictedDiet = new GraphQLObjectType({
 })
 export const ResumeAction = new GraphQLObjectType({
   description: 'The act of resuming a device or application which was formerly paused (e.g. resume music playback or resume a timer).',
-  name: 'Resume Action',
+  name: 'ResumeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -31020,7 +31099,7 @@ export const ResumeAction = new GraphQLObjectType({
 })
 export const ReturnAction = new GraphQLObjectType({
   description: 'The act of returning to the origin that which was previously received (concrete objects) or taken (ownership).',
-  name: 'Return Action',
+  name: 'ReturnAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -31153,7 +31232,7 @@ export const Review = new GraphQLObjectType({
 })
 export const ReviewAction = new GraphQLObjectType({
   description: 'The act of producing a balanced opinion about the object for an audience. An agent reviews an object with participants resulting in a review.',
-  name: 'Review Action',
+  name: 'ReviewAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -31182,7 +31261,7 @@ export const ReviewAction = new GraphQLObjectType({
 })
 export const RiverBodyOfWater = new GraphQLObjectType({
   description: 'A river (for example, the broad majestic Shannon).',
-  name: 'River Body of Water',
+  name: 'RiverBodyofWater',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -31252,7 +31331,7 @@ export const Role = new GraphQLObjectType({
 })
 export const RoofingContractor = new GraphQLObjectType({
   description: 'A roofing contractor.',
-  name: 'Roofing Contractor',
+  name: 'RoofingContractor',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -31397,7 +31476,7 @@ export const Room = new GraphQLObjectType({
 })
 export const RsvpAction = new GraphQLObjectType({
   description: 'The act of notifying an event organizer as to whether you expect to attend the event.',
-  name: 'Rsvp Action',
+  name: 'RsvpAction',
   fields: () => ({
     about,
     actionStatus,
@@ -31432,7 +31511,7 @@ export const RsvpAction = new GraphQLObjectType({
 })
 export const RsvpResponseType = new GraphQLObjectType({
   description: 'RsvpResponseType is an enumeration type whose instances represent responding to an RSVP request.',
-  name: 'Rsvp Response Type',
+  name: 'RsvpResponseType',
   fields: () => ({
     additionalType,
     alternateName,
@@ -31450,7 +31529,7 @@ export const RsvpResponseType = new GraphQLObjectType({
 })
 export const SaleEvent = new GraphQLObjectType({
   description: 'Event type: Sales event.',
-  name: 'Sale Event',
+  name: 'SaleEvent',
   fields: () => ({
     about,
     actor,
@@ -31499,7 +31578,7 @@ export const SaleEvent = new GraphQLObjectType({
 })
 export const ScheduleAction = new GraphQLObjectType({
   description: 'Scheduling future actions, events, or tasks.  Related actions:   ReserveAction: Unlike ReserveAction, ScheduleAction allocates future actions (e.g. an event, a task, etc) towards a time slot / spatial allocation.',
-  name: 'Schedule Action',
+  name: 'ScheduleAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -31528,7 +31607,7 @@ export const ScheduleAction = new GraphQLObjectType({
 })
 export const ScholarlyArticle = new GraphQLObjectType({
   description: 'A scholarly article.',
-  name: 'Scholarly Article',
+  name: 'ScholarlyArticle',
   fields: () => ({
     about,
     accessMode,
@@ -31697,7 +31776,7 @@ export const School = new GraphQLObjectType({
 })
 export const ScreeningEvent = new GraphQLObjectType({
   description: 'A screening of a movie or other video.',
-  name: 'Screening Event',
+  name: 'ScreeningEvent',
   fields: () => ({
     about,
     actor,
@@ -31848,7 +31927,7 @@ export const Sculpture = new GraphQLObjectType({
 })
 export const SeaBodyOfWater = new GraphQLObjectType({
   description: 'A sea (for example, the Caspian sea).',
-  name: 'Sea Body of Water',
+  name: 'SeaBodyofWater',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -31898,7 +31977,7 @@ export const SeaBodyOfWater = new GraphQLObjectType({
 })
 export const SearchAction = new GraphQLObjectType({
   description: 'The act of searching for an object.  Related actions:   FindAction: SearchAction generally leads to a FindAction, but not necessarily.',
-  name: 'Search Action',
+  name: 'SearchAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -31927,7 +32006,7 @@ export const SearchAction = new GraphQLObjectType({
 })
 export const SearchResultsPage = new GraphQLObjectType({
   description: 'Web page type: Search results page.',
-  name: 'Search Results Page',
+  name: 'SearchResultsPage',
   fields: () => ({
     about,
     accessMode,
@@ -32056,7 +32135,7 @@ export const Seat = new GraphQLObjectType({
 })
 export const SelfStorage = new GraphQLObjectType({
   description: 'A self-storage facility.',
-  name: 'Self Storage',
+  name: 'SelfStorage',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -32147,7 +32226,7 @@ export const SelfStorage = new GraphQLObjectType({
 })
 export const SellAction = new GraphQLObjectType({
   description: 'The act of taking money from a buyer in exchange for goods or services rendered. An agent sells an object, product, or service to a buyer for a price. Reciprocal of BuyAction.',
-  name: 'Sell Action',
+  name: 'SellAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -32178,7 +32257,7 @@ export const SellAction = new GraphQLObjectType({
 })
 export const SendAction = new GraphQLObjectType({
   description: 'The act of physically/electronically dispatching an object for transfer from an origin to a destination.Related actions:   ReceiveAction: The reciprocal of SendAction. GiveAction: Unlike GiveAction, SendAction does not imply the transfer of ownership (e.g. I can send you my laptop, but I\'m not necessarily giving it to you).',
-  name: 'Send Action',
+  name: 'SendAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -32346,7 +32425,7 @@ export const Service = new GraphQLObjectType({
 })
 export const ServiceChannel = new GraphQLObjectType({
   description: 'A means for accessing a service, e.g. a government office location, web site, or phone number.',
-  name: 'Service Channel',
+  name: 'ServiceChannel',
   fields: () => ({
     additionalType,
     alternateName,
@@ -32371,7 +32450,7 @@ export const ServiceChannel = new GraphQLObjectType({
 })
 export const ShareAction = new GraphQLObjectType({
   description: 'The act of distributing content to people for their amusement or edification.',
-  name: 'Share Action',
+  name: 'ShareAction',
   fields: () => ({
     about,
     actionStatus,
@@ -32402,7 +32481,7 @@ export const ShareAction = new GraphQLObjectType({
 })
 export const ShoeStore = new GraphQLObjectType({
   description: 'A shoe store.',
-  name: 'Shoe Store',
+  name: 'ShoeStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -32493,7 +32572,7 @@ export const ShoeStore = new GraphQLObjectType({
 })
 export const ShoppingCenter = new GraphQLObjectType({
   description: 'A shopping center or mall.',
-  name: 'Shopping Center',
+  name: 'ShoppingCenter',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -32584,7 +32663,7 @@ export const ShoppingCenter = new GraphQLObjectType({
 })
 export const SingleFamilyResidence = new GraphQLObjectType({
   description: 'Residence type: Single-family home.',
-  name: 'Single Family Residence',
+  name: 'SingleFamilyResidence',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -32639,7 +32718,7 @@ export const SingleFamilyResidence = new GraphQLObjectType({
 })
 export const SiteNavigationElement = new GraphQLObjectType({
   description: 'A navigation element of the page.',
-  name: 'Site Navigation Element',
+  name: 'SiteNavigationElement',
   fields: () => ({
     accessMode,
     accessModeSufficient,
@@ -32695,7 +32774,7 @@ export const SiteNavigationElement = new GraphQLObjectType({
 })
 export const SkiResort = new GraphQLObjectType({
   description: 'A ski resort.',
-  name: 'Ski Resort',
+  name: 'SkiResort',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -32786,7 +32865,7 @@ export const SkiResort = new GraphQLObjectType({
 })
 export const SocialEvent = new GraphQLObjectType({
   description: 'Event type: Social event.',
-  name: 'Social Event',
+  name: 'SocialEvent',
   fields: () => ({
     about,
     actor,
@@ -32835,7 +32914,7 @@ export const SocialEvent = new GraphQLObjectType({
 })
 export const SocialMediaPosting = new GraphQLObjectType({
   description: 'A post to a social media platform, including blog posts, tweets, Facebook posts, etc.',
-  name: 'Social Media Posting',
+  name: 'SocialMediaPosting',
   fields: () => ({
     about,
     accessMode,
@@ -32942,7 +33021,7 @@ export const SocialMediaPosting = new GraphQLObjectType({
 })
 export const SoftwareApplication = new GraphQLObjectType({
   description: 'A software application.',
-  name: 'Software Application',
+  name: 'SoftwareApplication',
   fields: () => ({
     about,
     accessMode,
@@ -33063,7 +33142,7 @@ export const SoftwareApplication = new GraphQLObjectType({
 })
 export const SoftwareSourceCode = new GraphQLObjectType({
   description: 'Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.',
-  name: 'Software Source Code',
+  name: 'SoftwareSourceCode',
   fields: () => ({
     about,
     accessMode,
@@ -33167,7 +33246,7 @@ export const SoftwareSourceCode = new GraphQLObjectType({
 })
 export const SomeProducts = new GraphQLObjectType({
   description: 'A placeholder for multiple similar products of the same kind.',
-  name: 'Some Products',
+  name: 'SomeProducts',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -33235,7 +33314,7 @@ export const Specialty = new GraphQLObjectType({
 })
 export const SportingGoodsStore = new GraphQLObjectType({
   description: 'A sporting goods store.',
-  name: 'Sporting Goods Store',
+  name: 'SportingGoodsStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -33326,7 +33405,7 @@ export const SportingGoodsStore = new GraphQLObjectType({
 })
 export const SportsActivityLocation = new GraphQLObjectType({
   description: 'A sports location, such as a playing field.',
-  name: 'Sports Activity Location',
+  name: 'SportsActivityLocation',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -33417,7 +33496,7 @@ export const SportsActivityLocation = new GraphQLObjectType({
 })
 export const SportsClub = new GraphQLObjectType({
   description: 'A sports club.',
-  name: 'Sports Club',
+  name: 'SportsClub',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -33508,7 +33587,7 @@ export const SportsClub = new GraphQLObjectType({
 })
 export const SportsEvent = new GraphQLObjectType({
   description: 'Event type: Sports event.',
-  name: 'Sports Event',
+  name: 'SportsEvent',
   fields: () => ({
     about,
     actor,
@@ -33560,7 +33639,7 @@ export const SportsEvent = new GraphQLObjectType({
 })
 export const SportsOrganization = new GraphQLObjectType({
   description: 'Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations.',
-  name: 'Sports Organization',
+  name: 'SportsOrganization',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -33624,7 +33703,7 @@ export const SportsOrganization = new GraphQLObjectType({
 })
 export const SportsTeam = new GraphQLObjectType({
   description: 'Organization: Sports team.',
-  name: 'Sports Team',
+  name: 'SportsTeam',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -33690,7 +33769,7 @@ export const SportsTeam = new GraphQLObjectType({
 })
 export const SpreadsheetDigitalDocument = new GraphQLObjectType({
   description: 'A spreadsheet file.',
-  name: 'Spreadsheet Digital Document',
+  name: 'SpreadsheetDigitalDocument',
   fields: () => ({
     about,
     accessMode,
@@ -33790,7 +33869,7 @@ export const SpreadsheetDigitalDocument = new GraphQLObjectType({
 })
 export const StadiumOrArena = new GraphQLObjectType({
   description: 'A stadium.',
-  name: 'Stadium or Arena',
+  name: 'StadiumorArena',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -33931,7 +34010,7 @@ export const State = new GraphQLObjectType({
 })
 export const SteeringPositionValue = new GraphQLObjectType({
   description: 'A value indicating a steering position.',
-  name: 'Steering Position Value',
+  name: 'SteeringPositionValue',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -34048,7 +34127,7 @@ export const Store = new GraphQLObjectType({
 })
 export const StructuredValue = new GraphQLObjectType({
   description: 'Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.',
-  name: 'Structured Value',
+  name: 'StructuredValue',
   fields: () => ({
     additionalType,
     alternateName,
@@ -34065,7 +34144,7 @@ export const StructuredValue = new GraphQLObjectType({
 })
 export const SubscribeAction = new GraphQLObjectType({
   description: 'The act of forming a personal connection with someone/something (object) unidirectionally/asymmetrically to get updates pushed to.  Related actions:   FollowAction: Unlike FollowAction, SubscribeAction implies that the subscriber acts as a passive agent being constantly/actively pushed for updates. RegisterAction: Unlike RegisterAction, SubscribeAction implies that the agent is interested in continuing receiving updates from the object. JoinAction: Unlike JoinAction, SubscribeAction implies that the agent is interested in continuing receiving updates from the object.',
-  name: 'Subscribe Action',
+  name: 'SubscribeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -34093,7 +34172,7 @@ export const SubscribeAction = new GraphQLObjectType({
 })
 export const SubwayStation = new GraphQLObjectType({
   description: 'A subway station.',
-  name: 'Subway Station',
+  name: 'SubwayStation',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -34200,7 +34279,7 @@ export const Suite = new GraphQLObjectType({
 })
 export const SuspendAction = new GraphQLObjectType({
   description: 'The act of momentarily pausing a device or application (e.g. pause music playback or pause a timer).',
-  name: 'Suspend Action',
+  name: 'SuspendAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -34279,7 +34358,7 @@ export const Synagogue = new GraphQLObjectType({
 })
 export const TVClip = new GraphQLObjectType({
   description: 'A short TV program or a segment/part of a TV program.',
-  name: 'TV Clip',
+  name: 'TVClip',
   fields: () => ({
     about,
     accessMode,
@@ -34385,7 +34464,7 @@ export const TVClip = new GraphQLObjectType({
 })
 export const TVEpisode = new GraphQLObjectType({
   description: 'A TV episode which can be part of a series or season.',
-  name: 'TV Episode',
+  name: 'TVEpisode',
   fields: () => ({
     about,
     accessMode,
@@ -34494,7 +34573,7 @@ export const TVEpisode = new GraphQLObjectType({
 })
 export const TVSeason = new GraphQLObjectType({
   description: 'Season dedicated to TV broadcast and associated online delivery.',
-  name: 'TV Season',
+  name: 'TVSeason',
   fields: () => ({
     about,
     accessMode,
@@ -34604,7 +34683,7 @@ export const TVSeason = new GraphQLObjectType({
 })
 export const TVSeries = new GraphQLObjectType({
   description: 'CreativeWorkSeries dedicated to TV broadcast and associated online delivery.',
-  name: 'TV Series',
+  name: 'TVSeries',
   fields: () => ({
     about,
     accessMode,
@@ -34815,7 +34894,7 @@ export const Table = new GraphQLObjectType({
 })
 export const TakeAction = new GraphQLObjectType({
   description: 'The act of gaining ownership of an object from an origin. Reciprocal of GiveAction.  Related actions:   GiveAction: The reciprocal of TakeAction. ReceiveAction: Unlike ReceiveAction, TakeAction implies that ownership has been transfered.',
-  name: 'Take Action',
+  name: 'TakeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -34845,7 +34924,7 @@ export const TakeAction = new GraphQLObjectType({
 })
 export const TattooParlor = new GraphQLObjectType({
   description: 'A tattoo parlor.',
-  name: 'Tattoo Parlor',
+  name: 'TattooParlor',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -34936,7 +35015,7 @@ export const TattooParlor = new GraphQLObjectType({
 })
 export const TaxiReservation = new GraphQLObjectType({
   description: 'A reservation for a taxi.  Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use Offer.',
-  name: 'Taxi Reservation',
+  name: 'TaxiReservation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -34968,7 +35047,7 @@ export const TaxiReservation = new GraphQLObjectType({
 })
 export const TaxiService = new GraphQLObjectType({
   description: 'A service for a vehicle for hire with a driver for local travel. Fares are usually calculated based on distance traveled.',
-  name: 'Taxi Service',
+  name: 'TaxiService',
   fields: () => ({
     additionalType,
     aggregateRating,
@@ -35005,7 +35084,7 @@ export const TaxiService = new GraphQLObjectType({
 })
 export const TaxiStand = new GraphQLObjectType({
   description: 'A taxi stand.',
-  name: 'Taxi Stand',
+  name: 'TaxiStand',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -35056,7 +35135,7 @@ export const TaxiStand = new GraphQLObjectType({
 })
 export const TechArticle = new GraphQLObjectType({
   description: 'A technical article - Example: How-to (task) topics, step-by-step, procedural troubleshooting, specifications, etc.',
-  name: 'Tech Article',
+  name: 'TechArticle',
   fields: () => ({
     about,
     accessMode,
@@ -35164,7 +35243,7 @@ export const TechArticle = new GraphQLObjectType({
 })
 export const TelevisionChannel = new GraphQLObjectType({
   description: 'A unique instance of a television BroadcastService on a CableOrSatelliteService lineup.',
-  name: 'Television Channel',
+  name: 'TelevisionChannel',
   fields: () => ({
     additionalType,
     alternateName,
@@ -35187,7 +35266,7 @@ export const TelevisionChannel = new GraphQLObjectType({
 })
 export const TelevisionStation = new GraphQLObjectType({
   description: 'A television station.',
-  name: 'Television Station',
+  name: 'TelevisionStation',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -35278,7 +35357,7 @@ export const TelevisionStation = new GraphQLObjectType({
 })
 export const TennisComplex = new GraphQLObjectType({
   description: 'A tennis complex.',
-  name: 'Tennis Complex',
+  name: 'TennisComplex',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -35369,7 +35448,7 @@ export const TennisComplex = new GraphQLObjectType({
 })
 export const TextDigitalDocument = new GraphQLObjectType({
   description: 'No comment',
-  name: 'Text Digital Document',
+  name: 'TextDigitalDocument',
   fields: () => ({
     about,
     accessMode,
@@ -35469,7 +35548,7 @@ export const TextDigitalDocument = new GraphQLObjectType({
 })
 export const TheaterEvent = new GraphQLObjectType({
   description: 'Event type: Theater performance.',
-  name: 'Theater Event',
+  name: 'TheaterEvent',
   fields: () => ({
     about,
     actor,
@@ -35518,7 +35597,7 @@ export const TheaterEvent = new GraphQLObjectType({
 })
 export const TheaterGroup = new GraphQLObjectType({
   description: 'A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.',
-  name: 'Theater Group',
+  name: 'TheaterGroup',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalType,
@@ -35623,7 +35702,7 @@ export const Ticket = new GraphQLObjectType({
 })
 export const TieAction = new GraphQLObjectType({
   description: 'The act of reaching a draw in a competitive activity.',
-  name: 'Tie Action',
+  name: 'TieAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -35651,7 +35730,7 @@ export const TieAction = new GraphQLObjectType({
 })
 export const TipAction = new GraphQLObjectType({
   description: 'The act of giving money voluntarily to a beneficiary in recognition of services rendered.',
-  name: 'Tip Action',
+  name: 'TipAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -35682,7 +35761,7 @@ export const TipAction = new GraphQLObjectType({
 })
 export const TireShop = new GraphQLObjectType({
   description: 'A tire shop.',
-  name: 'Tire Shop',
+  name: 'TireShop',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -35773,7 +35852,7 @@ export const TireShop = new GraphQLObjectType({
 })
 export const TouristAttraction = new GraphQLObjectType({
   description: 'A tourist attraction.  In principle any Thing can be a TouristAttraction, from a Mountain and LandmarksOrHistoricalBuildings to a LocalBusiness.  This Type can be used on its own to describe a general TourstAttraction, or be used as an additionalType to add tourist attraction properties to any other type.  (See examples below)',
-  name: 'Tourist Attraction',
+  name: 'TouristAttraction',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -35825,7 +35904,7 @@ export const TouristAttraction = new GraphQLObjectType({
 })
 export const TouristInformationCenter = new GraphQLObjectType({
   description: 'A tourist information center.',
-  name: 'Tourist Information Center',
+  name: 'TouristInformationCenter',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -35916,7 +35995,7 @@ export const TouristInformationCenter = new GraphQLObjectType({
 })
 export const ToyStore = new GraphQLObjectType({
   description: 'A toy store.',
-  name: 'Toy Store',
+  name: 'ToyStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -36007,7 +36086,7 @@ export const ToyStore = new GraphQLObjectType({
 })
 export const TrackAction = new GraphQLObjectType({
   description: 'An agent tracks an object for updates.  Related actions:   FollowAction: Unlike FollowAction, TrackAction refers to the interest on the location of innanimates objects. SubscribeAction: Unlike SubscribeAction, TrackAction refers to  the interest on the location of innanimate objects.',
-  name: 'Track Action',
+  name: 'TrackAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -36036,7 +36115,7 @@ export const TrackAction = new GraphQLObjectType({
 })
 export const TradeAction = new GraphQLObjectType({
   description: 'The act of participating in an exchange of goods and services for monetary compensation. An agent trades an object, product or service with a participant in exchange for a one time or periodic payment.',
-  name: 'Trade Action',
+  name: 'TradeAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -36066,7 +36145,7 @@ export const TradeAction = new GraphQLObjectType({
 })
 export const TrainReservation = new GraphQLObjectType({
   description: 'A reservation for train travel.  Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use Offer.',
-  name: 'Train Reservation',
+  name: 'TrainReservation',
   fields: () => ({
     additionalType,
     alternateName,
@@ -36095,7 +36174,7 @@ export const TrainReservation = new GraphQLObjectType({
 })
 export const TrainStation = new GraphQLObjectType({
   description: 'A train station.',
-  name: 'Train Station',
+  name: 'TrainStation',
   fields: () => ({
     additionalProperty,
     additionalType,
@@ -36146,7 +36225,7 @@ export const TrainStation = new GraphQLObjectType({
 })
 export const TrainTrip = new GraphQLObjectType({
   description: 'A trip on a commercial train line.',
-  name: 'Train Trip',
+  name: 'TrainTrip',
   fields: () => ({
     additionalType,
     alternateName,
@@ -36172,7 +36251,7 @@ export const TrainTrip = new GraphQLObjectType({
 })
 export const TransferAction = new GraphQLObjectType({
   description: 'The act of transferring/moving (abstract or concrete) animate or inanimate objects from one place to another.',
-  name: 'Transfer Action',
+  name: 'TransferAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -36202,7 +36281,7 @@ export const TransferAction = new GraphQLObjectType({
 })
 export const TravelAction = new GraphQLObjectType({
   description: 'The act of traveling from an fromLocation to a destination by a specified mode of transport, optionally with participants.',
-  name: 'Travel Action',
+  name: 'TravelAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -36233,7 +36312,7 @@ export const TravelAction = new GraphQLObjectType({
 })
 export const TravelAgency = new GraphQLObjectType({
   description: 'A travel agency.',
-  name: 'Travel Agency',
+  name: 'TravelAgency',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -36330,7 +36409,7 @@ export const True = new GraphQLObjectType({
 })
 export const TypeAndQuantityNode = new GraphQLObjectType({
   description: 'A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer.',
-  name: 'Type And Quantity Node',
+  name: 'TypeAndQuantityNode',
   fields: () => ({
     additionalType,
     alternateName,
@@ -36352,7 +36431,7 @@ export const TypeAndQuantityNode = new GraphQLObjectType({
 })
 export const UnRegisterAction = new GraphQLObjectType({
   description: 'The act of un-registering from a service.  Related actions:   RegisterAction: antonym of UnRegisterAction. Leave: Unlike LeaveAction, UnRegisterAction implies that you are unregistering from a service you werer previously registered, rather than leaving a team/group of people.',
-  name: 'Un Register Action',
+  name: 'UnRegisterAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -36380,7 +36459,7 @@ export const UnRegisterAction = new GraphQLObjectType({
 })
 export const UnitPriceSpecification = new GraphQLObjectType({
   description: 'The price asked for a given offer by the respective organization or person.',
-  name: 'Unit Price Specification',
+  name: 'UnitPriceSpecification',
   fields: () => ({
     additionalType,
     alternateName,
@@ -36411,7 +36490,7 @@ export const UnitPriceSpecification = new GraphQLObjectType({
 })
 export const UpdateAction = new GraphQLObjectType({
   description: 'The act of managing by changing/editing the state of the object.',
-  name: 'Update Action',
+  name: 'UpdateAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -36440,7 +36519,7 @@ export const UpdateAction = new GraphQLObjectType({
 })
 export const UseAction = new GraphQLObjectType({
   description: 'The act of applying an object to its intended purpose.',
-  name: 'Use Action',
+  name: 'UseAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -36554,7 +36633,7 @@ export const Vehicle = new GraphQLObjectType({
 })
 export const VideoGallery = new GraphQLObjectType({
   description: 'Web page type: Video gallery page.',
-  name: 'Video Gallery',
+  name: 'VideoGallery',
   fields: () => ({
     about,
     accessMode,
@@ -36662,7 +36741,7 @@ export const VideoGallery = new GraphQLObjectType({
 })
 export const VideoGame = new GraphQLObjectType({
   description: 'A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device.',
-  name: 'Video Game',
+  name: 'VideoGame',
   fields: () => ({
     about,
     accessMode,
@@ -36797,7 +36876,7 @@ export const VideoGame = new GraphQLObjectType({
 })
 export const VideoGameClip = new GraphQLObjectType({
   description: 'A short segment/part of a video game.',
-  name: 'Video Game Clip',
+  name: 'VideoGameClip',
   fields: () => ({
     about,
     accessMode,
@@ -36903,7 +36982,7 @@ export const VideoGameClip = new GraphQLObjectType({
 })
 export const VideoGameSeries = new GraphQLObjectType({
   description: 'A video game series.',
-  name: 'Video Game Series',
+  name: 'VideoGameSeries',
   fields: () => ({
     about,
     accessMode,
@@ -37022,7 +37101,7 @@ export const VideoGameSeries = new GraphQLObjectType({
 })
 export const VideoObject = new GraphQLObjectType({
   description: 'A video file.',
-  name: 'Video Object',
+  name: 'VideoObject',
   fields: () => ({
     about,
     accessMode,
@@ -37144,7 +37223,7 @@ export const VideoObject = new GraphQLObjectType({
 })
 export const ViewAction = new GraphQLObjectType({
   description: 'The act of consuming static visual content.',
-  name: 'View Action',
+  name: 'ViewAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -37173,7 +37252,7 @@ export const ViewAction = new GraphQLObjectType({
 })
 export const VisualArtsEvent = new GraphQLObjectType({
   description: 'Event type: Visual arts event.',
-  name: 'Visual Arts Event',
+  name: 'VisualArtsEvent',
   fields: () => ({
     about,
     actor,
@@ -37222,7 +37301,7 @@ export const VisualArtsEvent = new GraphQLObjectType({
 })
 export const VisualArtwork = new GraphQLObjectType({
   description: 'A work of art that is primarily visual in character.',
-  name: 'Visual Artwork',
+  name: 'VisualArtwork',
   fields: () => ({
     about,
     accessMode,
@@ -37383,7 +37462,7 @@ export const Volcano = new GraphQLObjectType({
 })
 export const VoteAction = new GraphQLObjectType({
   description: 'The act of expressing a preference from a fixed/finite/structured set of choices/options.',
-  name: 'Vote Action',
+  name: 'VoteAction',
   fields: () => ({
     actionOption,
     actionStatus,
@@ -37413,7 +37492,7 @@ export const VoteAction = new GraphQLObjectType({
 })
 export const WPAdBlock = new GraphQLObjectType({
   description: 'An advertising section of the page.',
-  name: 'WP Ad Block',
+  name: 'WPAdBlock',
   fields: () => ({
     about,
     accessMode,
@@ -37512,7 +37591,7 @@ export const WPAdBlock = new GraphQLObjectType({
 })
 export const WPFooter = new GraphQLObjectType({
   description: 'The footer section of the page.',
-  name: 'WP Footer',
+  name: 'WPFooter',
   fields: () => ({
     about,
     accessMode,
@@ -37611,7 +37690,7 @@ export const WPFooter = new GraphQLObjectType({
 })
 export const WPHeader = new GraphQLObjectType({
   description: 'The header section of the page.',
-  name: 'WP Header',
+  name: 'WPHeader',
   fields: () => ({
     about,
     accessMode,
@@ -37710,7 +37789,7 @@ export const WPHeader = new GraphQLObjectType({
 })
 export const WPSideBar = new GraphQLObjectType({
   description: 'A sidebar section of the page.',
-  name: 'WP Side Bar',
+  name: 'WPSideBar',
   fields: () => ({
     about,
     accessMode,
@@ -37809,7 +37888,7 @@ export const WPSideBar = new GraphQLObjectType({
 })
 export const WantAction = new GraphQLObjectType({
   description: 'The act of expressing a desire about the object. An agent wants an object.',
-  name: 'Want Action',
+  name: 'WantAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -37837,7 +37916,7 @@ export const WantAction = new GraphQLObjectType({
 })
 export const WarrantyPromise = new GraphQLObjectType({
   description: 'A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.',
-  name: 'Warranty Promise',
+  name: 'WarrantyPromise',
   fields: () => ({
     additionalType,
     alternateName,
@@ -37856,7 +37935,7 @@ export const WarrantyPromise = new GraphQLObjectType({
 })
 export const WarrantyScope = new GraphQLObjectType({
   description: 'A range of of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.  Commonly used values:   http://purl.org/goodrelations/v1#Labor-BringIn http://purl.org/goodrelations/v1#PartsAndLabor-BringIn http://purl.org/goodrelations/v1#PartsAndLabor-PickUp',
-  name: 'Warranty Scope',
+  name: 'WarrantyScope',
   fields: () => ({
     additionalType,
     alternateName,
@@ -37874,7 +37953,7 @@ export const WarrantyScope = new GraphQLObjectType({
 })
 export const WatchAction = new GraphQLObjectType({
   description: 'The act of consuming dynamic/moving visual content.',
-  name: 'Watch Action',
+  name: 'WatchAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -37953,7 +38032,7 @@ export const Waterfall = new GraphQLObjectType({
 })
 export const WearAction = new GraphQLObjectType({
   description: 'The act of dressing oneself in clothing.',
-  name: 'Wear Action',
+  name: 'WearAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -37982,7 +38061,7 @@ export const WearAction = new GraphQLObjectType({
 })
 export const WebApplication = new GraphQLObjectType({
   description: 'Web applications.',
-  name: 'Web Application',
+  name: 'WebApplication',
   fields: () => ({
     about,
     accessMode,
@@ -38104,7 +38183,7 @@ export const WebApplication = new GraphQLObjectType({
 })
 export const WebPage = new GraphQLObjectType({
   description: 'A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as breadcrumb may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.',
-  name: 'Web Page',
+  name: 'WebPage',
   fields: () => ({
     about,
     accessMode,
@@ -38212,7 +38291,7 @@ export const WebPage = new GraphQLObjectType({
 })
 export const WebPageElement = new GraphQLObjectType({
   description: 'A web page element, like a table or an image.',
-  name: 'Web Page Element',
+  name: 'WebPageElement',
   fields: () => ({
     about,
     accessMode,
@@ -38311,7 +38390,7 @@ export const WebPageElement = new GraphQLObjectType({
 })
 export const WebSite = new GraphQLObjectType({
   description: 'A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.',
-  name: 'Web Site',
+  name: 'WebSite',
   fields: () => ({
     about,
     accessMode,
@@ -38411,7 +38490,7 @@ export const WebSite = new GraphQLObjectType({
 })
 export const WholesaleStore = new GraphQLObjectType({
   description: 'A wholesale store.',
-  name: 'Wholesale Store',
+  name: 'WholesaleStore',
   fields: () => ({
     actionableFeedbackPolicy,
     additionalProperty,
@@ -38502,7 +38581,7 @@ export const WholesaleStore = new GraphQLObjectType({
 })
 export const WinAction = new GraphQLObjectType({
   description: 'The act of achieving victory in a competitive activity.',
-  name: 'Win Action',
+  name: 'WinAction',
   fields: () => ({
     actionStatus,
     additionalType,
@@ -38626,7 +38705,7 @@ export const Winery = new GraphQLObjectType({
 })
 export const WriteAction = new GraphQLObjectType({
   description: 'The act of authoring written creative content.',
-  name: 'Write Action',
+  name: 'WriteAction',
   fields: () => ({
     actionStatus,
     additionalType,
