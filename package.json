@@ -15,14 +15,15 @@
     "test": "babel-tape-runner test/**/*spec.js"
   },
   "dependencies": {
-    "graphql": "^0.11.2",
+    "graphql": "^14.1.1",
     "graphql-date": "^1.0.3",
-    "graphql-url": "^2.0.4"
+    "graphql-url": "^2.0.5"
   },
   "devDependencies": {
-    "babel-plugin-lodash": "^3.2.11",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-1": "^6.24.1",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-plugin-lodash": "^3.3.4",
     "eslint": "^4.6.0",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.7.0",

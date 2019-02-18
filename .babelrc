@@ -1,4 +1,4 @@
 {
   "plugins": ["lodash"],
-  "presets": ["es2015", "stage-1"]
+  "presets": ["@babel/preset-env"]
 }
