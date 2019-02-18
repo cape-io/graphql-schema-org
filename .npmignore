@@ -1,0 +1,16 @@
+.git/
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+*.test.js
+yarn-error.log
+yarn.lock
+.serverless
+CHANGELOG.md
+test/
+src/
+examples/
+.travis.yml
+yarn.lock
