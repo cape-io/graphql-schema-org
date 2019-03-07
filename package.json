@@ -14,7 +14,7 @@
     "prepublish": "npm run build",
     "test": "babel-tape-runner test/**/*spec.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "graphql": "^14.1.1",
     "graphql-date": "^1.0.3",
     "graphql-url": "^2.0.5"
