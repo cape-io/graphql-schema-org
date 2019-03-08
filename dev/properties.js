@@ -3,7 +3,7 @@ import schemaInfo from './all.json'
 import { getDescription } from './util'
 
 export const header = (`import { GraphQLBoolean, GraphQLFloat, GraphQLInt, GraphQLObjectType, GraphQLString } from 'graphql'
-import { GraphQLDate } from 'graphql-date'
+import { GraphQLDate } from 'graphql-iso-date'
 import { GraphQLUrl } from 'graphql-url'
 
 `)

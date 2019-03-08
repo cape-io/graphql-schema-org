@@ -1,5 +1,5 @@
 import { GraphQLBoolean, GraphQLFloat, GraphQLInt, GraphQLString } from 'graphql'
-import { GraphQLDate } from 'graphql-date'
+import { GraphQLDate } from 'graphql-iso-date'
 import { GraphQLUrl } from 'graphql-url'
 
 export default {
