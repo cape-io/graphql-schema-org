@@ -8073,6 +8073,8 @@ export const CreativeWorkSeason = new GraphQLObjectType({
   description: 'A media season e.g. tv, radio, video game etc.',
   name: 'CreativeWorkSeason',
   fields: () => ({
+    name,
+    /* TODO: Complete field list */
   }),
 })
 export const CreativeWorkSeries = new GraphQLObjectType({
@@ -11524,12 +11526,15 @@ export const ExhibitionEvent = new GraphQLObjectType({
     workPerformed,
   }),
 })
+/*
+// @deprecated
 export const False = new GraphQLObjectType({
   description: 'The boolean value false.',
   name: 'False',
   fields: () => ({
   }),
 })
+*/
 export const FastFoodRestaurant = new GraphQLObjectType({
   description: 'A fast-food restaurant.',
   name: 'FastFoodRestaurant',
@@ -32004,12 +32009,15 @@ export const TravelAgency = new GraphQLObjectType({
     vatID,
   }),
 })
+/*
+// @deprecated
 export const True = new GraphQLObjectType({
   description: 'The boolean value true.',
   name: 'True',
   fields: () => ({
   }),
 })
+*/
 export const TypeAndQuantityNode = new GraphQLObjectType({
   description: 'A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer.',
   name: 'TypeAndQuantityNode',
@@ -37938,6 +37946,11 @@ export const screenshot = {
   type: ImageObject,
   description: 'A link to a screenshot image of the app.',
   name: 'Screenshot',
+}
+export const seasonNumber = {
+  type: GraphQLString,
+  description: 'Position of the season within an ordered group of seasons.',
+  name: 'SeasonNumber',
 }
 export const seatNumber = {
   type: GraphQLString,
